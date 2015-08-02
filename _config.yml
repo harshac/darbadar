@@ -8,6 +8,7 @@ url: "http://harshac.github.io/darbadar" # the base hostname & protocol for your
 twitter_username: jekyllrb
 github_username:  harshac
 permalink: /:year/:month/:title
+timezone: Asia/Kolkata
 
 # Build settings
 markdown: kramdown
