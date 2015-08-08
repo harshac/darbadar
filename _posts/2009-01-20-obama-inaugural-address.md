@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Obama Inaugural Address"
 categories: speeches
 ---

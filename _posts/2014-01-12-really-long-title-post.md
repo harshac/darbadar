@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Some really obnoxiously long post title"
 ---
 

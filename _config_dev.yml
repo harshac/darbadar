@@ -5,9 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Travel Blog 123
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  harshac
-permalink: /:year/:month/:title
+permalink: /stories/:title
 timezone: Asia/Kolkata
 
 # Build settings
