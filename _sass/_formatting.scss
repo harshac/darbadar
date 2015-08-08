@@ -1,0 +1,10 @@
+hr {
+	border:0;
+}
+
+hr:after{
+	content: '***';
+	display: block;
+    margin: auto;
+    width: 10%;
+}
