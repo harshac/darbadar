@@ -61,7 +61,13 @@ a:visited {
 	margin: auto;
 	display: table;
 	text-align:center;
-	box-shadow: inset 0 0 1px $grey-color-light;
+	&:after {
+		content: '';
+		display: block;
+		border-bottom: 1px #999 solid;
+		width: 2em;
+		margin:auto;
+	}
 }
 .image-caption {
 	padding: 10px;
