@@ -54,27 +54,14 @@ a:visited {
 	}
 }
 
-// Iamge captions
+// Image captions
 
 .image {
 	width: auto;
 	margin: auto;
 	display: table;
 	text-align:center;
-	box-shadow: 0 0 10px $grey-color-light;
-}
-.image-caption {
-	padding: 10px;
-	font-size: $small-font-size;
-}
-// Iamge captions
-
-.image {
-	width: auto;
-	margin: auto;
-	display: table;
-	text-align:center;
-	box-shadow: 0 0 10px $grey-color-light;
+	box-shadow: inset 0 0 1px $grey-color-light;
 }
 .image-caption {
 	padding: 10px;

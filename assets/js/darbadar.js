@@ -5,6 +5,7 @@ $('.post-content img').each(function(){
 });
 
 // Tooltips
-$('.post-content [title]').on('hover', function(e) {
-  e.preventDefault();
+$('.post-content [title]').on('mouseover', function(e) {
+  
+  console.log($(this).offset());
 })
