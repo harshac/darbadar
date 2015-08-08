@@ -26,3 +26,29 @@ a:visited {
 .underline{
 	border-bottom: 1px slategray solid;
 }
+
+// Tooltips
+[title] {
+	position: relative;
+	display: inline-block;
+	cursor: help;
+	&:after {
+		display: block;
+		content: attr(title);
+		font-size: 16px;
+		position: absolute;
+		top: -20px;
+		left: 0;
+		right: 0;
+		background: $grey-color-dark;
+		padding: 10px;
+		border-radius: 3px;
+		color: #fff;
+		opacity: 0;
+		-webkit-transition: opacity 0.3s ease-in-out;
+						transition: opacity 0.3s ease-in-out;
+	}
+	&:hover:after {
+		opacity: 1;
+	}
+}
