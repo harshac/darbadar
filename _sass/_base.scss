@@ -156,6 +156,7 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    width: 60em;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -201,4 +202,8 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.cf {
+    @extend %clearfix;
 }
