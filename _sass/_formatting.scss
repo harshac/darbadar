@@ -2,9 +2,26 @@ hr {
 	border:0;
 }
 
-hr:after{
+hr:after {
 	content: '***';
 	display: block;
     margin: auto;
     width: 10%;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:visited {
+	color: black;
+}
+
+.underline{
+	border-bottom: 1px slategray solid;
 }
