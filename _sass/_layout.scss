@@ -294,6 +294,18 @@
         font-family: "Source Serif Pro";
         line-height: 1.6;
         margin-bottom: 2em;
+        
+        &:first-child:first-letter { 
+            float: left;
+            font-family: $base-font-family;
+            font-size: $base-font-size * 3;
+            font-weight: 800;
+            line-height: 1;
+            padding: 0 10px;
+            @include media-query($on-palm) {
+                font-size: $small-font-size * 3;
+            }
+        }
     }
 
     img {
