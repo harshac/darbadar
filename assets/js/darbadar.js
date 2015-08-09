@@ -5,7 +5,20 @@ $('.post-content img').each(function(){
 });
 
 // Tooltips
-$('.post-content [title]').on('mouseover', function(e) {
+$('body').append('<div class="tooltip"></div>');
+$tooltip = $('.tooltip');
+
+$('.post-content').on('mouseenter', '[title]' , function() {
+  var offset = $(this).offset();
+  $tooltip.text($(this).attr('title')).css('max-width',$(this).width()).fadeIn();
+  var h = $tooltip.height();
   
-  console.log($(this).offset());
-})
+  $tooltip.css({
+    'top' : offset.top - h - 30,
+    'left': offset.left
+  });
+});
+
+$('.post-content').on('mouseleave','[title]' , function(e) {
+  $tooltip.fadeOut();
+});

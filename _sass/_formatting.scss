@@ -28,30 +28,32 @@ a:visited {
 }
 
 // Tooltips
-[title] {
-	position: relative;
-	display: inline-block;
-	cursor: help;
+.tooltip {
+	display: block;
+	position: absolute;
+	background: $grey-color-dark;
+	box-shadow: inset 0 0 10px #000;
+	padding: 10px 16px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
 	&:after {
-		display: block;
-		content: attr(title);
-		font-size: 16px;
+		content: "";
+		width: 0;
+		height: 0;
+		border: 10px solid $grey-color-dark;
 		position: absolute;
-		top: -50px;
-		left: 0;
-		right: 0;
-		background: $grey-color-dark;
-		padding: 10px;
-		border-radius: 3px;
-		color: #fff;
-		opacity: 0;
-		text-align:center;
-		-webkit-transition: opacity 0.3s ease-in-out;
-						transition: opacity 0.3s ease-in-out;
+		bottom: -20px;
+		left: 50%;
+		margin-left: -10px;
+		border-color: #000 transparent transparent;
 	}
-	&:hover:after {
-		opacity: 1;
-	}
+}
+
+[title] {
+	padding: 5px 0;
+	border-bottom: 1px dashed $grey-color-light;
+	cursor: help;
 }
 
 // Image captions
