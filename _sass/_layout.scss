@@ -341,7 +341,7 @@
             initial-letter: 3;
             font-weight: 800;
             line-height: 1;
-            padding: 0 10px;
+            padding: 0 10px 0 0;
             @include media-query($on-palm) {
                 font-size: $small-font-size * 3;
             }
