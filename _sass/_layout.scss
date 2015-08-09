@@ -341,18 +341,13 @@
         font-family: "Source Serif Pro";
         line-height: 1.6;
         margin-bottom: 2em;
-        
+
         &:first-child:first-letter {
-            color: $brand-color;
+            font-size: 3.4em;
+            padding: 0 0.1em 0 0;
+            line-height: 0.8;
             float: left;
-            font-family: $base-font-family;
-            font-size: $base-font-size * 3;
-            font-weight: 800;
-            line-height: 1;
-            padding: 0 10px 0 0;
-            @include media-query($on-palm) {
-                font-size: $small-font-size * 3;
-            }
+            margin: 0.1em 0.1em 0 0;
         }
     }
 

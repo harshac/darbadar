@@ -5,7 +5,8 @@
   padding-bottom: 3px;
 }
 
-.page-link:hover {
+.page-link:hover,
+.page-link.active {
 	color: #000 !important;
   border-bottom: 1px solid #777;
 }
