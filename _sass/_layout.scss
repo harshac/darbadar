@@ -229,6 +229,7 @@
     color: $grey-color;
     .has-bg & {
         color: #fff;
+        text-shadow: 1px 1px 6px #000;
     }
 }
 
