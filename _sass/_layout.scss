@@ -179,7 +179,7 @@
     font-weight: 800;
     &:after {
         content: "";
-        border-bottom: 1px solid #999;
+        border-bottom: 1px solid $brand-color;
         width: 2em;
         display: block;
         margin: auto;
@@ -277,7 +277,7 @@
 
     &:after {
         content: "";
-        border-bottom: 1px solid #999;
+        border-bottom: 1px solid $brand-color;
         width: 2em;
         display: block;
         margin: auto;
@@ -338,11 +338,11 @@
         line-height: 1.6;
         margin-bottom: 2em;
         
-        &:first-child:first-letter { 
+        &:first-child:first-letter {
+            color: $brand-color;
             float: left;
             font-family: $base-font-family;
             font-size: $base-font-size * 3;
-            initial-letter: 3;
             font-weight: 800;
             line-height: 1;
             padding: 0 10px 0 0;
