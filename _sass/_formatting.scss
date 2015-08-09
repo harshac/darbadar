@@ -62,7 +62,7 @@ a:visited {
 .image {
 	width: auto;
 	margin: auto;
-	display: table;
+	display: block;
 	text-align:center;
 	&:after {
 		content: '';
