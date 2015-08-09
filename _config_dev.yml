@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 permalink: /stories/:title
 timezone: Asia/Kolkata
+imageurl: https://farm1.staticflickr.com
+imagesize: c
+imageext: jpg
 
 # Build settings
 markdown: kramdown
