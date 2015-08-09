@@ -1,0 +1,29 @@
+.social-media-share {
+  text-align: center;
+  margin-bottom: 4em;
+}
+.share-btn {
+  display: inline-block;
+  border: 1px solid $grey-color-light;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease-in-out; 
+  &:hover {
+    color: #fff;
+  }
+}
+
+.twitter-share-button:hover {
+  background-color: #55acee;
+}
+.fb-share-button:hover {
+  background-color: #3b5998;
+}
+.email-share-button:hover {
+  background-color: #000;
+}

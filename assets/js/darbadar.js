@@ -22,3 +22,13 @@ $('.post-content').on('mouseenter', '[title]' , function() {
 $('.post-content').on('mouseleave','[title]' , function(e) {
   $tooltip.fadeOut();
 });
+
+
+// Share
+var openPopup = function(href){
+  event.preventDefault();
+  var left = (screen.width/2)-(550/2);
+  var top = (screen.height/2)-(420/2);
+  var windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes,centerscreen,width=550,height=420,top='+top+', left='+left;
+  window.open(href,'Share', windowOptions);
+}
