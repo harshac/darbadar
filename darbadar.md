@@ -1,7 +1,7 @@
 ---
 layout: page
-title: What's in the name?
-permalink: /whats-in-the-name/
+title: What's in a name?
+permalink: /whats-in-a-name/
 ---
 
 Darbadar, a word of Farsi-Urdu origin, means door-to-door or door-after-door. It is used to signify someone who has no home, or one who is wandering from one place to another, hoping for a refuge.  
