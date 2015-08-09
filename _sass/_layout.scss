@@ -14,7 +14,7 @@
     margin-bottom: 0;
     float: left;
     @include media-query($on-palm) {
-        margin-left: 9px;
+        margin-left: $spacing-unit / 2;
     }
 
     &,
@@ -43,8 +43,8 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: 9px;
+        top: $spacing-unit / 2;
+        right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -240,8 +240,9 @@
     .post-meta,
     .post-title {
         color: #fff;
+        text-shadow: 1px 1px 6px #000;
     }
-    .post-title {
+    .post-link-inner {
         position: absolute;
         bottom: 0;
     }
@@ -276,9 +277,9 @@
         width: 2em;
         display: block;
         margin: auto;
-        &.has-bg {
-            border-color: #fff;
-        }
+    }
+    &.has-bg:after {
+        border-color: #fff;
     }
 }
 
@@ -289,10 +290,15 @@
 
     .has-bg & {
         color: #fff;
+        text-shadow: 1px 1px 6px #000;
     }
 
     @include media-query($on-laptop) {
         font-size: 36px;
+    }
+
+    @include media-query($on-palm) {
+        font-size: 24px;
     }
 }
 

@@ -4,8 +4,10 @@
   {% for post in site.posts %}
     <li>
   		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    	  <h2 class="post-title">{{ post.title }}</h2>
+        <div class="post-link-inner">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2 class="post-title">{{ post.title }}</h2>
+        </div>
     	</a>
     </li>
   {% endfor %}
