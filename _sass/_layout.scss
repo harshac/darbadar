@@ -224,6 +224,9 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    .has-bg & {
+        color: #fff;
+    }
 }
 
 .post-link {
@@ -249,12 +252,20 @@
     padding: 48px 0;
     margin-bottom: $spacing-unit;
     text-align: center;
+    &.has-bg {
+        background-size: cover;
+        background-color: $grey-color-dark;
+    }
+
     &:after {
         content: "";
         border-bottom: 1px solid #999;
         width: 2em;
         display: block;
         margin: auto;
+        &.has-bg {
+            border-color: #fff;
+        }
     }
 }
 
@@ -262,6 +273,10 @@
     font-size: 42px;
     line-height: 1;
     font-weight: 800;
+
+    .has-bg & {
+        color: #fff;
+    }
 
     @include media-query($on-laptop) {
         font-size: 36px;
