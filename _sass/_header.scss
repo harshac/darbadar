@@ -17,4 +17,9 @@
     top: 50px;
     left: -145px;
     font-size: large;
+
+    @include media-query($on-palm) {
+      left: 14px;
+      top: -6px;
+    }
 }
