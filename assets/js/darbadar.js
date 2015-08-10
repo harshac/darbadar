@@ -8,9 +8,14 @@ $('.post-content img').each(function(){
 $('body').append('<div class="tooltip"></div>');
 $tooltip = $('.tooltip');
 
-$('.post-content').on('mouseenter', '[title]' , function() {
+$('[title]').each(function() {
+  var title = $(this).attr('title');
+  $(this).attr('data-title', title).removeAttr('title');
+});
+
+$('.post-content').on('mouseenter', '[data-title]' , function() {
   var offset = $(this).offset();
-  $tooltip.text($(this).attr('title')).css('max-width',$(this).width()).stop().fadeIn();
+  $tooltip.text($(this).data('title')).css('max-width',$(this).width()).stop().fadeIn();
   var h = $tooltip.height();
   
   $tooltip.css({
@@ -19,7 +24,7 @@ $('.post-content').on('mouseenter', '[title]' , function() {
   });
 });
 
-$('.post-content').on('mouseleave','[title]' , function(e) {
+$('.post-content').on('mouseleave','[data-title]' , function(e) {
   $tooltip.stop().fadeOut();
 });
 
