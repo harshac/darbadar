@@ -10,7 +10,7 @@ $tooltip = $('.tooltip');
 
 $('.post-content').on('mouseenter', '[title]' , function() {
   var offset = $(this).offset();
-  $tooltip.text($(this).attr('title')).css('max-width',$(this).width()).fadeIn();
+  $tooltip.text($(this).attr('title')).css('max-width',$(this).width()).stop().fadeIn();
   var h = $tooltip.height();
   
   $tooltip.css({
@@ -20,7 +20,7 @@ $('.post-content').on('mouseenter', '[title]' , function() {
 });
 
 $('.post-content').on('mouseleave','[title]' , function(e) {
-  $tooltip.fadeOut();
+  $tooltip.stop().fadeOut();
 });
 
 

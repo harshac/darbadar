@@ -32,7 +32,6 @@ a:visited {
 	display: none;
 	position: absolute;
 	background: $grey-color-dark;
-	box-shadow: inset 0 0 10px #000;
 	padding: 10px 16px;
 	border-radius: 3px;
 	color: #fff;
@@ -46,7 +45,7 @@ a:visited {
 		bottom: -20px;
 		left: 50%;
 		margin-left: -10px;
-		border-color: #000 transparent transparent;
+		border-color: $grey-color-dark transparent transparent;
 	}
 }
 
