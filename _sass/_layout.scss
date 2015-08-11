@@ -358,6 +358,18 @@
     }
 }
 
+.post-location {
+    color: white;
+
+    a:link, a:visited, a:hover{
+        color: white
+    }
+}
+
+.post-location-icon {
+    padding: 3px;
+}
+
 #thread-share-menu{
     display:none;
 }
