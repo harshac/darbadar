@@ -360,6 +360,10 @@
 
 .post-location {
     color: white;
+
+    a:link, a:visited, a:hover{
+        color: white
+    }
 }
 
 .post-location-icon {
