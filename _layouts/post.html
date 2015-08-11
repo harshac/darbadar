@@ -9,8 +9,8 @@ layout: default
  		<header class="post-header">
 	{% endif %}	
 		<h1 class="post-title">{{ page.title }}</h1>
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-		<p class="post-location">
+		<p class="post-meta has-bg">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		<p class="post-location has-bg">
 			{% if page.location %}
 				<i class="fa fa-map-marker post-location-icon"></i>
 				{% if page.latitude and page.longitude %}
