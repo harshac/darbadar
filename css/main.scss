@@ -24,6 +24,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    1280px;
 
+$on-phone:		   360px;
 $on-palm:          600px;
 $on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
