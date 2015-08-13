@@ -4,25 +4,19 @@
 }
 .share-btn {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 3px;
   border: 1px solid $grey-color-light;
   border-radius: 100px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1;
   font-weight: 400;
-  padding: 10px 16px;
+  padding: 6px 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 10px;
   transition: background-color,border-color 0.2s ease-in-out; 
   &:hover {
     color: #fff;
   }
-  
-  @include media-query($on-phone) {
-        display: block;
-        margin: 10px 10px;
-    }
 }
 
 .twitter-share-button:hover {
