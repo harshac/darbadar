@@ -3,7 +3,7 @@
  */
 .site-header {
     min-height: 56px;
-
+    border-top: 1px solid $brand-color;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -227,10 +227,6 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-    .has-bg & {
-        color: #fff;
-        text-shadow: 1px 1px 6px #000;
-    }
 }
 
 .post-link {
@@ -278,6 +274,12 @@
     &.has-bg {
         background-size: cover;
         background-color: $grey-color-dark;
+        .post-title,
+        .post-meta,
+        .post-location {
+            color: #fff;
+            text-shadow: 1px 1px 6px #000;
+        }
     }
 
     &:after {
