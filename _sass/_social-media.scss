@@ -2,7 +2,8 @@
   text-align: center;
   margin-bottom: 4em;
 }
-.share-btn {
+a.share-btn {
+  color: #fff;
   display: inline-block;
   margin: 0 3px;
   border: 1px solid $grey-color-light;
@@ -13,21 +14,25 @@
   padding: 6px 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: background-color,border-color 0.2s ease-in-out; 
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity, transform 0.1s ease-in-out;
+
   &:hover {
-    color: #fff;
+    opacity: 0.6;
+    transform: scale(1.03);
   }
 }
 
-.twitter-share-button:hover {
+.twitter-share-button {
   background-color: #55acee;
   border-color: #55acee;
 }
-.fb-share-button:hover {
+.fb-share-button {
   background-color: #3b5998;
   border-color: #3b5998;
 }
-.email-share-button:hover {
+.email-share-button {
   background-color: #000;
   border-color: #000;
 }
