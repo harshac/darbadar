@@ -224,10 +224,6 @@
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
 
 .post-link {
     display: block;
@@ -238,7 +234,6 @@
     padding: 0 10px;
     position: relative;
 
-    .post-meta,
     .post-title {
         color: #fff;
         text-shadow: 1px 1px 6px #000;
@@ -269,15 +264,15 @@
 }
 .post-header {
     padding: 48px 0;
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit/2;
     text-align: center;
+    min-height: 146px;
     &.has-bg {
         background-size: cover;
         background-color: $grey-color-dark;
         .post-title,
         .post-meta,
         .post-location {
-            color: #fff;
             text-shadow: 1px 1px 6px #000;
         }
     }
@@ -291,6 +286,10 @@
     }
     &.has-bg:after {
         border-color: #fff;
+    }
+
+    .post-title{
+        line-height: 146px;
     }
 }
 
@@ -360,16 +359,23 @@
     }
 }
 
-.post-location {
-    color: white;
-
-    a:link, a:visited, a:hover{
-        color: white
-    }
-}
-
 .post-location-icon {
     padding: 3px;
+}
+
+.post-meta{
+    font-size: smaller;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.post-date {
+    display: inline;
+}
+
+.post-location{
+    margin-left: 5px;
+    float: right;
 }
 
 #thread-share-menu{

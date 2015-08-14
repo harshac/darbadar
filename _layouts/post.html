@@ -4,35 +4,40 @@ layout: default
 <div class="post">
 
 	{% if page.featureImage %}
-		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
- 	{% else %}
- 		<header class="post-header">
-	{% endif %}	
-		<h1 class="post-title">{{ page.title }}</h1>
-		<p class="post-meta has-bg">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-		<p class="post-location has-bg">
-			{% if page.location %}
-				<i class="fa fa-map-marker post-location-icon"></i>
-				{% if page.latitude and page.longitude %}
-					<a href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank>
-						{{page.location}}
-					</a>
-			    {% else %}
-			    	{{page.location}}
-				{% endif %}
-			{% endif %}
-		</p>
-	</header>
+	<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
+		{% else %}
+		<header class="post-header">
+			{% endif %}	
+			<h1 class="post-title">{{ page.title }}</h1>
+		</header>
 
-	<article class="post-content">
-		{{ content }}
+		<article class="post-body">
+			<div class="post-meta has-bg">
+				<p class="post-date"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				<p class="post-location has-bg">
+					{% if page.location %}
+						{% if page.latitude and page.longitude %}
+							<a href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
+								{{page.location}}</a>
+						{% else %}
+							<i class="fa fa-map-marker post-location-icon"></i>
+							{{page.location}}
+						{% endif %}
+					{% endif %}
+				</p>
+			</div>
+
+		
+		<div class="post-content">
+			{{ content }}
+		</div>
 	</article>
 
 	<footer class="post-footer">
 		{% include social-media.html %}
 		{% include comments.html %}
 	</footer>
-	
+
 	<script src="/assets/js/google-analytics.js"> </script>  		
 </div>
 
