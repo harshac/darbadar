@@ -13,7 +13,7 @@ layout: default
 
 		<article class="post-body" itemprop="articleBody">
 			<div class="post-meta has-bg">
-				<p class="post-date" itemprop="dateCreated"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				<p class="post-date" itemprop="datePublished"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 				<p class="post-location has-bg" itemprop="contentLocation">
 					{% if page.location %}
 						{% if page.latitude and page.longitude %}
