@@ -234,7 +234,7 @@
     padding: 0 10px;
     position: relative;
 
-    .post-title {
+    .post-meta, .post-title {
         color: #fff;
         text-shadow: 1px 1px 6px #000;
     }
@@ -242,6 +242,7 @@
     .post-title {
         font-size: 32px;
     }
+
     .post-link-inner {
         position: absolute;
         bottom: 0;
