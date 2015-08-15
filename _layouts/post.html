@@ -1,20 +1,20 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
 	{% if page.featureImage %}
-	<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
-		{% else %}
+		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
+	{% else %}
 		<header class="post-header">
-			{% endif %}	
-			<h1 class="post-title">{{ page.title }}</h1>
+	{% endif %}	
+			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 		</header>
 
-		<article class="post-body">
+		<article class="post-body" itemprop="articleBody">
 			<div class="post-meta has-bg">
-				<p class="post-date"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-				<p class="post-location has-bg">
+				<p class="post-date" itemprop="dateCreated"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				<p class="post-location has-bg" itemprop="contentLocation">
 					{% if page.location %}
 						{% if page.latitude and page.longitude %}
 							<a href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
@@ -28,10 +28,10 @@ layout: default
 			</div>
 
 		
-		<div class="post-content">
-			{{ content }}
-		</div>
-	</article>
+			<div class="post-content">
+				{{ content }}
+			</div>
+		</article>
 
 	<footer class="post-footer">
 		{% include social-media.html %}
