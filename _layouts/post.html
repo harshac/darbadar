@@ -4,12 +4,17 @@ layout: default
 <div class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
 	{% if page.featureImage %}
-		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
+		<a href="{{page.featureImage}}" target="_new">
+			<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
+				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+			</header>
+		</a>
 	{% else %}
 		<header class="post-header">
-	{% endif %}	
 			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-		</header>
+		</header>	
+	{% endif %}	
+		
 
 		<article class="post-body" itemprop="articleBody">
 			<div class="post-meta has-bg">
