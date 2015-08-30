@@ -406,7 +406,8 @@ pre {
       margin: 0.1em 0.1em 0 0; }
   .post-content img {
     margin: auto;
-    display: block; }
+    display: block;
+    cursor: pointer; }
 
 .post-location-icon {
   padding: 3px; }

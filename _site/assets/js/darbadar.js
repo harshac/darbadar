@@ -4,6 +4,11 @@ $('.post-content img').each(function(){
   $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + caption + "</div>")
 });
 
+// Image click
+$('.post-content img').click(function(){
+  window.open($(this).attr("src"));
+});
+
 // Tooltips
 $('body').append('<div class="tooltip"></div>');
 $tooltip = $('.tooltip');
