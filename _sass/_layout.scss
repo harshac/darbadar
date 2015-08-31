@@ -315,6 +315,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    position: relative;
+    z-index: 0;
 
     h2 {
         font-size: 32px;
