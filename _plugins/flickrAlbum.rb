@@ -1,9 +1,11 @@
 require 'net/http'
 require 'nokogiri'
+require 'pry'
 require_relative 'flickrCommon'
 
 module Jekyll
   class FlickrAlbumUrlsTag < Liquid::Tag
+    API_KEY="db5ff0f27c564d31b746465b05db9894"
     
     def initialize(tag_name, text, tokens)
       super
@@ -16,8 +18,16 @@ module Jekyll
     def render(context)
       albumId = context.environments.first["page"]["albumId"]      
       photos=@flickrCommon.getAlbumPhotosInfo(albumId)
-      photoMap=photos.xpath("//photo").collect{ |photo| ["#{photo.attributes["title"].value}", @flickrCommon.buildPhotoUrl(photo.attributes)]}
+      photoIds=photos.xpath("//photo").collect{ |photo| ["#{photo.attributes["title"].value}", "#{photo.attributes["id"].value}"]}
+      photoMap=photoIds.collect{|photo| [photo.first, getLargeImageUrl(photo.last)]}
       generateMarkup(photoMap)
+    end
+
+    def getLargeImageUrl(photoId)
+        uri=URI.parse("https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=#{API_KEY}&photo_id=#{photoId}")
+        response=Nokogiri::XML(Net::HTTP.get(uri))
+        largeImage = response.xpath("//size[@label='Large']").first
+        largeImage.attributes["source"].value
     end
 
     def generateMarkup(photoMap)
