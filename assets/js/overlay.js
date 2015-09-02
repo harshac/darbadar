@@ -25,6 +25,10 @@ $(document).keyup(function(e){
     }
 })
 
+$(".close-button").click(function(){
+	$(".overlay").addClass("hide");
+})
+
 function loadGallery(name){
   var listOfImages=$(".gallery-list img")
   var currentImage=$(".gallery-list li img[name=" + name + "]")
