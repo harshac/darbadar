@@ -4,7 +4,7 @@ $('.post-content img').click(function(){
   loadGallery(name)
 });
 
-$(".prev-image").click(function(){
+$(".previous-image").click(function(){
   var name=$(this).attr("name")
   loadGallery(name)
 })
