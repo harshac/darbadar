@@ -1,7 +1,4 @@
-require 'net/http'
-require 'nokogiri'
 require_relative 'flickrCommon'
-require 'pry'
 
 module Jekyll
   class FlickrImageUrlTag < Liquid::Tag
