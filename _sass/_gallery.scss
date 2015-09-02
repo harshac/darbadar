@@ -23,12 +23,27 @@
 	height: 100%;
 	float:left;
 	cursor: pointer;
+
+	&:after{
+    	content: "";
+    	display: block;
+    	width: 0%;
+    	border: 16px solid rgba(0, 0, 0, -0.15);
+    	margin-top: 50%;
+	}
 }
 
 .next-image{
 	margin-left: 5%;
+
+	&:hover:after{
+	 	border-left-color: #fff;
+	}
 }
 
 .previous-image{
 	margin-right:5%;
+	&:hover:after{
+	 	border-right-color: #fff;
+	}
 }
