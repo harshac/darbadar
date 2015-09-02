@@ -19,7 +19,7 @@ module Jekyll
       albumId = context.environments.first["page"]["albumId"]      
       photos=@flickrCommon.getAlbumPhotosInfo(albumId)
       photoIds=photos.xpath("//photo").collect{ |photo| ["#{photo.attributes["title"].value}", "#{photo.attributes["id"].value}"]}
-      photoMap=photoIds.collect{|photo| [photo.first, getLargeImageUrl(photo.last)]}
+      photoMap=photoIds.collect{|photo| [photo.first, getLargeImageUrl(photo.last), getPhotoDescription(photo.last)]}
       generateMarkup(photoMap)
     end
 
@@ -30,10 +30,17 @@ module Jekyll
         largeImage.attributes["source"].value
     end
 
+    def getPhotoDescription(photoId)
+        uri=URI.parse("https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=#{API_KEY}&photo_id=#{photoId}")
+        response=Nokogiri::XML(Net::HTTP.get(uri))
+        descObject=response.xpath("//description").children.first
+        descObject.nil? ? "" : descObject.text
+    end
+
     def generateMarkup(photoMap)
       markup = "<ul class='gallery-list hide'>\n"
       photoMap.each do |photo|
-        markup = "#{markup}<li class='gallery-item'><img src='#{photo.last}' name='#{photo.first}'/></li>\n"
+        markup = "#{markup}<li class='gallery-item'><img src='#{photo[1]}' name='#{photo.first}' data-caption='#{photo[2]}'/></li>\n"
       end  
       markup = "#{markup}</ul>"
     end
