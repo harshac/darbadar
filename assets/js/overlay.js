@@ -4,12 +4,12 @@ $('.post-content img').click(function(){
   loadGallery(name)
 });
 
-$(".prev-img").click(function(){
+$(".prev-image").click(function(){
   var name=$(this).attr("name")
   loadGallery(name)
 })
 
-$(".next-img").click(function(){
+$(".next-image").click(function(){
   var name=$(this).attr("name")
   loadGallery(name)
 })
@@ -20,11 +20,12 @@ function loadGallery(name){
   var url=$(currentImage).attr("src");
   var currentImageIndex = listOfImages.index(currentImage)
   if(currentImageIndex>0){
-  	$('.overlay .prev-img').attr("name", $(listOfImages[currentImageIndex-1]).attr("name"))
+  	$('.overlay .previous-image').attr("name", $(listOfImages[currentImageIndex-1]).attr("name"))
   }
   if(currentImageIndex< listOfImages.length){
-  	$('.overlay .next-img').attr("name", $(listOfImages[currentImageIndex+1]).attr("name"))	
+  	$('.overlay .next-image').attr("name", $(listOfImages[currentImageIndex+1]).attr("name"))	
   }  
   $(".overlay img").attr("src", url);
+  $(".overlay .image-caption").text($(currentImage).attr("data-caption"))
   $(".overlay").removeClass("hide");
 }

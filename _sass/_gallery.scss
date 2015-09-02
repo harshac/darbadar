@@ -12,16 +12,23 @@
 	display: none;
 }   
 
-.gallery-img{
-	display: block;
+.current-image{
 	margin: auto;
 	width:60%;
 	float:left;
 }
 
-.next-img, .prev-img{
-	width: 20%;
-	cursor: pointer;
+.next-image, .previous-image{
+	width: 15%;	
 	height: 100%;
 	float:left;
+	cursor: pointer;
+}
+
+.next-image{
+	margin-left: 5%;
+}
+
+.previous-image{
+	margin-right:5%;
 }
