@@ -18,6 +18,13 @@ $(".post-header").click(function(){
 	loadGallery("feature-image")
 })
 
+$(document).keyup(function(e){
+    if(e.which == 27)
+    {
+      $(".overlay").addClass("hide");
+    }
+})
+
 function loadGallery(name){
   var listOfImages=$(".gallery-list img")
   var currentImage=$(".gallery-list li img[name=" + name + "]")
