@@ -4,11 +4,9 @@ layout: default
 <div class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
 	{% if page.featureImage %}
-		<a href="{{page.featureImage}}" target="_new">
-			<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');">
-				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-			</header>
-		</a>
+		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}'); cursor: pointer;">
+			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+		</header>
 	{% else %}
 		<header class="post-header">
 			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>

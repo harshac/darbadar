@@ -14,6 +14,10 @@ $(".next-image").click(function(){
   loadGallery(name)
 })
 
+$(".post-header").click(function(){
+	loadGallery("feature-image")
+})
+
 function loadGallery(name){
   var listOfImages=$(".gallery-list img")
   var currentImage=$(".gallery-list li img[name=" + name + "]")
