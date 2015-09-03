@@ -16,6 +16,13 @@
 	margin: auto;
 	width:60%;
 	float:left;
+	display: table;
+	height: 100vh;
+}
+
+.current-image .current-image-content{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .next-image, .previous-image{
@@ -23,13 +30,13 @@
 	height: 100%;
 	float:left;
 	cursor: pointer;
-
+	
 	&:after{
     	content: "";
     	display: block;
     	width: 0%;
     	border: 16px solid rgba(0, 0, 0, -0.15);
-    	margin-top: 50%;
+    	margin-top: 50vh;
 	}
 }
 
@@ -38,6 +45,8 @@
 
 	&:hover:after{
 	 	border-left-color: #fff;
+	 	border-left-style: dotted;
+	 	margin-left: 50%;
 	}
 }
 
@@ -45,6 +54,7 @@
 	margin-right:5%;
 	&:hover:after{
 	 	border-right-color: #fff;
+	 	margin-right: 50%;
 	}
 }
 
