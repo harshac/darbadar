@@ -21,7 +21,7 @@ $(".post-header").click(function(){
 $(document).keydown(function(e){
     if(e.which == 27)
     {
-      $(".overlay").addClass("hide");
+      closeGallery()
     } else if(e.which == 37){
     	loadGallery($(".previous-image").attr("name"))
 	} else if(e.which == 39)
@@ -32,8 +32,13 @@ $(document).keydown(function(e){
 
 
 $(".close-button").click(function(){
-	$(".overlay").addClass("hide");
+	closeGallery();
 })
+
+function closeGallery(){
+	$(".overlay").addClass("hide");	
+	$("body").removeClass("modal-open");
+}
 
 function loadGallery(name){
   var listOfImages=$(".gallery-list img")
@@ -49,4 +54,5 @@ function loadGallery(name){
   $(".overlay img").attr("src", url);
   $(".overlay .image-caption").text($(currentImage).attr("data-caption"))
   $(".overlay").removeClass("hide");
+  $("body").addClass("modal-open");
 }
