@@ -18,12 +18,18 @@ $(".post-header").click(function(){
 	loadGallery("feature-image")
 })
 
-$(document).keyup(function(e){
+$(document).keydown(function(e){
     if(e.which == 27)
     {
       $(".overlay").addClass("hide");
+    } else if(e.which == 37){
+    	loadGallery($(".previous-image").attr("name"))
+	} else if(e.which == 39)
+    {
+      loadGallery($(".next-image").attr("name"))
     }
 })
+
 
 $(".close-button").click(function(){
 	$(".overlay").addClass("hide");
