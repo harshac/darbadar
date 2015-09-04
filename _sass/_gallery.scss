@@ -27,8 +27,7 @@
 .next-image, .previous-image{
 	width: 15%;	
 	height: 100%;
-	float:left;
-	cursor: pointer;
+	position:absolute;
 	
 	&:after{
     	content: "";
@@ -41,19 +40,18 @@
 
 .next-image{
 	margin-left: 5%;
+	right: 0;
 
-	&:hover:after{
-	 	border-left-color: #fff;
-	 	border-left-style: dotted;
-	 	margin-left: 50%;
+	&:hover{
+		cursor: e-resize;
 	}
 }
 
 .previous-image{
 	margin-right:5%;
-	&:hover:after{
-	 	border-right-color: #fff;
-	 	margin-right: 50%;
+	left:0;
+	&:hover{
+		cursor: w-resize;
 	}
 }
 
