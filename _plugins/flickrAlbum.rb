@@ -40,7 +40,7 @@ module Jekyll
     def generateMarkup(photoMap)
       markup = "<ul class='gallery-list hide'>\n"
       photoMap.each do |photo|
-        markup = "#{markup}<li class='gallery-item'><img src='#{photo[1]}' name='#{photo.first}' data-caption=\"#{photo[2].gsub("'", "\\'")}\"/></li>\n"
+        markup = "#{markup}<li class='gallery-item'><div src='#{photo[1]}' name='#{photo.first}' data-caption=\"#{photo[2].gsub("'", "\\'")}\"/></li>\n"
       end  
       markup = "#{markup}</ul>"
     end

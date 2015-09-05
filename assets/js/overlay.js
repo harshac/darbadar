@@ -41,8 +41,8 @@ function closeGallery(){
 }
 
 function loadGallery(name){
-  var listOfImages=$(".gallery-list img")
-  var currentImage=$(".gallery-list li img[name=" + name + "]")
+  var listOfImages=$(".gallery-item div")
+  var currentImage=$(".gallery-item div[name=" + name + "]")
   var url=$(currentImage).attr("src");
   var currentImageIndex = listOfImages.index(currentImage)
   if(currentImageIndex>0){
