@@ -44,7 +44,7 @@ function loadGallery(name){
   var listOfImages=$(".gallery-item")
   var currentImage=$(".gallery-item[name=" + name + "]")
   var url=$(currentImage).attr("src");
-  var currentImageIndex = listOfImages.index(currentImage)
+  var currentImageIndex = $(currentImage).attr("index");
   if(currentImageIndex>0){
   	$('.overlay .previous-image').attr("name", $(listOfImages[currentImageIndex-1]).attr("name"))
   }
@@ -58,11 +58,10 @@ function loadGallery(name){
 }
 
 $(document).ready(function(){
-  $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_m,url_o,url_s,url_l,url_z,description&photoset_id=72157656782024589",
+  $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_m,url_o,url_s,url_l,url_z,description&photoset_id=" + $("#albumId").text().trim(),
     function(data){
       $.each(data.photoset.photo, function(index, value){
         $(".gallery-list").append("<li class='gallery-item' src=\"" + value.url_l + "\" name=\"" + value.title + "\" data-caption=\"" + value.description._content + "\" index=\"" + index + "\"></li>");
-        console.log(value.url_l);  
       })
       
     });
