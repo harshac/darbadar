@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
 
 	{% if page.featureImage %}
 		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}'); cursor: pointer;">
@@ -34,7 +34,6 @@ layout: default
 			<div class="post-content">
 				{{ content }}
 			</div>
-			<div class="hide" id="albumId">{{page.albumId}}</div>
 			<ul class="gallery-list"></ul>
 
 			{% include gallery.html %}
@@ -44,7 +43,6 @@ layout: default
 		{% include social-media.html %}
 		{% include comments.html %}
 	</footer>
-
 	<script src="/assets/js/google-analytics.js"> </script>  		
 </div>
 
