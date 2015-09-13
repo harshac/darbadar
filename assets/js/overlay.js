@@ -12,7 +12,7 @@ function loadGallery(name){
   	$('.overlay .previous-image').attr("name", $(listOfImages[currentImageIndex-1]).attr("name"))
   }
   if(currentImageIndex< listOfImages.length){
-  	$('.overlay .next-image').attr("name", $(listOfImages[currentImageIndex+1]).attr("name"))	
+  	$('.overlay .next-image').attr("name", $(listOfImages[(parseInt(currentImageIndex)+1)]).attr("name"))	
   }  
   $(".overlay img").attr("src", url);
   $(".overlay .image-caption").text($(currentImage).attr("data-caption"))
