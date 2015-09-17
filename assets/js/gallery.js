@@ -66,6 +66,7 @@ var gallery = {
           caption: photo.description._content
         }
       });
+      $('body').addClass('gallery-loaded');
       gallery.bindEvents();
     });
   },
