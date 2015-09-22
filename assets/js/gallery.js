@@ -2,6 +2,8 @@
 var gallery = {
   album: null,
   currentImageIndex: 0,
+  maxHeight: screen.availHeight,
+  maxWidth: screen.availWidth,
 
   close: function() {
     $("body").removeClass("overlay");
@@ -32,27 +34,41 @@ var gallery = {
   },
 
   _showImage: function(image) {
-    // TODO: Make this part better
-    $('.gallery-image-container').css('margin-top', -1 * image.height / 2);
+    var dimensions = this._getDimensions(image),
+        height = dimensions.height,
+        width = dimensions.width;
+
+    $('.gallery-image-container').css('margin-top', -1 * height / 2);
 
     $('.gallery-image')
       .removeAttr('src')
       .attr({
         src: image.src,
-        height: image.height,
-        width: image.width
+        height: height,
+        width: width
       })
       .fadeIn();
 
     $('.gallery-image-caption')
       .find('p')
-      .css('width', image.width)
+      .css('width', width)
       .text(image.caption);
 
     $('.prev-image, .next-image')
-      .css('width', ($(document).width() - image.width)/2 )
+      .css('width', ($(document).width() - width)/2 )
 
     $('body').addClass('overlay');
+  },
+
+  _getDimensions: function(image) {
+    var aspectRatio = screen.availWidth/screen.availHeight,
+        minHeight = Math.min(image.height, screen.availHeight),
+        minWidth = Math.min(image.width, screen.availWidth);
+
+    return {
+      height: (aspectRatio > 1) ? minHeight : minWidth * (image.height/image.width),
+      width: (aspectRatio > 1) ? minHeight * (image.width/image.height) : minWidth
+    }
   },
 
   loadAlbum: function(album_id) {
