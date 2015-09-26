@@ -79,12 +79,26 @@ var gallery = {
           src: photo.url_l,
           width: photo.width_l,
           height: photo.height_l,
+          t_src: photo.url_t,
           caption: photo.description._content
         }
       });
       $('body').addClass('gallery-loaded');
       gallery.bindEvents();
+      gallery.loadThumbnails();
     });
+  },
+
+  loadThumbnails: function(){
+    var spaceAvailable = $(".gallery-images").width() -2 ;
+    var imageWidth = 100;
+    var noOfImagesFit = spaceAvailable/imageWidth;
+    var noOfImages= Math.floor(noOfImagesFit);
+    for(var i=0; i < noOfImages; i++){
+        $(".gallery-images").append("<li class=\"thumbnail\"><img src=" + gallery.album[i].t_src + "/>" + "</li>");
+    }
+    var margin = (spaceAvailable - (noOfImages*(imageWidth+2)))/noOfImages;
+    $(".thumbnail").css('margin', margin/2);
   },
 
   bindEvents: function() {

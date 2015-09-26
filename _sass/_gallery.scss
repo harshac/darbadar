@@ -57,6 +57,7 @@
   display: block;
   margin: auto;
 }
+
 .gallery-image-caption {
   bottom: 0;
   width: 100%;
@@ -67,5 +68,24 @@
     padding: 10px;
     box-sizing: border-box;
     background-color: rgba(0,0,0,0.8);
+  }
+}
+
+.gallery-images{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(0,0,0,0.8);
+  height: 68px;
+}
+
+.thumbnail{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid;
+
+  img{
+    max-height: 56px;
   }
 }
