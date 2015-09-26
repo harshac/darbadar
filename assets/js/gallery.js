@@ -88,6 +88,10 @@ var gallery = {
   },
 
   bindEvents: function() {
+    $('.has-bg').click(function() {
+      gallery.showImageByName("feature-image");
+    });
+
     $('.post-content img').click(function() {
       var name = $(this).attr("name");
       gallery.showImageByName(name);
