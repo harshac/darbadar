@@ -52,7 +52,7 @@ var gallery = {
     $('.gallery-image-caption')
       .find('p')
       .css('width', width)
-      .text(image.caption);
+      .html(unescape(image.caption));
 
     $('.prev-image, .next-image')
       .css('width', ($(document).width() - width)/2 )
