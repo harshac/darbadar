@@ -84,8 +84,8 @@ var gallery = {
         }
       });
       $('body').addClass('gallery-loaded');
-      gallery.bindEvents();
       gallery.loadThumbnails();
+      gallery.bindEvents();
     });
   },
 
@@ -103,16 +103,15 @@ var gallery = {
 
   loadThumbnails: function(){
     for(var i=0; i < gallery.album.length; i++){
-        $(".carousel").append("<img src=" + gallery.album[i].t_src + "/>");
+        $(".carousel").append("<div><img class='thumbnail' data-lazy=" + gallery.album[i].t_src + " name= '"+ gallery.album[i].name + "'/></div>");
     }
     $(".carousel").slick({
       infinite: true,
       speed: 300,
-      slidesToShow: 4,
-      adaptiveHeight: true,
+      slidesToShow: 6,
       centerMode: true,
       variableWidth: true,
-      adaptiveHeight: true
+      lazyLoad: 'ondemand'
     });
   },
 
