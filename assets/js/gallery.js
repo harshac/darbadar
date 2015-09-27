@@ -89,18 +89,6 @@ var gallery = {
     });
   },
 
-  // loadThumbnails: function(){
-  //   var spaceAvailable = $(".gallery-images").width() -2 ;
-  //   var imageWidth = 100;
-  //   var noOfImagesFit = spaceAvailable/imageWidth;
-  //   var noOfImages= Math.floor(noOfImagesFit);
-  //   for(var i=0; i < noOfImages; i++){
-  //       $(".gallery-images").append("<li class=\"thumbnail\"><img src=" + gallery.album[i].t_src + "/>" + "</li>");
-  //   }
-  //   var margin = (spaceAvailable - (noOfImages*(imageWidth+2)))/noOfImages;
-  //   $(".thumbnail").css('margin', margin/2);
-  // },
-
   loadThumbnails: function(){
     for(var i=0; i < gallery.album.length; i++){
         $(".carousel").append("<div><img class='thumbnail' data-lazy=" + gallery.album[i].t_src + " name= '"+ gallery.album[i].name + "'/></div>");
