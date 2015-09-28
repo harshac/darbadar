@@ -71,13 +71,16 @@
   }
 }
 
-.thumbnail{
-  display: inline-block;
-  width: 100px;
-  border: 1px solid;
-  max-height: 56px;
+.thumbnail {
+  height: 100px !important;
+  width: 160px;
 }
 
-.slick-slide{
+.slick-slide {
   margin: 5px;
+  cursor: pointer;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #820222 !important;
 }

@@ -35,8 +35,8 @@ var gallery = {
 
   _showImage: function(image) {
     var dimensions = this._getDimensions(image),
-        height = dimensions.height,
-        width = dimensions.width;
+      height = dimensions.height,
+      width = dimensions.width;
 
     $('.gallery-image-container').css('margin-top', -1 * height / 2);
 
@@ -55,19 +55,19 @@ var gallery = {
       .html(unescape(image.caption));
 
     $('.prev-image, .next-image')
-      .css('width', ($(document).width() - width)/2 )
+      .css('width', ($(document).width() - width) / 2)
 
     $('body').addClass('overlay');
   },
 
   _getDimensions: function(image) {
-    var aspectRatio = $(window).width()/$(window).height(),
-        minHeight = Math.min(image.height, $(window).height()),
-        minWidth = Math.min(image.width, $(window).width());
+    var aspectRatio = $(window).width() / $(window).height(),
+      minHeight = Math.min(image.height, $(window).height()),
+      minWidth = Math.min(image.width, $(window).width());
 
     return {
-      height: (aspectRatio > 1) ? minHeight : minWidth * (image.height/image.width),
-      width: (aspectRatio > 1) ? minHeight * (image.width/image.height) : minWidth
+      height: (aspectRatio > 1) ? minHeight : minWidth * (image.height / image.width),
+      width: (aspectRatio > 1) ? minHeight * (image.width / image.height) : minWidth
     }
   },
 
@@ -89,17 +89,15 @@ var gallery = {
     });
   },
 
-  loadThumbnails: function(){
-    for(var i=0; i < gallery.album.length; i++){
-        $(".carousel").append("<div><img class='thumbnail' data-lazy=" + gallery.album[i].t_src + " name= '"+ gallery.album[i].name + "'/></div>");
+  loadThumbnails: function() {
+    for (var i = 0, len = gallery.album.length; i < len; i++) {
+      $(".carousel").append("<div class='thumbnail' style='background-image:url(" + gallery.album[i].t_src + "); background-size:cover' name='" + gallery.album[i].name + "'></div>");
     }
     $(".carousel").slick({
       infinite: true,
       speed: 300,
-      slidesToShow: 6,
-      centerMode: true,
-      variableWidth: true,
-      lazyLoad: 'ondemand'
+      slidesToShow: 4,
+      variableWidth: true
     });
   },
 
@@ -109,7 +107,7 @@ var gallery = {
       gallery.showImageByName("feature-image");
     });
 
-    $('.post-content img').click(function() {
+    $('.post-content img, .thumbnail').click(function() {
       var name = $(this).attr("name");
       gallery.showImageByName(name);
     });
