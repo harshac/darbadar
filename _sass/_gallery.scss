@@ -38,6 +38,15 @@
 .prev-image,
 .next-image {
   height: 100%;
+  &:after{
+       content: "";
+       display: block;
+       width: 0;
+       height: 0; 
+       margin-top: 50vh;
+       border-top: 10px solid transparent;
+       border-bottom: 10px solid transparent; 
+   }
 }
 
 .gallery-image-container {
@@ -47,10 +56,18 @@
 .prev-image {
   left: 0;
   cursor: w-resize;
+  &:after{
+    border-right:10px solid white; 
+    margin-left: 50%;
+  };
 }
 .next-image {
   right: 0;
   cursor: e-resize;
+  &:after{
+    border-left:10px solid white; 
+    margin-left: 50%;
+  };
 }
 
 .gallery-image {
@@ -76,8 +93,4 @@
   width: 100px;
   border: 1px solid;
   max-height: 56px;
-}
-
-.slick-slide{
-  margin: 5px;
 }
