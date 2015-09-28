@@ -140,10 +140,14 @@ var gallery = {
   }
 }
 
+var isMobile= function() { 
+  return screen.availWidth <= 600
+}
+
 // On DOM ready, load the gallery if albumId is present in the post
 $(function() {
   var album_id = $('.post').data('album-id');
-  if (!!album_id) {
+  if (!!album_id && !isMobile()) {
     gallery.loadAlbum(album_id);
   }
 })
