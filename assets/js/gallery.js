@@ -61,9 +61,9 @@ var gallery = {
   },
 
   _getDimensions: function(image) {
-    var aspectRatio = screen.availWidth/screen.availHeight,
-        minHeight = Math.min(image.height, screen.availHeight),
-        minWidth = Math.min(image.width, screen.availWidth);
+    var aspectRatio = $(window).width()/$(window).height(),
+        minHeight = Math.min(image.height, $(window).height()),
+        minWidth = Math.min(image.width, $(window).width());
 
     return {
       height: (aspectRatio > 1) ? minHeight : minWidth * (image.height/image.width),
