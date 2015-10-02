@@ -54,8 +54,8 @@ var gallery = {
       .css('width', width)
       .html(unescape(image.caption));
 
-    $('.prev-image::after, .next-image::after')
-      .css('margin-left', ($(document).width() - width) / 4)
+    $('.prev-image, .next-image')
+      .css('margin-left', ($(document).width() - width) / 2)
 
     $('body').addClass('overlay');
   },
