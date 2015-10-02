@@ -1,0 +1,19 @@
+#mce-EMAIL{
+	border-radius: 3px;
+}
+
+#mc-embedded-subscribe{
+	width: 25% !important;
+
+	@include media-query($on-palm){
+		margin: -42px 0px 10px 260px !important;
+	}
+
+	@include media-query($on-laptop){
+		margin: -42px 0px 10px 260px !important;
+	}
+}
+
+.subscription-form{
+	margin: auto;
+}
