@@ -54,8 +54,8 @@ var gallery = {
       .css('width', width)
       .html(unescape(image.caption));
 
-    $('.prev-image, .next-image')
-      .css('width', ($(document).width() - width) / 2)
+    $('.prev-image::after, .next-image::after')
+      .css('margin-left', ($(document).width() - width) / 4)
 
     $('body').addClass('overlay');
   },
@@ -90,8 +90,9 @@ var gallery = {
   },
 
   loadThumbnails: function() {
-    for (var i = 0, len = gallery.album.length; i < len; i++) {
-      $(".carousel").append("<div class='thumbnail' style='background-image:url(" + gallery.album[i].t_src + "); background-size:cover' name='" + gallery.album[i].name + "'></div>");
+    var album = gallery.album.reverse()
+    for (var i = 0, len = album.length; i < len; i++) {
+      $(".carousel").append("<div class='thumbnail' style='background-image:url(" + album[i].t_src + "); background-size:cover' name='" + gallery.album[i].name + "'></div>");
     }
     $(".carousel").slick({
       infinite: true,

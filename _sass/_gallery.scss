@@ -39,13 +39,14 @@
 .next-image {
   height: 100%;
   &:after{
-       content: "";
        display: block;
        width: 0;
        height: 0; 
        margin-top: 50vh;
-       border-top: 10px solid transparent;
-       border-bottom: 10px solid transparent; 
+       color: #fff !important;
+       font-family: 'slick';
+       font-size: 30px;
+       margin-left: 50%;  
    }
 }
 
@@ -53,20 +54,20 @@
   top: 50%;
   width: 100%;
 }
+
 .prev-image {
   left: 0;
   cursor: w-resize;
   &:after{
-    border-right:10px solid white; 
-    margin-left: 50%;
+    content: "←";
   };
 }
+
 .next-image {
   right: 0;
   cursor: e-resize;
   &:after{
-    border-left:10px solid white; 
-    margin-left: 50%;
+    content: "→";
   };
 }
 
@@ -91,7 +92,7 @@
 .thumbnail {
   height: 100px !important;
   width: 160px;
-  opacity: 0.8;
+  opacity: 0.9;
   &:hover, &:focus {
     opacity: 1;
   }
@@ -103,5 +104,5 @@
 }
 .slick-prev:before,
 .slick-next:before {
-  color: #820222 !important;
+  color: #000 !important;
 }
