@@ -12,6 +12,7 @@
   	padding: 6px 10px;
   	text-transform: uppercase;
   	letter-spacing: 1px;
+  	padding: 6px 10px;
 
 	@include media-query($on-palm){
 		margin: --42px 0 10px 300px !important;
