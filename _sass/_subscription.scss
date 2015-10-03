@@ -1,29 +1,35 @@
 #mce-EMAIL{
-	border-radius: 3px;
-	width: 70% !important;
+	border: 0px !important;
+	border-bottom: 1px solid !important;
+	width: 50% !important;
+
+	&:focus {
+		border: 0px !important;
+	}
+
+	@include media-query($on-palm){
+		margin-right: 2% !important;
+		display: inline-block !important;
+	}
+	@include media-query($on-laptop) {
+		margin-right: 2% !important;
+  		display: inline-block !important;
+    }
 }
 
 #mc-embedded-subscribe{
-	width: 25% !important;
+	width: 20% !important;
 	border-radius: 100px !important;
 	font-size: 13px !important;
-  	line-height: 1;
+  	line-height: 1 !important;
   	font-weight: 400 !important;
   	padding: 6px 10px;
   	text-transform: uppercase;
   	letter-spacing: 1px;
   	padding: 6px 10px;
-
-	@include media-query($on-palm){
-		margin: --42px 0 10px 300px !important;
-	}
-
-	@include media-query($on-laptop){
-		margin: -42px 0 10px 300px !important;
-	}
 }
 
 .subscription-form{
 	margin: auto;
-	margin-bottom: 4em;
+	padding-left: 15%;
 }
