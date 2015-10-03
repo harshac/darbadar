@@ -104,12 +104,9 @@ var gallery = {
 
 
   bindEvents: function() {
-    $('.has-bg').click(function() {
-      gallery.showImageByName("feature-image");
-    });
-
     $('.post-content img, .thumbnail').click(function() {
       var name = $(this).attr("name");
+      gallery.enableAccessibility();
       gallery.showImageByName(name);
     });
 
@@ -122,11 +119,20 @@ var gallery = {
     });
 
     $(".post-header").click(function() {
+      gallery.enableAccessibility();
       gallery.showImageByName("feature-image");
     });
 
+    $(".close-button").click(function() {
+      gallery.disableAccessibility();
+      gallery.close();
+    });
+  },
+
+  enableAccessibility: function(){
     $(document).keydown(function(e) {
       if (e.which == 27) {
+        gallery.disableAccessibility();
         gallery.close();
       } else if (e.which == 37) {
         gallery.showPreviousImage();
@@ -134,10 +140,10 @@ var gallery = {
         gallery.showNextImage();
       }
     });
+  },
 
-    $(".close-button").click(function() {
-      gallery.close();
-    });
+  disableAccessibility: function(){
+    $(document).unbind('keydown');
   }
 }
 
