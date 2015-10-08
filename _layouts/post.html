@@ -4,7 +4,7 @@ layout: default
 <div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
 
 	{% if page.featureImage %}
-		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}'); cursor: pointer;">
+		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}'); cursor: pointer; background-position: {{page.positionX}} {{page.positionY}}">
 			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 		</header>
 	{% else %}
