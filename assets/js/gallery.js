@@ -90,7 +90,10 @@ var gallery = {
   },
 
   loadThumbnails: function() {
-    var album = gallery.album.reverse()
+    var listOfImages = gallery.album
+    var blogImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length == 0})
+    var newImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length == 0})
+    var album = newImages.concat(blogImages);
     for (var i = 0, len = album.length; i < len; i++) {
       $(".carousel").append("<div class='thumbnail' style='background-image:url(" + album[i].t_src + "); background-size:cover' name='" + gallery.album[i].name + "'></div>");
     }
