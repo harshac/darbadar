@@ -20,7 +20,8 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   
   $tooltip.css({
     'top' : offset.top - h - 30,
-    'left': offset.left
+    'left': offset.left,
+    'word-wrap': 'break-word'
   });
 });
 
