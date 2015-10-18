@@ -91,7 +91,7 @@ var gallery = {
 
   loadThumbnails: function() {
     var listOfImages = gallery.album
-    var blogImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length == 0})
+    var blogImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length != 0})
     var newImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length == 0})
     var album = newImages.concat(blogImages);
     for (var i = 0, len = album.length; i < len; i++) {
