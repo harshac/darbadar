@@ -88,21 +88,3 @@
     background-color: rgba(0,0,0,0.8);
   }
 }
-
-.thumbnail {
-  height: 100px !important;
-  width: 160px;
-  opacity: 0.9;
-  &:hover, &:focus {
-    opacity: 1;
-  }
-}
-
-.slick-slide {
-  margin: 5px;
-  cursor: pointer;
-}
-.slick-prev:before,
-.slick-next:before {
-  color: #000 !important;
-}
