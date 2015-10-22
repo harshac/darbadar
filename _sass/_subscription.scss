@@ -1,15 +1,11 @@
 #mce-EMAIL{
 	border: 0px !important;
 	border-bottom: 1px solid !important;
-	width: 58% !important;
-	font-size: 13px !important;
+	width: 50% !important;
+	margin:auto !important;
+	font-size: 15px !important;
 	&:focus {
 		outline: 0 !important;
-	}
-
-	@include media-query-min($on-palm){
-		margin-right: 2% !important;
-		display: inline-block !important;
 	}
 }
 
@@ -23,10 +19,15 @@
   	text-transform: uppercase;
   	letter-spacing: 1px;
   	padding: 6px 10px;
+  	background-color: #000 !important;
+  	margin-top: 1em !important;
+}
+
+#mc-embedded-subscribe-form{
+	text-align: center !important;
 }
 
 .subscription-form{
 	margin: auto;
-	padding-left: 15%;
 	margin-bottom: 4em;
 }
