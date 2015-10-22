@@ -27,6 +27,7 @@ $content-width:    1280px;
 $on-phone:		   360px;
 $on-palm:          600px;
 $on-laptop:        1280px;
+$on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
 $box-height:       $box-width / 1.6;
 
@@ -41,6 +42,12 @@ $box-height:       $box-width / 1.6;
 // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }

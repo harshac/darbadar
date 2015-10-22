@@ -1,20 +1,16 @@
 #mce-EMAIL{
 	border: 0px !important;
 	border-bottom: 1px solid !important;
-	width: 50% !important;
-
+	width: 58% !important;
+	font-size: 13px !important;
 	&:focus {
-		border: 0px !important;
+		outline: 0 !important;
 	}
 
-	@include media-query($on-palm){
+	@include media-query-min($on-palm){
 		margin-right: 2% !important;
 		display: inline-block !important;
 	}
-	@include media-query($on-laptop) {
-		margin-right: 2% !important;
-  		display: inline-block !important;
-    }
 }
 
 #mc-embedded-subscribe{
@@ -32,4 +28,5 @@
 .subscription-form{
 	margin: auto;
 	padding-left: 15%;
+	margin-bottom: 4em;
 }
