@@ -19,7 +19,7 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   var offset = $(this).offset();
   var width = $(this).width();
   $(".tooltip-container").stop().fadeIn();
-  $tooltip.text($(this).data('title')).css('max-width',$container.width());
+  $tooltip.text($(this).data('title')).css('max-width',$container.width()-20);
   var h = $tooltip.height();
 
   var containerRightOffset = $container.offset().left + $container.width();
@@ -32,7 +32,7 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   });
 
   $pointer.css({
-    'top' : offset.top - 12,
+    'top' : $tooltip.offset().top + h + 20,
     'left': offset.left + (width/2),
   });
 
