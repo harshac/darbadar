@@ -5,8 +5,9 @@ $('.post-content img').each(function(){
 });
 
 // Tooltips
-$('body').append('<div class="tooltip"></div>');
+$('body').append('<div class="tooltip-container"><div class="tooltip"></div><div class="pointer"></div></div>');
 $tooltip = $('.tooltip');
+$pointer = $(".pointer");
 
 $('[title]').each(function() {
   var title = $(this).attr('title');
@@ -15,7 +16,9 @@ $('[title]').each(function() {
 
 $('.post-content').on('mouseenter', '[data-title]' , function() {
   var offset = $(this).offset();
-  $tooltip.text($(this).data('title')).css('max-width',$(this).width()).stop().fadeIn();
+  var width = $(this).width();
+  $(".tooltip-container").stop().fadeIn();
+  $tooltip.text($(this).data('title')).css('max-width',$(this).width());
   var h = $tooltip.height();
   
   $tooltip.css({
@@ -23,10 +26,16 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
     'left': offset.left,
     'word-wrap': 'break-word'
   });
+
+  $pointer.css({
+    'top' : offset.top - 12,
+    'left': offset.left + (width/2),
+  });
+
 });
 
 $('.post-content').on('mouseleave','[data-title]' , function(e) {
-  $tooltip.stop().fadeOut();
+  $(".tooltip-container").stop().fadeOut();
 });
 
 

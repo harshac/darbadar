@@ -28,26 +28,29 @@ a:visited {
 }
 
 // Tooltips
+.tooltip-container{
+		display: none;
+}
 .tooltip {
-	display: none;
 	position: absolute;
 	background: $grey-color-dark;
 	padding: 10px 16px;
 	border-radius: 3px;
 	color: #fff;
 	font-size: 16px;
-	&:after {
-		content: "";
-		width: 0;
-		height: 0;
-		border: 10px solid $grey-color-dark;
-		position: absolute;
-		bottom: -20px;
-		left: 50%;
-		margin-left: -10px;
-		border-color: $grey-color-dark transparent transparent;
-	}
 }
+
+.pointer {
+	width: 0;
+	height: 0;
+	border: 10px solid $grey-color-dark;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -10px;
+	border-color: $grey-color-dark transparent transparent;
+}
+
 
 [data-title] {
 	padding: 5px 0;
