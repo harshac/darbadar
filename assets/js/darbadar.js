@@ -8,6 +8,7 @@ $('.post-content img').each(function(){
 $('body').append('<div class="tooltip-container"><div class="tooltip"></div><div class="pointer"></div></div>');
 $tooltip = $('.tooltip');
 $pointer = $(".pointer");
+$container = $(".post-body");
 
 $('[title]').each(function() {
   var title = $(this).attr('title');
@@ -18,12 +19,15 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   var offset = $(this).offset();
   var width = $(this).width();
   $(".tooltip-container").stop().fadeIn();
-  $tooltip.text($(this).data('title')).css('max-width',$(this).width());
+  $tooltip.text($(this).data('title')).css('max-width',$container.width());
   var h = $tooltip.height();
-  
+
+  var containerRightOffset = $container.offset().left + $container.width();
+  var spaceAvailable = containerRightOffset - offset.left;
+
   $tooltip.css({
     'top' : offset.top - h - 30,
-    'left': offset.left,
+    'left': $tooltip.width() > spaceAvailable ? offset.left - ($tooltip.width() - spaceAvailable) : offset.left,
     'word-wrap': 'break-word'
   });
 
