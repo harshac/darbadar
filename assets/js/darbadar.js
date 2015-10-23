@@ -18,21 +18,23 @@ $('[title]').each(function() {
 $('.post-content').on('mouseenter', '[data-title]' , function() {
   var offset = $(this).offset();
   var width = $(this).width();
+  var containerWidth = $container.width();
   $(".tooltip-container").stop().fadeIn();
-  $tooltip.text($(this).data('title')).css('max-width',$container.width()-20);
-  var h = $tooltip.height();
+  $tooltip.text($(this).data('title')).css('max-width',containerWidth);
 
-  var containerRightOffset = $container.offset().left + $container.width();
+  var containerRightOffset = $container.offset().left + containerWidth;
   var spaceAvailable = containerRightOffset - offset.left;
+  var tooltipWidth = $tooltip.width();
+  var h = $tooltip.height();
 
   $tooltip.css({
     'top' : offset.top - h - 30,
-    'left': $tooltip.width() > spaceAvailable ? offset.left - ($tooltip.width() - spaceAvailable) : offset.left,
+    'left': tooltipWidth > spaceAvailable ? offset.left - ( tooltipWidth- spaceAvailable) : offset.left,
     'word-wrap': 'break-word'
   });
 
   $pointer.css({
-    'top' : $tooltip.offset().top + h + 20,
+    'top' : $tooltip.offset().top + h + 19,
     'left': offset.left + (width/2),
   });
 
