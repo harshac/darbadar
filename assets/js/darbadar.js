@@ -20,7 +20,9 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   var width = $(this).width();
   var containerWidth = $container.width();
   $(".tooltip-container").stop().fadeIn();
-  $tooltip.text($(this).data('title')).css('max-width',containerWidth);
+  resetTooltipPosition();
+  var tooltipPadding = 20;
+  $tooltip.text($(this).data('title')).css('max-width',containerWidth - tooltipPadding);
 
   var containerRightOffset = $container.offset().left + containerWidth;
   var spaceAvailable = containerRightOffset - offset.left;
@@ -39,6 +41,12 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   });
 
 });
+
+var resetTooltipPosition = function(){
+  $tooltip.css({
+    'left': 0
+  });
+}
 
 $('.post-content').on('mouseleave','[data-title]' , function(e) {
   $(".tooltip-container").stop().fadeOut();
