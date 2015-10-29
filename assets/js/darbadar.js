@@ -16,25 +16,32 @@ $('[title]').each(function() {
 });
 
 $('.post-content').on('mouseenter', '[data-title]' , function() {
+  // reset
+  $('.tooltip, .pointer').css({
+    top: 0,
+    left: 0
+  });
+
   var offset = $(this).offset();
   var width = $(this).width();
-  var containerWidth = $container.width();
+  var containerWidth = $container.width() - 32;
+
   $(".tooltip-container").stop().fadeIn();
-  $tooltip.text($(this).data('title')).css('max-width',containerWidth);
+  $tooltip.css('max-width',containerWidth).text($(this).data('title'));
 
   var containerRightOffset = $container.offset().left + containerWidth;
   var spaceAvailable = containerRightOffset - offset.left;
-  var tooltipWidth = $tooltip.width();
-  var h = $tooltip.height();
+  var tooltipWidth = $tooltip.outerWidth();
+  var h = $tooltip.outerHeight();
 
   $tooltip.css({
-    'top' : offset.top - h - 30,
-    'left': tooltipWidth > spaceAvailable ? offset.left - ( tooltipWidth- spaceAvailable) : offset.left,
+    'top' : offset.top - h - 10, // magic number arrived after trial and error ;)
+    'left': tooltipWidth > spaceAvailable ? offset.left - ( tooltipWidth - spaceAvailable) + 32 : offset.left,
     'word-wrap': 'break-word'
   });
 
   $pointer.css({
-    'top' : $tooltip.offset().top + h + 19,
+    'top' : offset.top - 10, // magic number arrived after trial and error ;)
     'left': offset.left + (width/2),
   });
 
