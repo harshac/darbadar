@@ -17,10 +17,7 @@ $('[title]').each(function() {
 
 $('.post-content').on('mouseenter', '[data-title]' , function() {
   // reset
-  $('.tooltip, .pointer').css({
-    top: 0,
-    left: 0
-  });
+  resetTooltipPosition();
 
   var offset = $(this).offset();
   var width = $(this).width();
@@ -46,6 +43,13 @@ $('.post-content').on('mouseenter', '[data-title]' , function() {
   });
 
 });
+
+var resetTooltipPosition = function(){
+  $('.tooltip, .pointer').css({
+    top: 0,
+    left: 0
+  });
+}
 
 $('.post-content').on('mouseleave','[data-title]' , function(e) {
   $(".tooltip-container").stop().fadeOut();
