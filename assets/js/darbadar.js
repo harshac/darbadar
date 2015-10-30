@@ -64,3 +64,7 @@ var openPopup = function(href){
   var windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes,centerscreen,width=550,height=420,top='+top+', left='+left;
   window.open(href,'Share', windowOptions);
 }
+
+$(document).ready(function() {
+  $("img").unveil();
+});
