@@ -90,9 +90,24 @@ var gallery = {
       });
       $('body').addClass('gallery-loaded');
       gallery.loadThumbnails();
+      gallery.initializeBlogImages();
+      gallery.initializeLazyLoading();
       gallery.bindEvents();
     });
   },
+
+  initializeBlogImages: function(){
+    $('.post-content img').each(function(){
+      var name=$(this).attr('name');
+      var image = gallery.findImage(name);
+      $(this).attr('data-src', image.c_src);
+      $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + image.caption + "</div>")
+    });
+  },
+
+  initializeLazyLoading: function(){
+    $("img").unveil();
+  }, 
 
   loadThumbnails: function() {
     var listOfImages = gallery.album
@@ -102,22 +117,17 @@ var gallery = {
     for (var i = 0, len = album.length; i < len; i++) {
       $(".carousel").append("<div class='thumbnail' style='background-image:url(" + album[i].t_src + "); background-size:cover' name='" + gallery.album[i].name + "'></div>");
     }
+    
+    gallery.initializeCarousel();
+  },
+
+  initializeCarousel: function(){
     $(".carousel").slick({
       infinite: true,
       speed: 300,
       slidesToShow: 4,
       variableWidth: true
     });
-
-    // Image captions
-    $('.post-content img').each(function(){
-      var name=$(this).attr('name');
-      var image = gallery.findImage(name);
-      $(this).attr('data-src', image.c_src);
-      $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + image.caption + "</div>")
-    });
-
-    $("img").unveil();
   },
 
 
