@@ -28,6 +28,10 @@ var gallery = {
     this._showImage(image);
   },
 
+  findImage: function(name) {
+    return gallery.album.filter(function(el){return el.name == name})[0]
+  },
+
   showImageByIndex: function(index) {
     this.currentImageIndex = index; // set current index
     this._showImage(this.album[index]);
@@ -72,7 +76,7 @@ var gallery = {
   },
 
   loadAlbum: function(album_id) {
-    $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_m,url_o,url_s,url_l,url_z,description&photoset_id=" + album_id, function(data) {
+    $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_c,url_o,url_s,url_l,url_z,description&photoset_id=" + album_id, function(data) {
       gallery.album = data.photoset.photo.map(function(photo) {
         return {
           name: photo.title,
@@ -80,6 +84,7 @@ var gallery = {
           width: photo.width_l,
           height: photo.height_l,
           t_src: photo.url_t,
+          c_src: photo.url_c,
           caption: photo.description._content
         }
       });
@@ -103,6 +108,16 @@ var gallery = {
       slidesToShow: 4,
       variableWidth: true
     });
+
+    // Image captions
+    $('.post-content img').each(function(){
+      var name=$(this).attr('name');
+      var image = gallery.findImage(name);
+      $(this).attr('data-src', image.c_src);
+      $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + image.caption + "</div>")
+    });
+
+    $("img").unveil();
   },
 
 

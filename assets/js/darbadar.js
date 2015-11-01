@@ -1,9 +1,3 @@
-// Image captions
-$('.post-content img').each(function(){
-  var caption = $(this).attr('data-caption');
-  $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + caption + "</div>")
-});
-
 // Tooltips
 $('body').append('<div class="tooltip-container"><div class="tooltip"></div><div class="pointer"></div></div>');
 $tooltip = $('.tooltip');
@@ -64,7 +58,3 @@ var openPopup = function(href){
   var windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes,centerscreen,width=550,height=420,top='+top+', left='+left;
   window.open(href,'Share', windowOptions);
 }
-
-$(document).ready(function() {
-  $("img").unveil();
-});
