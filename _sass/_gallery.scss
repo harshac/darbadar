@@ -80,6 +80,7 @@
   bottom: 0;
   width: 100%;
   color: #fff;
+  display: none;
   p {
     text-align: center;
     margin: 0 auto;
@@ -87,4 +88,8 @@
     box-sizing: border-box;
     background-color: rgba(0,0,0,0.8);
   }
+}
+
+.gallery-image-container:hover .gallery-image-caption{
+  display:block;
 }
