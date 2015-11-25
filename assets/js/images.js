@@ -89,10 +89,12 @@ var gallery = {
         }
       });
       $('body').addClass('gallery-loaded');
-      gallery.loadThumbnails();
       gallery.initializeBlogImages();
       gallery.initializeLazyLoading();
-      gallery.bindEvents();
+      if(!isMobile()){
+        gallery.loadThumbnails();
+        gallery.bindEvents();
+      }
     });
   },
 
@@ -182,7 +184,7 @@ var isMobile= function() {
 // On DOM ready, load the gallery if albumId is present in the post
 $(function() {
   var album_id = $('.post').data('album-id');
-  if (!!album_id && !isMobile()) {
+  if (!!album_id) {
     gallery.loadAlbum(album_id);
   }
 })
