@@ -1,0 +1,35 @@
+.follow{
+  text-align: center;
+  text-transform: uppercase;
+  p{
+    font-size: 16px;
+    line-height:3.5em;
+  }
+}
+
+.follow-item {
+  display: inline-block;
+  line-height: 1.8em;
+  width: 1.8em;
+  text-align: center;
+  border-radius: 100px;
+  margin-left:10px;
+  padding: 0;
+  color: #fff;
+}
+
+a:visited{
+  color: #fff;
+}
+
+.follow-fb{
+  background-color: #3b5998;
+}
+
+.follow-twitter{
+  background-color: #55acee;
+}
+
+.follow-instagram{
+  background-color: #3f729b;
+}
