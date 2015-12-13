@@ -1,18 +1,18 @@
 <h1 class="page-heading">PostCards</h1>
 
 {% for post in site.categories.postcards %}
-    <div class="postcard">
-      <img class="postcard-img" src="{{post.featureImage}}" alt="{{post.title}}"/>
-      <div class="postcard-content">
-        <div class="postcard-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
-        <div class="postcard-location">
-          {% if post.location %}
-            <i class="fa fa-map-marker post-location-icon"></i>{{post.location}}
-          {% endif %}
-        </div>
-        <div class="postcard-caption">{{ post.content }}</div>
+  <div class="postcard">
+    <img class="postcard-img" src="{{post.featureImage}}" alt="{{post.title}}"/>
+    <div class="postcard-content">
+      <div class="postcard-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{  page.meta }}{% endif %}</div>
+      <div class="postcard-location">
+        {% if post.location %}
+          <i class="fa fa-map-marker post-location-icon"></i>{{post.location}}
+        {% endif %}
       </div>
+      <div class="postcard-caption">{{ post.content }}</div>
     </div>
+  </div>
 {% endfor %}
 
 <div class="postcard-list clearfix">
