@@ -1,6 +1,6 @@
 .postcard {
   background: #e6e7e8;
-  width: 500px;
+  width: 550px;
 }
 
 .postcard-content{
@@ -23,7 +23,8 @@
 }
 
 .col {
-  width: 100px;
-  display: inline-block;
+  width: 550px;
+  display: block;
   margin-right: 20px;
+  float: left;
 }
