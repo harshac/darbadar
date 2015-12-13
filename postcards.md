@@ -4,4 +4,3 @@ title: Postcards
 permalink: /postcards/
 ---
 
-{% include postcard.html %}
