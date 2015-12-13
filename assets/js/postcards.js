@@ -1,13 +1,10 @@
 function arrange(elements, cols) {
-    elements.each(function(i, elem) {
-        putInContainer(elem,cols); // though this can be written better in JS
-    });
+    elements.each(putInContainer.bind(cols));
 }
 
-function putInContainer(elem, cols) {
-    var smallestCol = getSmallestCol(cols);
-    // var tile="<div class='tile'><img src='' class='tile-img' alt=''/><p></div>"
-    $(cols[smallestCol]).append(elem);
+function putInContainer(i, elem) {
+    var smallestCol = getSmallestCol(this);
+    $(this[smallestCol]).append(elem);
 }
 
 function getColSize(col) {

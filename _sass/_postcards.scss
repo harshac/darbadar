@@ -1,22 +1,20 @@
 .postcard {
   background: #e6e7e8;
-  width: 550px;
   margin-bottom: 20px;
 }
 
 .postcard-content{
 	padding: 10px;
+  font-size: 15px;
 }
 
 .postcard-date{
 	display: inline;
-	font-size: medium;
 }
 
 .postcard-location{
 	display: inline;
 	float: right;
-	font-size: medium;
 }
 
 .postcard-caption{
@@ -24,14 +22,15 @@
 }
 
 .col {
-  width: 550px;
+  width: 290px;
   display: block;
-  margin-right: 20px;
+  margin-left: 20px;
   float: left;
 }
 
 .postcard-list{
 	margin: auto;
+  margin-left: -20px;
 }
 
 .clearfix{
