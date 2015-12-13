@@ -1,6 +1,7 @@
 .postcard {
   background: #e6e7e8;
   width: 550px;
+  margin-bottom: 20px;
 }
 
 .postcard-content{
@@ -27,4 +28,12 @@
   display: block;
   margin-right: 20px;
   float: left;
+}
+
+.postcard-list{
+	margin: auto;
+}
+
+.clearfix{
+	overflow:hidden;
 }
