@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
+		<article class="post-body" itemprop="articleBody">
+			<div class="post-meta has-bg">
+				<img src="{{page.featureImage}}"/>
+				<p class="post-date" itemprop="datePublished"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				<p class="post-location has-bg" itemprop="contentLocation">
+					{% if page.location %}
+						{% if page.latitude and page.longitude %}
+							<a href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
+								{{page.location}}</a>
+						{% else %}
+							<i class="fa fa-map-marker post-location-icon"></i>
+							{{page.location}}
+						{% endif %}
+					{% endif %}
+				</p>
+			</div>
+
+		
+			<div class="post-content">
+				{{ content }}
+			</div>
+		</article>
+
+	<footer class="post-footer">
+		{% include social-media.html %}
+		{% include comments.html %}
+	</footer>
+	<script src="/assets/js/google-analytics.js"> </script>  		
+</div>
+
