@@ -1,8 +1,25 @@
-.tile {
-  background: #ccc;
-  border: 1px solid #999;
-  display: block;
-  width: 100px;
+.postcard {
+  background: #e6e7e8;
+  width: 500px;
+}
+
+.postcard-content{
+	padding: 10px;
+}
+
+.postcard-date{
+	display: inline;
+	font-size: medium;
+}
+
+.postcard-location{
+	display: inline;
+	float: right;
+	font-size: medium;
+}
+
+.postcard-caption{
+	margin-top:15px;
 }
 
 .col {
