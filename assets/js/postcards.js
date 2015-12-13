@@ -6,13 +6,11 @@ function arrange(elements, cols) {
 
 function putInContainer(elem, cols) {
     var smallestCol = getSmallestCol(cols);
+    // var tile="<div class='tile'><img src='' class='tile-img' alt=''/><p></div>"
     $(cols[smallestCol]).append(elem);
 }
 
 function getColSize(col) {
-    // return col.reduce(function(prev, curr) {
-    //     return prev + curr;
-    // },0);
   return $(col).height();
 }
 
@@ -32,10 +30,7 @@ function getSmallestCol(cols) {
 }
 
 $(function() {
-  var tiles = $('.tile');
-  tiles.each(function(index, tile) {
-    $(tile).height(40 + (Math.random() * 40) );
-  });
+  var tiles = $('.post');
   var cols = $('.col')
   arrange(tiles, cols);
 })
