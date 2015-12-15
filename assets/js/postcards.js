@@ -27,7 +27,7 @@ function getSmallestCol(cols) {
 }
 
 $(function() {
-  var tiles = $('.postcard');
+  var tiles = $('.postcard-container');
   var cols = $('.col')
   arrange(tiles, cols);
 })
