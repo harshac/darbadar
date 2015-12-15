@@ -5,16 +5,18 @@
 
 .postcard-content{
 	padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .postcard-date{
 	display: inline;
+  font-size: medium;
 }
 
 .postcard-location{
 	display: inline;
 	float: right;
+  font-size: medium;
 }
 
 .postcard-caption{
@@ -22,7 +24,7 @@
 }
 
 .col {
-  width: 290px;
+  width: 390px;
   display: block;
   margin-left: 20px;
   float: left;
