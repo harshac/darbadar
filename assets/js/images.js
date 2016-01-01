@@ -85,6 +85,7 @@ var gallery = {
           height: photo.height_l,
           t_src: photo.url_t,
           c_src: photo.url_c,
+          z_src: photo.url_z,
           caption: photo.description._content
         }
       });
@@ -102,7 +103,8 @@ var gallery = {
     $('.post-content img').each(function(){
       var name=$(this).attr('name');
       var image = gallery.findImage(name);
-      $(this).attr('data-src', image.c_src);
+      var imageSrc = (!!image.c_src) ? image.c_src : image.z_src;
+      $(this).attr('data-src', imageSrc);
       $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + image.caption + "</div>")
     });
   },
