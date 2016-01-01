@@ -1,4 +1,4 @@
-// Gallery
+  // Gallery
 var gallery = {
   album: null,
   currentImageIndex: 0,
@@ -75,7 +75,7 @@ var gallery = {
     }
   },
 
-  loadAlbum: function(album_id) {
+  loadAlbum: function(album_id, gallery_enabled) {
     $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_c,url_o,url_s,url_l,url_z,description&photoset_id=" + album_id, function(data) {
       gallery.album = data.photoset.photo.map(function(photo) {
         return {
@@ -89,12 +89,13 @@ var gallery = {
           caption: photo.description._content
         }
       });
-      $('body').addClass('gallery-loaded');
       gallery.initializeBlogImages();
       gallery.initializeLazyLoading();
-      if(!isMobile()){
+      if(!isMobile() && gallery_enabled){
+        $('body').addClass('gallery-loaded');
         gallery.loadThumbnails();
         gallery.bindEvents();
+        gallery.makeImagesClickable();
       }
     });
   },
@@ -134,6 +135,13 @@ var gallery = {
     });
   },
 
+  makeImagesClickable: function(){
+    $("header").addClass("clickable");
+
+    $(".image").each(function(){
+      $(this).addClass("clickable");
+    })
+  },
 
   bindEvents: function() {
     $('.post-content img, .thumbnail').click(function() {
@@ -186,7 +194,8 @@ var isMobile= function() {
 // On DOM ready, load the gallery if albumId is present in the post
 $(function() {
   var album_id = $('.post').data('album-id');
+  var gallery_enabled = $('.post').data('gallery-enabled');
   if (!!album_id) {
-    gallery.loadAlbum(album_id);
+    gallery.loadAlbum(album_id, gallery_enabled);
   }
 })

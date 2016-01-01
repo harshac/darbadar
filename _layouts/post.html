@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}" data-gallery-enabled="{{page.galleryEnabled}}">
 
 	{% if page.featureImage %}
-		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}'); cursor: pointer; background-position: {{page.positionX}} {{page.positionY}}">
+		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
 			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 		</header>
 	{% else %}
@@ -33,10 +33,13 @@ layout: default
 		
 			<div class="post-content">
 				{{ content }}
-				<div class="carousel">
-				</div>
+				{% if page.galleryEnabled %}
+					<div class="carousel"></div>
+				{% endif %}
 			</div>
-			{% include gallery.html %}	
+			{% if page.galleryEnabled %}
+				{% include gallery.html %}	
+			{% endif %}
 		</article>
 
 	<footer class="post-footer">

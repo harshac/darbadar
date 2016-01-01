@@ -12,6 +12,7 @@ tags: Travel
 socialMedia: 
 albumId: 72157660710608723 
 published: true
+galleryEnabled: false
 ---
 
 
