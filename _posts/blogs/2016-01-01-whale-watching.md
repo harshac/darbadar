@@ -4,16 +4,17 @@ title: A whale of a time
 location: "Monteray Bay, California, United States of America"
 latitude: 36.604715
 longitude: -121.8935654
-featureImage: https://c2.staticflickr.com/6/5739/24021465761_a7d962764e_z.jpg
-positionX: 0%
-positionY: 40%
+featureImage: "https://c2.staticflickr.com/6/5739/24021465761_a7d962764e_z.jpg"
+positionX: "0%"
+positionY: "40%"
 categories: stories
-tags: Travel 
-socialMedia: 
-albumId: 72157660710608723 
+tags: Travel
+socialMedia: null
+albumId: 72157660710608720
 published: true
 galleryEnabled: false
 ---
+
 
 
 _“For those of you who need to puke...”_
@@ -54,7 +55,7 @@ One minute. Two minutes. Seven. Eight. Twelve. A dark form rose from the water l
 
 ![HumpbackWhale](){:name="humpback"}
 
-Then there was a massive thunderclap from somewhere behind us on the other side of the boat. I turned around just in time to see the whale's white combed underbelly and head disappear into the water, its lateral fins spread wide on either side, as if trying to say a hello, the perfection of its bumpy skin jaw-dropping. A humpback had breached.  
+Then there was a massive thunderclap from somewhere behind us on the other side of the boat. I turned around just in time to see the whale's white combed underbelly and head disappear into the water, its pectoral fins spread wide on either side, as if trying to say a hello, the perfection of its bumpy skin jaw-dropping. A humpback had breached.  
 
 A breach is a leap out of water, a behaviour observed in various species of whales, humpback and sperm whales known to be the most enthusiastic of the lot. Imagine a fifty-feet long creature, weighing anywhere between 27-45 tonnes leaping out of water. Scientists are uncertain if this behavior serves some purpose, such as cleaning pests from the whale's skin, or whether it is done simply for thrills. I, for one, think that they are just having some good old-fashioned fun. 
 
@@ -82,8 +83,4 @@ _“Humpback whales have one of the longest known migratory journeys of any mamm
 
 I sporadically picked up words from our guide's talk without meaning to, my eyes set on the humpbacks that were swimming away from us. Perhaps this might sound absurd, but I felt a tremendous gush of sadness as I saw them leave, the kind that one feels when one has to bid adieu to a friend knowing that they will never meet again. 
 
-The engine of the boat revved. The humpbacks had sunk into the depths of the ocean. The goosebumps on my skin were gone. It was time to go home. And tell the story of the day that I met the most extraordinary traveller I have ever known - one who sees more of this world in a day than most of us will in a lifetime, story of that time when I lost my heart to a wayward soul. 
-
-
-  
- 
+The engine of the boat revved. The humpbacks had sunk into the depths of the ocean. The goosebumps on my skin were gone. It was time to go home. And tell the story of the day that I met the most extraordinary traveller I have ever known - one who sees more of this world in a day than most of us will in a lifetime, story of that time when I lost my heart to a wayward soul.
