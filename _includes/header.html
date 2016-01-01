@@ -18,7 +18,7 @@
 
       <div class="trigger">
         {% for this_page in site.pages %}
-          {% if this_page.title and this_page.url != "/404.html" %}
+          {% if this_page.title and this_page.title !="Postcards" and this_page.url != "/404.html" %}
             <a class="page-link {% if this_page.url == page.url %}active{% endif %}" href="{{ this_page.url | prepend: site.baseurl }}">{{ this_page.title }}</a>
           {% endif %}
         {% endfor %}

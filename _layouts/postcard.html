@@ -1,21 +1,10 @@
 ---
 layout: default
 ---
-<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}" data-gallery-enabled="{{page.galleryEnabled}}">
-
-	{% if page.featureImage %}
-		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
-			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-		</header>
-	{% else %}
-		<header class="post-header">
-			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-		</header>	
-	{% endif %}	
-		
-
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
 		<article class="post-body" itemprop="articleBody">
 			<div class="post-meta has-bg">
+				<img src="{{page.featureImage}}"/>
 				<p class="post-date" itemprop="datePublished"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 				<p class="post-location has-bg" itemprop="contentLocation">
 					{% if page.location %}
@@ -33,13 +22,7 @@ layout: default
 		
 			<div class="post-content">
 				{{ content }}
-				{% if page.galleryEnabled %}
-					<div class="carousel"></div>
-				{% endif %}
 			</div>
-			{% if page.galleryEnabled %}
-				{% include gallery.html %}	
-			{% endif %}
 		</article>
 
 	<footer class="post-footer">
@@ -48,4 +31,3 @@ layout: default
 	</footer>
 	<script src="/assets/js/google-analytics.js"> </script>  		
 </div>
-

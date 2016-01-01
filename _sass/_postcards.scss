@@ -1,0 +1,44 @@
+.postcard {
+  background: #e6e7e8;
+  margin-bottom: 20px;
+}
+
+.postcard-content{
+	padding: 10px;
+  font-size: 20px;
+}
+
+.postcard-date{
+	display: inline;
+  font-size: medium;
+}
+
+.postcard-location{
+	display: inline;
+	float: right;
+  font-size: medium;
+}
+
+.postcard-caption{
+	margin-top:15px;
+}
+
+.col {
+  width: 390px;
+  display: block;
+  margin-left: 20px;
+  float: left;
+}
+
+.postcard-list{
+	margin: auto;
+  margin-left: -20px;
+}
+
+.postcard-link:visited{
+  color: black;
+}
+
+.clearfix{
+	overflow:hidden;
+}

@@ -5,7 +5,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Travel trails of two friends
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://darbadar.com" # the base hostname & protocol for your site
-permalink: /stories/:year/:month/:title/
 timezone: Asia/Kolkata
 imageurl: https://farm1.staticflickr.com
 imagesize: c

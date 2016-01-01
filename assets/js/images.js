@@ -1,4 +1,4 @@
-// Gallery
+  // Gallery
 var gallery = {
   album: null,
   currentImageIndex: 0,
@@ -75,7 +75,7 @@ var gallery = {
     }
   },
 
-  loadAlbum: function(album_id) {
+  loadAlbum: function(album_id, gallery_enabled) {
     $.getJSON("https://api.flickr.com/services/rest/?&format=json&jsoncallback=?&api_key=cfff126f86dcd7009dbce5fe2e253f57&method=flickr.photosets.getPhotos&extras=url_t,url_c,url_o,url_s,url_l,url_z,description&photoset_id=" + album_id, function(data) {
       gallery.album = data.photoset.photo.map(function(photo) {
         return {
@@ -85,15 +85,17 @@ var gallery = {
           height: photo.height_l,
           t_src: photo.url_t,
           c_src: photo.url_c,
+          z_src: photo.url_z,
           caption: photo.description._content
         }
       });
-      $('body').addClass('gallery-loaded');
       gallery.initializeBlogImages();
       gallery.initializeLazyLoading();
-      if(!isMobile()){
+      if(!isMobile() && gallery_enabled){
+        $('body').addClass('gallery-loaded');
         gallery.loadThumbnails();
         gallery.bindEvents();
+        gallery.makeImagesClickable();
       }
     });
   },
@@ -102,7 +104,8 @@ var gallery = {
     $('.post-content img').each(function(){
       var name=$(this).attr('name');
       var image = gallery.findImage(name);
-      $(this).attr('data-src', image.c_src);
+      var imageSrc = (!!image.c_src) ? image.c_src : image.z_src;
+      $(this).attr('data-src', imageSrc);
       $(this).wrap('<div class="image"></div>').after("<div class='image-caption'>" + image.caption + "</div>")
     });
   },
@@ -132,6 +135,13 @@ var gallery = {
     });
   },
 
+  makeImagesClickable: function(){
+    $("header").addClass("clickable");
+
+    $(".image").each(function(){
+      $(this).addClass("clickable");
+    })
+  },
 
   bindEvents: function() {
     $('.post-content img, .thumbnail').click(function() {
@@ -184,7 +194,8 @@ var isMobile= function() {
 // On DOM ready, load the gallery if albumId is present in the post
 $(function() {
   var album_id = $('.post').data('album-id');
+  var gallery_enabled = $('.post').data('gallery-enabled');
   if (!!album_id) {
-    gallery.loadAlbum(album_id);
+    gallery.loadAlbum(album_id, gallery_enabled);
   }
 })
