@@ -4,7 +4,7 @@ title: A whale of a time
 location: "Monteray Bay, California, United States of America"
 latitude: 36.604715
 longitude: -121.8935654
-featureImage: https://c2.staticflickr.com/6/5739/24021465761_fb6d30ae6b_b.jpg
+featureImage: https://c2.staticflickr.com/6/5739/24021465761_a7d962764e_z.jpg
 positionX: 0%
 positionY: 40%
 categories: stories
@@ -16,11 +16,11 @@ galleryEnabled: false
 ---
 
 
-“For those of you who need to puke...”
+_“For those of you who need to puke...”_
 
 The bacon that I had had with egg—if I remember correctly—for breakfast earlier that morning did a nasty turn inside my stomach. 
 
-“If you suffer from sea-sickness...”
+_“If you suffer from sea-sickness...”_
 
 “Do you?”
 
@@ -28,7 +28,7 @@ The bacon that I had had with egg—if I remember correctly—for breakfast earl
 
 I sat near the toilet—anticipating the worst to happen—staring at an amoeboid spot on the seat cover that was only making my nausea worse. The waters had decided to be choppy that day. Donned in three layers of clothing, I was exhaling steam. I obviously needed three more. 
 
-“The difference between seals and sea lions is that...”
+_“The difference between seals and sea lions is that...”_
 
 I wouldn't have budged had it not been for a stench that could potentially curdle milk. 
 
@@ -42,7 +42,7 @@ I settled down once more as our boat gained speed, tearing into the waters of th
  
 Then a spout broke through the surface of the ocean in the distance. Moments later, another.
 
-When humpback whales breathe, their blow, a double stream of spray, rises 10-13 feet above the surface of the water – I read about it once in a book, one among many that I have read on the subject. Like a bump that first lingers beneath the skin and then gains a head, my fascination with whales, which began with reading Moby-Dick in seventh grade, grew with time until it begged to be released.
+_When humpback whales breathe, their blow, a double stream of spray, rises 10-13 feet above the surface of the water_ – I read about it once in a book, one among many that I have read on the subject. Like a bump that first lingers beneath the skin and then gains a head, my fascination with whales, which began with reading Moby-Dick in seventh grade, grew with time until it begged to be released.
 
 I was navigating my head like a meerkat would, clueless where to look. We were everywhere and nowhere all at once - the enormity of the Pacific dawned on me. At least three people on the boat were purging their breakfast into the ocean.
  
@@ -66,9 +66,9 @@ I couldn't have asked for more, I remember thinking to myself as I sat down, goi
 
 We had visitors - two humpback whales. They glided next to us with nonchalance as camera shutters exploded. 
 
-![Pectoral Fin](){:name="fin"}
-
 ![Tail](){:name="tail"}
+
+![Pectoral Fin](){:name="fin"}
 
 ![Head](){:name="head"}
 
@@ -78,7 +78,7 @@ We ran from one end of the boat to the other as the duo swam underneath us and a
 
 ![HumpbackWhale](){:name="whale-travel"}
 
-“Humpback whales have one of the longest known migratory journeys of any mammal on this planet...”
+_“Humpback whales have one of the longest known migratory journeys of any mammal on this planet...”_
 
 I sporadically picked up words from our guide's talk without meaning to, my eyes set on the humpbacks that were swimming away from us. Perhaps this might sound absurd, but I felt a tremendous gush of sadness as I saw them leave, the kind that one feels when one has to bid adieu to a friend knowing that they will never meet again. 
 
