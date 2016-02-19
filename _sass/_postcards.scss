@@ -25,10 +25,14 @@
 }
 
 .col {
-  width: 390px;
+  width: 340px;
   display: block;
   margin-left: 20px;
   float: left;
+  
+  @include media-query-min($on-laptop) {
+     width: 390px;
+  }
 }
 
 .postcard-list{
