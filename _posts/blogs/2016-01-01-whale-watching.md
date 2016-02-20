@@ -8,7 +8,7 @@ featureImage: "https://c2.staticflickr.com/6/5739/24021465761_26faf22a57_z.jpg"
 positionX: "40%"
 positionY: "40%"
 categories: stories
-tags: Travel
+tags: Travel Wildlife WhaleWatching
 socialMedia: null
 albumId: 72157660710608723
 published: true
