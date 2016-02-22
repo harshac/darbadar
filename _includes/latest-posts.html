@@ -1,0 +1,15 @@
+<h1 class="tag-heading">Latest</h1>
+<ul class="post-list cf">
+  {% for post in site.posts limit:3 %}
+      <li>
+  		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
+          <div class="post-link-inner">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if  post.categories contains "stories" %}
+              <h2 class="post-title">{{ post.title }}</h2>
+            {% endif %}
+          </div>
+    	 </a>
+      </li>
+  {% endfor %}
+</ul>
