@@ -1,24 +1,27 @@
 <div class="category">
-  <h1 class="tag-heading">{{ include.tag }}</h1>
-  <ul class="post-list cf">
+  <h1 class="tag-heading">All</h1>
+
+    <div class="card-columns">
     {% for post in site.posts %}
-    {% if post.tags contains include.tag %}  
-    <li>
       <a class="tile-link {{ post.categories }}" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="tile-link-outer">
-          <span class="tile-type">{{ post.categories }}</span>
-          <span class="tile-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <div class="tile-img" style="background-image:url({{post.featureImage}});"></div>
-          <span class="tile-location"><i class="fa fa-map-marker post-location-icon"></i> {{ post.location}}</span>
-        </div>
-        <div class="tile-link-inner">
-          {% if  post.categories contains "stories" %}
-          <h2 class="tile-title">{{ post.title }}</h2>
-          {% endif %}
+        <div class="card text-xs-center {{ post.theme }}">
+          <div class="card-header">
+            <small>{{ post.categories }}</small>
+          </div>
+          <!-- <span class="tile-type">{{ post.categories }}</span> -->
+          <img class="card-img-top" src="{{post.featureImage}}"></img>
+          <div class="card-block">
+            <span class="tile-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="tile-location"><i class="fa fa-map-marker post-location-icon"></i> {{ post.location}}</span>
+          </div>
+          <div class="tile-link-inner">
+            {% if  post.categories contains "stories" %}
+            <h3 class="card-title">{{ post.title }}</h3>
+            {% endif %}
+          </div>
         </div>
       </a>
-    </li>
-    {% endif %}
     {% endfor %}
-  </ul>
+  </div>
+
 </div>

@@ -6,8 +6,8 @@
       <a class="tile-link {{ post.categories }}" href="{{ post.url | prepend: site.baseurl }}">
         <div class="tile-link-outer">
           <span class="tile-type">{{ post.categories }}</span>
-          <span class="tile-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <div class="tile-img" style="background-image:url({{post.featureImage}});"></div>
+          <span class="tile-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <span class="tile-location"><i class="fa fa-map-marker post-location-icon"></i> {{ post.location}}</span>
         </div>
         <div class="tile-link-inner">
