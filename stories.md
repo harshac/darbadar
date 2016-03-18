@@ -4,4 +4,4 @@ title: Stories
 permalink: /stories/
 ---
 
-{% include stories-list.html %}
+{% include list.html %}
