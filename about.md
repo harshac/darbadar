@@ -2,6 +2,7 @@
 layout: page
 title: About us
 permalink: /about-us/
+order: 5
 ---
 
 A month before floods hit Jammu and Kashmir in September 2014, Harsha and I went for a trek in the Himalayas that started in Sonmarg. Although we both saw the worst of each other during that trek, we both managed to curb our desires to murder each other and in fact ended up having the best time of our lives. We realized that we can tolerate each other a little more than we give ourselves credit for. 
