@@ -3,8 +3,10 @@
 <ul class="post-list cf">
   {% for post in site.categories.videos %}
     <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <iframe src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+      <a class="video-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="video-container">
+          <iframe class="video-post" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+        </div>
         <div class="post-link-inner">
           <div class="postcard-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{  page.meta }}{% endif %}</div>
           <div class="postcard-location">
