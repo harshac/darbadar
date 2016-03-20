@@ -10,6 +10,7 @@
 .video-container{
 	width: 100%;
   position: relative;
+  margin-bottom: 16px;
   &:after {
     padding-top: (9/16)* 100%; //16:9 ratio
     display: block;
