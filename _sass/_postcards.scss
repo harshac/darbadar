@@ -17,6 +17,7 @@
 	display: inline;
 	float: right;
   font-size: medium;
+  line-height: 34px;
 }
 
 .postcard-caption{
@@ -45,5 +46,5 @@
 }
 
 .clearfix{
-	overflow:hidden;
+	@extend %clearfix;
 }
