@@ -1,0 +1,21 @@
+<h1 class="page-heading">Videos</h1>
+
+<ul class="post-list video-list cf">
+  {% for post in site.categories.videos %}
+    <li>
+      <a class="video-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="video-container">
+          <iframe class="video-post" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="post-link-inner">
+          <div class="postcard-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{  page.meta }}{% endif %}</div>
+          <div class="postcard-location">
+            {% if post.location %}
+              <i class="fa fa-map-marker post-location-icon"></i>{{post.location}}
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
