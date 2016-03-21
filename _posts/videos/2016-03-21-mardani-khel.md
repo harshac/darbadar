@@ -10,6 +10,7 @@ socialMedia:
 published: true
 galleryEnabled: false
 videoUrl: https://www.youtube.com/embed/CMwaYPCy-1A
+featureImage: https://s3-us-west-2.amazonaws.com/darbadar-videos-cover/1_mardani_khel.jpg
 ---
 
 
