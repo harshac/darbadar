@@ -5,18 +5,26 @@ layout: default
 
 	{% if page.featureImage %}
 		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
-			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 		</header>
 	{% else %}
 		<header class="post-header">
-			<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+			</div>
 		</header>	
 	{% endif %}	
 		
 
 		<article class="post-body" itemprop="articleBody">
 			<div class="post-meta has-bg">
-				<p class="post-date" itemprop="datePublished"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				<p class="post-date" itemprop="datePublished"> 
+					{{ page.date | date: "%b %-d, %Y" }}
+						{% if page.author %} • {{ page.author }}{% endif %}
+						{% if page.meta %} • {{ page.meta }}{% endif %}
+				</p>
+				<p class="post-read-time has-bg">
+					<i class="fa fa-clock-o post-read-time-icon"></i>
+				</p>
 				<p class="post-location has-bg" itemprop="contentLocation">
 					{% if page.location %}
 						{% if page.latitude and page.longitude %}
