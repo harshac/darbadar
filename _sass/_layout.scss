@@ -264,7 +264,7 @@
     margin: auto;
 }
 .post-header {
-    padding: 48px 0;
+    padding: 42px 0;
     margin-bottom: $spacing-unit/2;
     text-align: center;
     min-height: 146px;
@@ -381,9 +381,14 @@
     float: right;
 }
 
-.post-read-time{
-    display: inline;
-    margin-left: 29%;
+.post-read-time {
+    color: #fff;
+    text-shadow: 1px 1px 6px #000;
+    display: inline-block;
+    background: rgba(0,0,0,0.6);
+    padding: 0 9px 0 3px;
+    border-radius: 36px;
+    margin-bottom: 6px;
 }
 
 .post-read-time-icon{
