@@ -24,6 +24,13 @@ layout: null
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
+        <channel>
+            <image>
+                <url> {{ post.featureImage }}</url>
+                <title>{{ post.title | xml_escape }}</title>
+                <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+            </image>
+        </channel>
       </item>
     {% endfor %}
   </channel>
