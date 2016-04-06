@@ -13,6 +13,11 @@ layout: null
       {% endif %}
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
+      <image>
+        <url>{{ post.featureImage }}</url>
+        <title>{{ post.title}} </title>
+        <link> {{ post.url }} </link>
+      </image>
     </url>
   {% endfor %}
   {% for page in site.pages %}
