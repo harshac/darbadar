@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}" data-gallery-enabled="{{page.galleryEnabled}}">
+
+		<header class="post-header">
+				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+		</header>	
+
+		
+		<article class="post-body" itemprop="articleBody">
+			<div class="post-meta guide-meta">
+				<div class="post-date" itemprop="datePublished"> 
+					{{ page.date | date: "%b %-d, %Y" }}
+						{% if page.author %} • {{ page.author }}{% endif %}
+						{% if page.meta %} • {{ page.meta }}{% endif %}
+				</div>
+				
+				<div class="post-location" itemprop="contentLocation">
+					{% if page.location %}
+						{% if page.latitude and page.longitude %}
+							<a onclick="openPopup(this.href)" href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
+								{{page.location}}</a>
+						{% else %}
+							<i class="fa fa-map-marker post-location-icon"></i>
+							{{page.location}}
+						{% endif %}
+					{% endif %}
+				</div>
+			</div>
+
+		
+			<div class="guide-content">
+				
+					{{ content }}
+				
+				
+				{% if page.galleryEnabled %}
+					<div class="carousel carousel-mini"></div>
+					<div class="sticky-footer">
+						<div class="carousel-mini"></div>
+					</div>
+				{% endif %}
+			</div>
+			{% if page.galleryEnabled %}
+				{% include gallery.html %}	
+			{% endif %}
+		</article>
+
+	<footer class="post-footer">
+		{% include social-media.html %}
+		{% include comments.html %}
+	</footer>
+	<script src="/assets/js/google-analytics.js"> </script>  		
+</div>
