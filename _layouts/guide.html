@@ -9,7 +9,7 @@ layout: default
 
 		
 		<article class="post-body" itemprop="articleBody">
-			<div class="post-meta guide-meta">
+			<div class="post-meta">
 				<div class="post-date" itemprop="datePublished"> 
 					{{ page.date | date: "%b %-d, %Y" }}
 						{% if page.author %} • {{ page.author }}{% endif %}
@@ -47,9 +47,6 @@ layout: default
 			{% endif %}
 		</article>
 
-	<footer class="post-footer">
-		{% include social-media.html %}
-		{% include comments.html %}
-	</footer>
+	{% include post-footer.html %}
 	<script src="/assets/js/google-analytics.js"> </script>  		
 </div>
