@@ -8,13 +8,13 @@
         font-size: 26px;
         border-bottom: rgba(211,211,211, 0.7) solid 1px;
         margin-top: 10px;
-    	padding-top: 10px;
-    	padding-left:10px;
+        padding-top: 10px;
+        padding-left:10px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
             margin-top: 15px;
-    		padding-top: 15px;
+            padding-top: 15px;
         }
     }
 
@@ -24,11 +24,11 @@
         margin-bottom: 2em;
     }
 
-	ul {
-		font-family: "Source Serif Pro";
-		line-height: 1.6;
+    ul {
+        font-family: "Source Serif Pro";
+        line-height: 1.6;
         margin-bottom: 2em;
-	}
+    }
 }
 
 .guide-section {
@@ -38,3 +38,36 @@
     }
     @extend %clearfix;
 }
+
+
+.guide-section h3{
+    position:relative;
+}
+
+.guide-section h3:before {
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    padding-right:10px;
+}
+
+.hotels h3:before {
+    content: "\f236"; 
+}
+
+.food h3:before {
+    content: "\f0f5"; 
+}
+
+.bicycle h3:before {
+    content: "\f206"; 
+}
+
+.water-sport h3:before {
+    content: "\f1cd"; 
+}
+
+.expenses h3:before {
+    content: "\f0d6";
+}
+
