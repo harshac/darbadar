@@ -30,3 +30,11 @@
         margin-bottom: 2em;
 	}
 }
+
+.guide-section {
+    @include media-query-min($on-palm){
+        width: 50%;
+        float: left;
+    }
+    @extend %clearfix;
+}
