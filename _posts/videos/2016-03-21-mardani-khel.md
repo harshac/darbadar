@@ -7,6 +7,7 @@ longitude: 74.1688274
 categories: videos
 tags: Travel Culture India Maharashtra History MartialArt 
 socialMedia: 
+genre: History
 published: true
 galleryEnabled: false
 videoUrl: https://www.youtube.com/embed/K1hiWyhFUKU
