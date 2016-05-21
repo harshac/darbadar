@@ -1,8 +1,9 @@
 <h1 class="page-heading">Stories</h1>
 
 <ul class="post-list cf">
-  {% for post in site.categories.stories %}
-    <li>
+  {% for post in site.posts %}
+    {% if post.categories != "guides" %}
+      <li>
   		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
         <div class="post-link-inner">
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -10,5 +11,6 @@
         </div>
     	</a>
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
