@@ -2,9 +2,10 @@
 
 <ul class="post-list cf">
   {% for post in site.posts %}
-    {% if post.categories != "guides" %}
-      <li>
-  		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
+    {% if post.categories contains "guides" %}
+    {% else %}
+    <li>
+  		<a class="post-link {{ post.genre | downcase }}" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
         <div class="post-link-inner">
           <span class="post-meta">{{ post.genre }}</span>
           <h2 class="post-title">{{ post.title }}</h2>
