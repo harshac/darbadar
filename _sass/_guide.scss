@@ -29,6 +29,8 @@
         line-height: 1.6;
         margin-bottom: 2em;
     }
+
+    @extend %clearfix;
 }
 
 .guide-section {
@@ -36,7 +38,6 @@
         width: 50%;
         float: left;
     }
-    @extend %clearfix;
 }
 
 
