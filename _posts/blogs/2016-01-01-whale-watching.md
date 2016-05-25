@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A whale of a time
-location: "Monteray Bay, California, United States of America"
+location: "Monteray Bay, California, USA"
 latitude: 36.604715
 longitude: -121.8935654
 featureImage: "https://c2.staticflickr.com/6/5739/24021465761_26faf22a57_z.jpg"

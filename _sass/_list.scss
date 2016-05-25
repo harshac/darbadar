@@ -30,11 +30,16 @@
         }
 
         .post-meta{
+            font-size: 16px;
             margin-top: 10px;
+            color: #000;
         }
     }
 }
 
+.right{
+    float: right;
+}
 
 .post-link {
     display: block;
@@ -65,6 +70,10 @@
     border-top: 7px solid;
 }
 
+.post-genre{
+    text-transform: uppercase;
+}
+
 .history{
     border-color: red;
 }
@@ -79,4 +88,23 @@
 
 .adventure {
     border-color: blue;
+}
+
+.post-category:before {
+    font-family: FontAwesome;
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-right:10px;
+    color: #fff;
+}
+
+.videos:before {
+    content: "\f008"; 
+}
+.stories:before{
+    content: "\f1ea"; 
+}
+.postcards:before{
+    content: "\f03e"; 
 }
