@@ -1,0 +1,82 @@
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+        float: left;
+        width: $box-width;
+        height: $box-height;
+        margin-right: $spacing-unit;
+         border: 1px solid $grey-color-light;
+        box-sizing: border-box;
+
+        &:nth-of-type(3n) {
+            margin-right: 0;
+        }
+        &:nth-of-type(3n+1) {
+            clear: both;
+        }
+
+        h3 a {
+            font-weight: 800;
+            color: $text-color;
+        }
+
+        @include media-query($on-palm) {
+            float: none;
+            width: auto;
+            margin-right: 0;
+        }
+
+        .post-meta{
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.post-link {
+    display: block;
+    font-size: 24px;
+    height: 100%;
+    position: relative;
+
+    .post-title {
+        color: #000;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.post-img{
+    width:100%;
+    background-color: $grey-color-light;
+    background-size: cover;
+    height: $box-image-height;
+}
+
+.post-link-inner{
+    padding: 10px;
+    border-top: 7px solid;
+}
+
+.history{
+    border-color: red;
+}
+
+.culture{
+    border-color: yellow;   
+}
+
+.wildlife{
+    border-color: green;
+}
+
+.adventure {
+    border-color: blue;
+}

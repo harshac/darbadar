@@ -29,8 +29,8 @@ $on-palm:          600px;
 $on-laptop:        1280px;
 $on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
-$box-height:       $box-width / 1.6;
-
+$box-height:       $box-width - 20;
+$box-image-height: $box-width / 1.6;
 
 
 // Using media queries with like this:
@@ -68,5 +68,6 @@ $box-height:       $box-width / 1.6;
         "follow",
         "postcards",
         "video-post",
-        "guide"
+        "guide",
+        "list"
 ;

@@ -5,8 +5,9 @@
     {% if post.categories contains "guides" %}
     {% else %}
     <li>
-  		<a class="post-link {{ post.genre | downcase }}" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url({{post.featureImage}});">
-        <div class="post-link-inner">
+  		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-img" style="background-image:url({{post.featureImage}});"></div>
+        <div class="post-link-inner {{ post.genre | downcase }}">
           <span class="post-meta">{{ post.genre }}</span>
           <h2 class="post-title">{{ post.title }}</h2>
         </div>
