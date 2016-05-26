@@ -8,8 +8,9 @@
         width: $box-width;
         height: $box-height;
         margin-right: $spacing-unit;
-         border: 1px solid $grey-color-light;
+        box-shadow: 0 4px 10px $grey-color-light;
         box-sizing: border-box;
+        border-radius: 3px;
 
         &:nth-of-type(3n) {
             margin-right: 0;
@@ -63,6 +64,7 @@
     background-color: $grey-color-light;
     background-size: cover;
     height: $box-image-height;
+    border-radius: 3px 3px 0 0;
 }
 
 .post-link-inner{
@@ -75,19 +77,19 @@
 }
 
 .history{
-    border-color: red;
+    border-color: #ff4d4d;
 }
 
 .culture{
-    border-color: yellow;   
+    border-color: #ffea00;
 }
 
 .wildlife{
-    border-color: green;
+    border-color: #008000;
 }
 
 .adventure {
-    border-color: blue;
+    border-color: #1e90ff;
 }
 
 .post-category:before {
