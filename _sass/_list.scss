@@ -32,8 +32,8 @@
 
         .post-meta{
             font-size: 16px;
-            margin-top: 10px;
             color: #000;
+            margin-bottom: 0px !important;
         }
     }
 }
@@ -51,8 +51,8 @@
     .post-title {
         color: #000;
         font-size: 24px;
-        margin-top: 10px;
         text-align: center;
+        margin-top: 10px;
     }
 
     &:hover{
