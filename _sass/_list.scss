@@ -52,6 +52,7 @@
         color: #000;
         font-size: 24px;
         margin-top: 10px;
+        text-align: center;
     }
 
     &:hover{
@@ -109,4 +110,10 @@
 }
 .postcards:before{
     content: "\f03e"; 
+}
+
+.video-list {
+    > li {
+        height: $video-box-height !important;
+    }
 }

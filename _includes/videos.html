@@ -7,7 +7,7 @@
         <div class="video-container">
           <iframe class="video-post" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="post-link-inner">
+        <div class="post-link-inner {{ post.genre | downcase }}">
           <div class="postcard-date">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{  page.meta }}{% endif %}</div>
           <div class="postcard-location">
             {% if post.location %}
