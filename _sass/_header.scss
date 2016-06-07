@@ -1,17 +1,155 @@
 .page-link {
-	color: #777 !important;
 	text-transform: uppercase;
 	font-size: 16px;
-  padding-bottom: 3px;
-}
-
-.page-link:hover,
-.page-link.active {
-	color: #000 !important;
-  border-bottom: 1px solid #777;
+ padding-bottom: 3px;
 }
 
 .intro {
   font-size: large;
   line-height: 1
 }
+
+.site-header {
+    min-height: 56px;
+    border-top: 1px solid $brand-color;
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    margin-bottom: 0;
+    float: left;
+    @include media-query($on-palm) {
+        margin-left: $spacing-unit / 2;
+    }
+
+    img{
+        max-width:146px;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: $spacing-unit / 2;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+.bg-dark{
+	color: #fff;
+	.pagelink{
+		color: $grey-color-light !important;
+	}
+
+	.page-link:hover,
+    .page-link.active {
+       color: #fff !important;
+       border-bottom: 1px solid #fff;
+   }
+
+   &,
+   &:visited {
+    color: $grey-color-light;
+}
+
+a{
+    color: $brand-color-light !important;
+}
+}
+
+.bg-light{
+	.pagelink{
+		color: $text-color;
+	}
+
+    .page-link:hover,
+    .page-link.active {
+       color: #000 !important;
+       border-bottom: 1px solid #777;
+   }
+
+   &,
+   &:visited {
+    color: $grey-color-dark;
+    }
+}
+
+
+.header-img{
+    background-size: cover;
+    z-index: -2;
+ }
+
+.header-img-height{
+    height: 55%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.gradient{
+    z-index: -1;
+    background: none;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 36%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 36%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 36%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 36%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 36%,rgba(255,255,255,1) 100%);
+ }

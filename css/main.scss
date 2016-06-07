@@ -16,6 +16,7 @@ $spacing-unit:     30px;
 $text-color:       #333;
 $background-color: #fff;
 $brand-color:      #820222;
+$brand-color-light: lighten($brand-color, 80%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -29,8 +30,10 @@ $on-palm:          600px;
 $on-laptop:        1280px;
 $on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
-$box-height:       $box-width / 1.6;
+$box-image-height: $box-width / 1.6;
+$box-height:       $box-width - 55;
 
+$video-box-height: $box-image-height + 50;
 
 
 // Using media queries with like this:
@@ -67,5 +70,7 @@ $box-height:       $box-width / 1.6;
         "carousel",
         "follow",
         "postcards",
-        "video-post"
+        "video-post",
+        "guide",
+        "list"
 ;

@@ -9,7 +9,7 @@ layout: default
 				<p class="post-location has-bg" itemprop="contentLocation">
 					{% if page.location %}
 						{% if page.latitude and page.longitude %}
-							<a href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
+							<a onclick="openPopup(this.href)" href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
 								{{page.location}}</a>
 						{% else %}
 							<i class="fa fa-map-marker post-location-icon"></i>
@@ -25,9 +25,6 @@ layout: default
 			</div>
 		</article>
 
-	<footer class="post-footer">
-		{% include social-media.html %}
-		{% include comments.html %}
-	</footer>
+	{% include post-footer.html %}
 	<script src="/assets/js/google-analytics.js"> </script>  		
 </div>

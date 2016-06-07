@@ -1,9 +1,15 @@
-<header class="site-header">
+{% if page.feature-image-tone %}
+  {% assign hasbg="bg-" | append: {{page.feature-image-tone}} %}
+{% else %}
+  {% assign hasbg="bg-light" %}
+{% endif %}
+
+
+<header class="site-header {{hasbg}}">
 
   <div class="wrapper">
-
     <div class="site-title">
-      <a href="{{ site.baseurl }}/"><img src="/assets/name.png"/></a>
+      <a href="{{ site.baseurl }}/"><img src="/assets/name-{{hasbg}}.png"/></a>
       <p class="intro">{{ site.description }}</p>
     </div>
 
@@ -25,7 +31,5 @@
         {% endfor %}
       </div>
     </nav>
-
   </div>
-
 </header>
