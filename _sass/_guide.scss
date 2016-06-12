@@ -40,6 +40,11 @@
         box-sizing: border-box;
         padding-right: 5px;
     }
+
+    i {
+        margin-right: 10px !important;
+    }
+
 }
 
 
@@ -94,6 +99,3 @@
     content: "\f074";
 }
 
-.fa{
-    margin-right: 10px !important;
-}
