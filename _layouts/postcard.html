@@ -7,14 +7,18 @@ layout: default
 				<img src="{{page.featureImage}}"/>
 				<p class="post-date" itemprop="datePublished"> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 				<p class="post-location has-bg" itemprop="contentLocation">
+					{% assign hasGuide = false %}
 					{% if page.location %}
-						{% if page.latitude and page.longitude %}
-							<a onclick="openPopup(this.href)" href="http://maps.google.com/?ie=UTF8&q={{page.location}}&ll={{page.latitude}},{{page.longitude}}&z=13" target=blank><i class="fa fa-map-marker post-location-icon"></i>	
-								{{page.location}}</a>
-						{% else %}
-							<i class="fa fa-map-marker post-location-icon"></i>
-							{{page.location}}
-						{% endif %}
+						{% for guide in site.categories.guides %}
+							{% if guide.location == page.location %}
+								<a href="{{ guide.url | prepend: site.baseurl }}"><i class="fa fa-map-marker post-location-icon"></i>	{{page.location}}</a>
+								{% assign hasGuide = true %}
+								{% break %}
+							{% endif %}
+						{% endfor %}	
+						{% unless hasGuide %}
+							<i class="fa fa-map-marker post-location-icon"></i>{{page.location}}
+						{% endunless %}
 					{% endif %}
 				</p>
 			</div>
