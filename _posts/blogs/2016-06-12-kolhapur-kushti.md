@@ -36,9 +36,9 @@ The red mud on his bare form lay split by oil and sweat. He was massive. Not in 
 
 “Look away, you idiot!”
 
-It was a terrible piece of advice, I must say, for away offered no different a sight. Fifty odd men, all hiding their masculinity in itsy-bitsy pockets—_langots_{:title="traditional Indian undergarment worn by men as loincloth"}—swarmed our view. That, I’ve been told, isn’t something that happens to two women every day. But it would be criminal to call it so – an every day, for we stood amidst crumbling walls and cockroach-infested nooks, privy to a tradition that started in the city of Kolhapur in the 18th century – _kushti._
+It was a terrible piece of advice, I must say, for away offered no different a sight. Fifty odd men, all hiding their masculinity in itsy-bitsy pockets—_langots_{:title="Traditional Indian undergarment worn by men as loincloth."}—swarmed our view. That, I’ve been told, isn’t something that happens to two women every day. But it would be criminal to call it so – an every day, for we stood amidst crumbling walls and cockroach-infested nooks, privy to a tradition that started in the city of Kolhapur in the 18th century – _kushti._
 
-Motibag _taleem_, one of few survivors of the dwindling heritage of Shri Chatrapati Shahu Maharaj—the first Maharaja of the princely state of Kolhapur—a surprisingly modest establishment, jostles for space between shops that scream for a fresh coat of paint on a street dabbed in the scents of marigold flowers, _paan_{:title="a preparation containing betel leaf and areca nut used as a breath freshener"} and grease. 
+Motibag _taleem_, one of few survivors of the dwindling heritage of Shri Chatrapati Shahu Maharaj—the first Maharaja of the princely state of Kolhapur—a surprisingly modest establishment, jostles for space between shops that scream for a fresh coat of paint on a street dabbed in the scents of marigold flowers, _paan_{:title="A preparation containing betel leaf and areca nut used as a breath freshener."} and grease. 
 
 _Thump!_
 
@@ -48,7 +48,7 @@ A strong smell of ghee consumed the air the moment we stepped into the narrow ga
 
 We went ahead anyway, putting mythological conundrums aside, and crossed the threshold of the gallery into the courtyard. A sterile quiet fell upon the _taleem_ as we entered - the only time that we both can claim, on my part pride, and her part shame, we stunned a group of men into silence.
 
-A two-storey building stood some distance away, beyond a fine specimen of an almond tree on our left and a well on our right. On the ground floor of the building was an open space averse to light, half of it occupied by men built like boulders doing _dand_{:title="Hindu pushup"}and _baithak_{:title="Hindu squat"}, occasionally stealing looks at the mirror behind them that ran from the ceiling to the floor. 
+A two-storey building stood some distance away, beyond a fine specimen of an almond tree on our left and a well on our right. On the ground floor of the building was an open space averse to light, half of it occupied by men built like boulders doing _dand_{:title="Hindu pushup."}and _baithak_{:title="Hindu squat."}, occasionally stealing looks at the mirror behind them that ran from the ceiling to the floor. 
 
 ![Pehelwans doing baithak](){:name="baithak"}
 
@@ -58,7 +58,7 @@ The rest of the floor was hidden from our view by the walls built around it, out
 
 I tore my gaze away from the first floor of the building where a clothes line ran from one end to the other, a dozen underwear upon its spine, and rested it instead on a man with a chest so severe that I could hear his shirt buttons yell in agony. A pair of bright blue Ray-Ban aviators peeked at us from his shirt pocket, his leather shoes slicker than my forehead.
 
-“No problem whatsoever!” said my friend Kunal and shook hands with Sambhaji, a _pehelwan_ who he had been co-coordinating with for nearly a week, an effort that was fuelled by the promise of a spread of mutton, Kolhapuri _tambda rassa_{:title="spicy, hot mutton curry"} and _pandhara rassa_{:title="white curry made from mutton stock, spices and coconut milk"}.  
+“No problem whatsoever!” said my friend Kunal and shook hands with Sambhaji, a _pehelwan_ who he had been co-coordinating with for nearly a week, an effort that was fuelled by the promise of a spread of mutton, Kolhapuri _tambda rassa_{:title="Spicy, hot mutton curry."} and _pandhara rassa_{:title="White curry made from mutton stock, spices and coconut milk."}.  
 
 _Slap!_
 
