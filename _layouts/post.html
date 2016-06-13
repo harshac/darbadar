@@ -48,6 +48,14 @@ layout: default
 		
 			<div class="post-content">
 				{{ content }}
+				{% if page.location %}
+					{% for guide in site.categories.guides %}
+						{% if guide.location == page.location %}
+							<a class="guide-link" href="{{ guide.url | prepend: site.baseurl }}"><i class="fa fa-map-o"></i>	Guide to {{page.location}}</a>
+						{% endif %}
+					{% endfor %}	
+				{% endif %}
+
 				{% if page.galleryEnabled %}
 					<div class="carousel carousel-mini"></div>
 					<div class="sticky-footer">
