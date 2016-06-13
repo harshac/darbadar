@@ -51,7 +51,7 @@ layout: default
 				{% if page.location %}
 					{% for guide in site.categories.guides %}
 						{% if guide.location == page.location %}
-							<a class="guide-link" href="{{ guide.url | prepend: site.baseurl }}"><i class="fa fa-map-o"></i>	Guide to {{page.location}}</a>
+							<a class="guide-link" href="{{ guide.url | prepend: site.baseurl }}"><i class="fa fa-map-o"></i>	Fact file </a>
 						{% endif %}
 					{% endfor %}	
 				{% endif %}

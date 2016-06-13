@@ -14,7 +14,7 @@ albumId: 72157667037211373
 published: true
 galleryEnabled: false
 feature-image-tone: dark
-
+excerpt: 
 ---
 
 _Kha-thoo!_
