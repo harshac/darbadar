@@ -4,7 +4,7 @@ title: Kolhapur - Tracing kushti's origin
 location: "Kolhapur, Maharashtra, India"
 latitude: 16.7084568
 longitude: 74.1688274
-featureImage: "http://c2.staticflickr.com/8/7448/27636373675_fda2787b3d_c.jpg"
+featureImage: "http://c2.staticflickr.com/8/7448/27636373675_8bfe558599_c.jpg"
 categories: stories
 positionX: "30%"
 positionY: "20%"
