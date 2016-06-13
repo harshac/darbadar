@@ -37,7 +37,14 @@
     @include media-query-min($on-palm){
         width: 50%;
         float: left;
+        box-sizing: border-box;
+        padding-right: 5px;
     }
+
+    i {
+        margin-right: 10px !important;
+    }
+
 }
 
 
@@ -50,6 +57,10 @@
     top:0;
     left:-5px;
     padding-right:10px;
+}
+
+.transport ul{
+    list-style: none !important;
 }
 
 .hotels h3:before {
@@ -70,5 +81,21 @@
 
 .expenses h3:before {
     content: "\f0d6";
+}
+
+.transport h3:before {
+    content: "\f207";
+}
+
+.sight-seeing h3:before {
+    content: "\f19c";
+}
+
+.shopping h3:before {
+    content: "\f07a";
+}
+
+.other h3:before {
+    content: "\f074";
 }
 
