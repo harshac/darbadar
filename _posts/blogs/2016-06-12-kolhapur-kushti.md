@@ -4,14 +4,14 @@ title: Kushti
 location: "Kolhapur, Maharashtra, India"
 latitude: 16.7084568
 longitude: 74.1688274
-featureImage: "https://c2.staticflickr.com/6/5739/24021465761_26faf22a57_z.jpg"
+featureImage: "https://c2.staticflickr.com/8/7448/27636373675_fda2787b3d_z.jpg"
 categories: stories
 genre: Culture
 tags: Travel Culture India Maharashtra History MartialArt 
-albumId: 72157660710608723
+albumId: 72157667037211373
 published: true
 galleryEnabled: false
-feature-image-tone: light
+feature-image-tone: dark
 
 ---
 
@@ -50,6 +50,8 @@ We went ahead anyway, putting mythological conundrums aside, and crossed the thr
 
 A two-storey building stood some distance away, beyond a fine specimen of an almond tree on our left and a well on our right. On the ground floor of the building was an open space averse to light, half of it occupied by men built like boulders doing _dand_{:title="Hindu pushup"}and _baithak_{:title="Hindu squat"}, occasionally stealing looks at the mirror behind them that ran from the ceiling to the floor. 
 
+![Pehelwans doing baithak](){:name="baithak"}
+
 The rest of the floor was hidden from our view by the walls built around it, outside of which stood scrawny locals, watching what we could not, their visage conveying the tragedy of their own feeble constitutions.	
 
 “Was the address easy to find?” 
@@ -66,7 +68,12 @@ To our right, a piece of clothing died a brutal death at the hands of a teenage 
 
 _Kushti_ was developed by the Mughals using influences from _malla-yuddha_—a wrestling form first mentioned in the Hindu epic Ramayana in context of a fight between King Bali and Ravana—and Persian _koshti pahlavani_ – a system of athletics that combines martial arts, calisthenics, music and spirituality. 
 
-“Some of the first lessons we receive here have nothing to do with wrestling at all. We are first taught morals and values important to become good human beings - the most crucial element of being a _pehelwan_…” he said while he led us to the spot where locals were standing, looking down at the _haud_—pit scooped out in the floor filled with red mud—where _pehelwans_ were grappling with each other. 
+![pehelwans in a fight](){:name="kushti"}
+
+“Some of the first lessons we receive here have nothing to do with wrestling at all. We are first taught morals and values important to become good human beings - the most crucial element of being a _pehelwan_…” he said while he led us to the spot where locals were standing, looking down at the _haud_—pit scooped out in the floor filled with red mud—where _pehelwans_ were grappling with each other.
+
+![A group of pehewans](){:name="pehelwans"}
+
 “Women are not allowed inside. You have to watch from here.” Lord Hanuman—worshipped by _pehelwans_ as their patron—whose idol overlooked the _haud_, would not approve, Harsha and I were told. We both joined other visitors while Kunal followed the _pehelwan_ onto the floor. 
 
 It was excruciating to watch – bodies writhing, choking, pounding, hurting.
@@ -78,6 +85,8 @@ The sound that 90 kgs of sheer muscles and mass makes when thrown on dirt.
 “Urgh!
 
 The cry that follows the rattling of bones. 
+
+![Pehelwan with cauliflower ears](){:name="pehelwan"}
 
 Men wrestling. The way our ancestors did. Raw, primal, and yet, in the most unexpected of ways, poetic. 
 
