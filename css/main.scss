@@ -28,7 +28,6 @@ $content-width:    1280px;
 $on-phone:		   360px;
 $on-palm:          600px;
 $on-laptop:        1280px;
-$on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
 $box-image-height: $box-width / 1.6;
 $box-height:       $box-width - 55;
@@ -38,7 +37,7 @@ $video-box-height: $box-image-height + 50;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
-//     .wrapper {
+//     .wrapper {   
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }

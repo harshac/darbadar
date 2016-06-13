@@ -42,6 +42,12 @@
     float: right;
 }
 
+ .post-title {
+    @include media-query($on-phone) {
+        font-size:22px !important;
+    }
+}
+
 .post-link {
     display: block;
     font-size: 24px;
