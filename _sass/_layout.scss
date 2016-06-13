@@ -200,6 +200,8 @@
         margin:auto;
         display: block;
     }
+
+    @extend %clearfix;
 }
 
 .post-location-icon {
