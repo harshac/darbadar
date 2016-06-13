@@ -43,8 +43,12 @@
 }
 
  .post-title {
-    @include media-query($on-phone) {
+     @include media-query($on-palm) {
         font-size:22px !important;
+    }
+
+    @include media-query($on-phone) {
+        font-size:20px !important;
     }
 }
 
