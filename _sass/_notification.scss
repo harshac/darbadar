@@ -1,6 +1,15 @@
 .notification-bar{
 	position: absolute;
 	top: 0;
+	width: 100%;
+}
 
-	
+.close-btn{
+	position: absolute;
+	top: 2px;
+	right: 5px;
+}
+
+.close{
+	visibility: hidden;
 }
