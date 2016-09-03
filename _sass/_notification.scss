@@ -1,4 +1,14 @@
-.notification-bar{
+.notification-bar {
 	background: rgba(#000, 0.8);
 	border-bottom: 1px dashed #fff;
+}
+
+.close-btn {
+	position: absolute;
+	top: 2px;
+	right: 5px;
+}
+
+.close {
+	display: none;
 }
