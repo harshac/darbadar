@@ -1,5 +1,6 @@
 $('.close-btn').click(function(){
 	localStorage.setItem('showNotification', false);
+	close();
 });
 
 var close = function(){
@@ -8,7 +9,7 @@ var close = function(){
 
 $(function() {
 	var showNotification = localStorage.getItem('showNotification');
-  if (showNotification == 'false') {
+  if (showNotification === 'false') {
     close();
   }
 })

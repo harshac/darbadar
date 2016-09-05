@@ -1,33 +1,24 @@
-#mce-EMAIL{
-	border: 0px !important;
-	border-bottom: 1px solid !important;
-	width: 50% !important;
-	margin:auto !important;
-	font-size: 15px !important;
-	&:focus {
-		outline: 0 !important;
+.subscription-form {
+	display: inline-block;
+	margin-left: 54px;
+}
+
+.form-control {
+	padding: 8px 10px;
+	border: 1px solid #FFBD00;
+	width: 240px;
+	border-radius: 3px;
+}
+.button {
+	padding: 6px 10px;
+	border-radius: 100px;
+	margin-left: 6px;
+	cursor: pointer;
+	border: 1px solid rgba(#000, 0.8);
+	background: rgba(#000, 0.6);
+	color: #fff;
+	&:hover {
+		border-color: rgba(#000, 0.9);
+		background: rgba(#000, 0.8);
 	}
-}
-
-#mc-embedded-subscribe{
-	width: 130px !important;
-	border-radius: 100px !important;
-	font-size: 13px !important;
-  	line-height: 1 !important;
-  	font-weight: 400 !important;
-  	padding: 6px 10px;
-  	text-transform: uppercase;
-  	letter-spacing: 1px;
-  	padding: 6px 10px;
-  	background-color: #000 !important;
-  	margin-top: 1em !important;
-}
-
-#mc-embedded-subscribe-form{
-	text-align: center !important;
-}
-
-.subscription-form{
-	margin: auto;
-	margin-bottom: 4em;
 }
