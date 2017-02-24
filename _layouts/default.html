@@ -5,12 +5,7 @@
 
   <body>
 
-    {% if page.featureImage and page.categories contains "stories"%}
-      <div class="header-img header-img-height" style="background-image: url('{{page.featureImage}}'); background-position: {{page.positionX}} {{page.positionY}};"></div>
-      <div class="gradient header-img-height"></div> 
-    {% endif %}
-
-    {% include header.html%}
+    {% include header.html %}
 
     <div class="page-content">
       <div class="wrapper">
