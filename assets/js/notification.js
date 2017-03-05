@@ -1,5 +1,5 @@
 $('.close-btn').click(function(){
-	localStorage.setItem('showNotification', false);
+	localStorage.setItem('showNotification', 'Bhutan');
 	close();
 });
 
@@ -9,7 +9,7 @@ var close = function(){
 
 $(function() {
 	var showNotification = localStorage.getItem('showNotification');
-  if (showNotification === 'false') {
+  if (!!showNotification && showNotification.includes('Bhutan')) {
     close();
   }
 })
