@@ -5,10 +5,15 @@ permalink: /about-us/
 order: 5
 ---
 
-A month before floods hit Jammu and Kashmir in September 2014, Harsha and I went for a trek in the Himalayas that started in Sonmarg. Although we both saw the worst of each other during that trek, we both managed to curb our desires to murder each other and in fact ended up having the best time of our lives. We realized that we can tolerate each other a little more than we give ourselves credit for. 
+Darbadar, a word of Farsi-Urdu origin, means door-to-door, a word we think best describes the essence of a traveler, an identity we take on sporadically.
 
-Our first impressions about each other weren't exactly great. She thought I had really strange hair. I thought she was plain strange. Our opinions haven't changed much in the last four years. What has changed though is our appetite to sink our teeth into different cultures, experience unknown lands and being in awe of things that we haven't seen or experienced before. 
+When we do haul our backpacks, we travel hard and ugly. We don’t mind hitchhiking on trucks or sleeping on sheets with suspicious stains. Those things, we feel, are lesser sacrifices in view of what we are usually after. 
 
-This blog is an attempt to document our travel experiences, a task that we are highly unlikely to commit ourselves to, unless faced with the intimidating proposition of having other people take a look at it. But something tells us that we will find more reasons, eventually.
+A massive, delectable slice of life. Acidic and pungent and sweet and hot. Drips down the sides of your mouth onto your clothes. Messy but so good that you keep digging until your fork scrapes the china. 
+
+By design our stomachs are always empty. 
+
+From surfing with dolphins in Pondicherry to falling asleep to the sight of the Milky Way in the Himalayas in Kashmir, these are our stories.
+
 
      
