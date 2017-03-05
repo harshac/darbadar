@@ -120,19 +120,18 @@ var gallery = {
     var newImages = listOfImages.filter(function(el){return $(".image img[name='"+ el.name + "']").length == 0})
     var album = newImages.concat(blogImages);
     for (var i = 0, len = album.length; i < len; i++) {
-      $(".carousel,.carousel-mini").append("<div class='thumbnail' style='background-image:url(" + album[i].t_src + "); background-size:cover' name='" + album[i].name + "'></div>");
+      $(".carousel").append("<div class='thumbnail' style='background-image:url(" + album[i].t_src + "); background-size:cover' name='" + album[i].name + "'></div>");
     }
     
     gallery.initializeCarousel();
   },
 
   initializeCarousel: function(){
-    $(".carousel,.carousel-mini").slick({
+    $(".carousel").slick({
       infinite: true,
       speed: 300,
-      slidesToShow: 10,
-      variableWidth: true,
-      centerMode: true
+      slidesToShow: 4,
+      variableWidth: true
     });
   },
 

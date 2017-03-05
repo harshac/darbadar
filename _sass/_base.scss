@@ -14,8 +14,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-family: $base-font-family !important;
+    font-size: $base-font-size !important;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -157,8 +157,7 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    position: relative;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

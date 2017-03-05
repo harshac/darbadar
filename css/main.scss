@@ -16,7 +16,6 @@ $spacing-unit:     30px;
 $text-color:       #333;
 $background-color: #fff;
 $brand-color:      #820222;
-$brand-color-light: lighten($brand-color, 80%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -71,5 +70,6 @@ $video-box-height: $box-image-height + 50;
         "postcards",
         "video-post",
         "guide",
-        "list"
+        "list",
+        "notification"
 ;
