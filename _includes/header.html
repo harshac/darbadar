@@ -19,12 +19,17 @@
       </a>
 
       <div class="trigger">
+        <div class="page-links">
         {% assign sorted_pages = (site.pages | sort: 'order') %}
         {% for this_page in sorted_pages} %}
           {% if this_page.title and this_page.url != "/404.html" %}
             <a class="page-link {% if this_page.url == page.url %}active{% endif %}" href="{{ this_page.url | prepend: site.baseurl }}">{{ this_page.title }}</a>
           {% endif %}
         {% endfor %}
+      </div>
+      <div class="follow-us-container">
+        {% include follow-us.html %}
+      </div>
       </div>
     </nav>
 
