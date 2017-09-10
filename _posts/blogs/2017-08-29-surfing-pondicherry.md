@@ -11,6 +11,7 @@ tags: Travel India Pondicherry Surfing Beaches Sports
 albumId: 72157686367876213
 published: true
 galleryEnabled: false
+thumbnail-position-x: 94%
 ---
 _ARGH!_
 
