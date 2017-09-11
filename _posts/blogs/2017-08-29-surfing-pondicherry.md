@@ -12,8 +12,7 @@ albumId: 72157686367876213
 published: true
 galleryEnabled: false
 thumbnail-position-x: 94
-excerpt: For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut though lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal.
-
+excerpt: For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut through lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal.
 ---
 _ARGH!_
 
@@ -49,7 +48,7 @@ I was not expecting the training wheels to come off so early. It was like being 
 
 I started paddling as hard as I could with muscles that by now had transformed into spaghetti. But adrenaline cuts spaghetti better than scissors do paper. So I paddled my dead arms like I was being chased by a shark and jumped on my surfboard when I thought the moment was right. 
 
-For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut though lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal. My mouth hit a sharp edge, of what I am not sure for the water was muddy the shade of brown of _Irani chai_. Several volts of pain frisked me with a singular violence and pried my mouth open. The _chai_ tasted like dirt smothered in caffeine. It had barely reached my tonsils when the surfboard slammed onto the back of my head and pushed my face into the dirt. The water gulped my scream. I was now being dragged backwards by the surfboard, tied to my left ankle with the leash, as it followed the path of the current, _chai_ swirling in my face, heart palpitating. 
+For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut through lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal. My mouth hit a sharp edge, of what I am not sure for the water was muddy the shade of brown of _Irani chai_. Several volts of pain frisked me with a singular violence and pried my mouth open. The _chai_ tasted like dirt smothered in caffeine. It had barely reached my tonsils when the surfboard slammed onto the back of my head and pushed my face into the dirt. The water gulped my scream. I was now being dragged backwards by the surfboard, tied to my left ankle with the leash, as it followed the path of the current, _chai_ swirling in my face, heart palpitating. 
 
 “…just don’t get yourself killed,” my neurologist had told me. 
 
