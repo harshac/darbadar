@@ -1,8 +1,29 @@
-.upcoming-events {
+.events {
+	.section-title{
+		border-bottom: 1px solid black;
+		margin-bottom: 35px;
+		color: $brand-color;	
+	}
+
+	section {
+		margin-top:60px;
+	}
+}
+
+.event {
 	margin-top: 50px;
 }
-.event {
+
+.event-details {
 	p {
 		margin-bottom: 0px;
 	}
 }
+/*
+.event-details:after {
+	content: "";
+	border-bottom: 1px solid black;
+	width: 2em;
+	display: block;
+	margin: auto;
+}*/
