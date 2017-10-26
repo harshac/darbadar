@@ -2,19 +2,14 @@
   {% for post in site.posts %}
   {% if post.categories contains "guides" %}
   {% else %}
-  <li>
+  <li style="background-image:url({{post.featureImage}});">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      <div class="post-img" style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}}">
+      <div class="post-img">
         <div class="post-category {{ post.categories }}"></div>
       </div>
       <div class="post-link-inner {{ post.genre | downcase }}">
         <div class="post-meta">
         <span class="post-genre">{{ post.genre }}</span>
-        <span class="right">
-          {% if post.location %}
-            <i class="fa fa-map-marker post-location-icon"></i>{{post.location}}
-          {% endif %}
-          </span>
         </div>
           <h2 class="post-title">{{ post.title }}</h2>
         </div>
