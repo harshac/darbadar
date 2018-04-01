@@ -1,0 +1,470 @@
+[
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124245923",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124245923",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124245923,
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-23T21:34:48Z",
+    "updated_at": "2015-07-23T21:34:48Z",
+    "author_association": "COLLABORATOR",
+    "body":
+      "Hey @xopj,\n\nReally sorry for the trouble. We’re trying to take care of this problem but are having troubles reproducing it. In the meantime, some other people have found success using the Git Bash instead of the default included Windows Command Prompt.\n\nI will try and investigate it more, would you mind sharing the version of Node, npm, Surge, and git you are using with me? You should be able to get those with the following command:\n\n```\nsurge --version\nnode --version\nnpm --version\ngit --version\n```\n\nWould you also mind testing for me if you can install other modules globally? Ex. what happens when you try and `npm install -g browserify`? There has been some indication it might be a problem with installing modules globally, not specifically with installing Surge.\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124245923/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124626087",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124626087",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124626087,
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T18:50:52Z",
+    "updated_at": "2015-07-24T18:50:52Z",
+    "author_association": "NONE",
+    "body":
+      "Surge 0.14.3\nnode 0.10.22\nnpm 1.3.14\ngit 1.9.5\n\nBrowserify installed globally fine without any issues. The current test project is just the static hello world page so I couldn't do much in the test project with it, but I have browserfiy working on another project right now. \n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124626087/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124636053",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124636053",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124636053,
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T19:03:15Z",
+    "updated_at": "2015-07-24T19:03:15Z",
+    "author_association": "COLLABORATOR",
+    "body":
+      "Thanks. Would you also mind sharing how you installed Node? Someone else who had encountered a similar issue had installed it [through Chocolatey](http://chocolatey.org), and while I don’t think that ended up being the culprit, I would like to do my best and recreate the situation.\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124636053/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124637591",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124637591",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124637591,
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T19:04:36Z",
+    "updated_at": "2015-07-24T19:04:36Z",
+    "author_association": "NONE",
+    "body": "Node was installed via the MSI 64bit installer.\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124637591/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124657905",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124657905",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124657905,
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T19:29:38Z",
+    "updated_at": "2015-07-24T19:29:38Z",
+    "author_association": "COLLABORATOR",
+    "body":
+      "When you are logging in, Surge should be writing to a file called `.netrc`. Would you mind sending me the Surge section of that file so we can see if it’s formatted properly?\n\nIt should be located in `C:\\Users\\Your Name\\.netrc` and look something like this:\n\n```\nmachine surge.sh\n    login kenneth@surge.sh\n    password ab1a1012123abc12345a1ab12345ab12\n```\n\nIf you don’t mind emailing that to me at [kenneth@surge.sh](mailto:kenneth@surge.sh), it would be really helpful. If the file isn’t there, that’s also helpful. Thanks so much for your patience!\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124657905/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/124673137",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-124673137",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 124673137,
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T19:42:51Z",
+    "updated_at": "2015-07-24T19:42:51Z",
+    "author_association": "NONE",
+    "body": "Sent, the formatting looks identical.\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/124673137/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/127789915",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-127789915",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 127789915,
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-04T23:02:34Z",
+    "updated_at": "2015-08-04T23:02:34Z",
+    "author_association": "COLLABORATOR",
+    "body":
+      "Another case of this, from [our chat](https://surge.sh/help/chat)\n\n> node version: v0.12.7\n> npm version: 2.11.3\n> \n> Both windows 7 and windows 10 machines are pretty fresh installs, installed from MSDN bootable ISO\n> \n> mynameiswarren [3:42 PM]\n> Then installed NodeJS x64\n> \n> Yes, that's what I was initially trying... on Windows 10 I'm seeing a \"Node.js command prompt\" under apps, both that and the default have the same issue though\n> \n> mynameiswarren [3:47 PM]\n> I have actually just got it to work... but only under my home directory, i.e. c:\\Users\\warren\\surge_test\n> \n> mynameiswarren [3:47 PM]\n> where as p:\\projects\\surge_test doesn't work\n> \n> mynameiswarren [3:47 PM]\n> even though I have full permissions\n> \n> when running \"surge\" under my user location, it appears to auto-flll the email and token, but on \"p\" email is initially blank\n> \n> kenneth [3:47 PM] \n> Oh interesting. `P:\\` is another drive you are on?\n> \n> mynameiswarren [3:48 PM]\n> yes, \"p\" is a local drive partition\n\nThis lines up with another instance of this where:\n- It wasn’t working while not on `C:\\`, also with full permissions.\n- It works with Git Bash but not the Node.js or Windows Command Prompt\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/127789915/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/127792544",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-127792544",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 127792544,
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-04T23:16:12Z",
+    "updated_at": "2015-08-04T23:16:12Z",
+    "author_association": "NONE",
+    "body":
+      "It fails on a c:/repos/my_project directory for me\nOn Aug 4, 2015 7:02 PM, \"Kenneth Ormandy\" notifications@github.com wrote:\n\n> Another case of this, from our chat https://surge.sh/help/chat\n> \n> node version: v0.12.7\n> npm version: 2.11.3\n> \n> Both windows 7 and windows 10 machines are pretty fresh installs,\n> installed from MSDN bootable ISO\n> \n> mynameiswarren [3:42 PM]\n> Then installed NodeJS x64\n> \n> Yes, that's what I was initially trying... on Windows 10 I'm seeing a\n> \"Node.js command prompt\" under apps, both that and the default have the\n> same issue though\n> \n> mynameiswarren [3:47 PM]\n> I have actually just got it to work... but only under my home directory,\n> i.e. c:\\Users\\warren\\surge_test\n> \n> mynameiswarren [3:47 PM]\n> where as p:\\projects\\surge_test doesn't work\n> \n> mynameiswarren [3:47 PM]\n> even though I have full permissions\n> \n> when running \"surge\" under my user location, it appears to auto-flll the\n> email and token, but on \"p\" email is initially blank\n> \n> kenneth [3:47 PM]\n> Oh interesting. P:\\ is another drive you are on?\n> \n> mynameiswarren [3:48 PM]\n> yes, \"p\" is a local drive partition\n> \n> This lines up with another instance of this where:\n> - It wasn’t working while not on C:\\, also with full permissions.\n> - It works with Git Bash but not the Node.js or Windows Command Prompt\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/sintaxi/surge/issues/126#issuecomment-127789915.\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/127792544/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/140819115",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-140819115",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 140819115,
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T17:51:41Z",
+    "updated_at": "2015-09-16T17:51:41Z",
+    "author_association": "COLLABORATOR",
+    "body":
+      "Hey @xopj,\n\nLast week, we released v0.14.4 of Surge, which should fix this problem! You can install or update Surge with:\n\n``` sh\nnpm install --global surge\n```\n\nPlease let me know how it goes! If you’d like, you can [read more about the update here](https://medium.com/@kennethormandy/257ab847aa0d).\n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/140819115/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url":
+      "https://api.github.com/repos/sintaxi/surge/issues/comments/140840459",
+    "html_url":
+      "https://github.com/sintaxi/surge/issues/126#issuecomment-140840459",
+    "issue_url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "id": 140840459,
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T18:49:34Z",
+    "updated_at": "2015-09-16T18:49:34Z",
+    "author_association": "NONE",
+    "body":
+      "Verified it works, thanks so much for resolving this I'll look into giving it a real world test in the near future. \n",
+    "reactions": {
+      "url":
+        "https://api.github.com/repos/sintaxi/surge/issues/comments/140840459/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  }
+]

@@ -1,0 +1,1973 @@
+[
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/192",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/192/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/192/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/192/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/192",
+    "id": 131100879,
+    "number": 192,
+    "title": "Support for downloading projects [request]",
+    "user": {
+      "login": "miduga",
+      "id": 1561955,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1561955?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miduga",
+      "html_url": "https://github.com/miduga",
+      "followers_url": "https://api.github.com/users/miduga/followers",
+      "following_url":
+        "https://api.github.com/users/miduga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miduga/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/miduga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miduga/subscriptions",
+      "organizations_url": "https://api.github.com/users/miduga/orgs",
+      "repos_url": "https://api.github.com/users/miduga/repos",
+      "events_url": "https://api.github.com/users/miduga/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/miduga/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2016-02-03T17:45:53Z",
+    "updated_at": "2016-03-14T23:20:54Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "body":
+      "It might sound a bit weird the request but as soon as you have some projects working on, sometimes you want to be sure that in some moment you'll be able to download all the website. I would like to have a way to download the project from surge with a single client command.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/192/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/180",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/180/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/180/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/180/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/180",
+    "id": 126165715,
+    "number": 180,
+    "title": "is domain limited?",
+    "user": {
+      "login": "calidion",
+      "id": 131776,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/131776?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/calidion",
+      "html_url": "https://github.com/calidion",
+      "followers_url": "https://api.github.com/users/calidion/followers",
+      "following_url":
+        "https://api.github.com/users/calidion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/calidion/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/calidion/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/calidion/subscriptions",
+      "organizations_url": "https://api.github.com/users/calidion/orgs",
+      "repos_url": "https://api.github.com/users/calidion/repos",
+      "events_url": "https://api.github.com/users/calidion/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/calidion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 6,
+    "created_at": "2016-01-12T12:08:00Z",
+    "updated_at": "2016-01-19T09:21:10Z",
+    "closed_at": "2016-01-18T17:46:07Z",
+    "author_association": "NONE",
+    "body":
+      "i uploaded more than one sites seems new domain not working properly.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/180/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/175",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/175/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/175/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/175/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/175",
+    "id": 124379939,
+    "number": 175,
+    "title": "Provide way to drop ownership of subdomain",
+    "user": {
+      "login": "TrevorSayre",
+      "id": 421548,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/421548?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TrevorSayre",
+      "html_url": "https://github.com/TrevorSayre",
+      "followers_url": "https://api.github.com/users/TrevorSayre/followers",
+      "following_url":
+        "https://api.github.com/users/TrevorSayre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TrevorSayre/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/TrevorSayre/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/TrevorSayre/subscriptions",
+      "organizations_url": "https://api.github.com/users/TrevorSayre/orgs",
+      "repos_url": "https://api.github.com/users/TrevorSayre/repos",
+      "events_url": "https://api.github.com/users/TrevorSayre/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/TrevorSayre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2015-12-30T17:54:38Z",
+    "updated_at": "2015-12-30T18:25:36Z",
+    "closed_at": "2015-12-30T18:25:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body":
+      "I can view my subdomains with `surge list`\n\nIf I see a subdomain I no longer wish to maintain ownership of, there is no way to drop it via the CLI. \n\nSomething like `surge drop bad-speellingg.surge.sh` should drop ownership of `bad-speellingg.surge.sh` such that `surge list` no longer displays it.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/175/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/172",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/172/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/172/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/172/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/172",
+    "id": 122992807,
+    "number": 172,
+    "title": "Routing with pushState not working",
+    "user": {
+      "login": "limzykenneth",
+      "id": 7543950,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7543950?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/limzykenneth",
+      "html_url": "https://github.com/limzykenneth",
+      "followers_url": "https://api.github.com/users/limzykenneth/followers",
+      "following_url":
+        "https://api.github.com/users/limzykenneth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/limzykenneth/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/limzykenneth/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/limzykenneth/subscriptions",
+      "organizations_url": "https://api.github.com/users/limzykenneth/orgs",
+      "repos_url": "https://api.github.com/users/limzykenneth/repos",
+      "events_url":
+        "https://api.github.com/users/limzykenneth/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/limzykenneth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "kennethormandy",
+        "id": 1581276,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kennethormandy",
+        "html_url": "https://github.com/kennethormandy",
+        "followers_url":
+          "https://api.github.com/users/kennethormandy/followers",
+        "following_url":
+          "https://api.github.com/users/kennethormandy/following{/other_user}",
+        "gists_url":
+          "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+        "starred_url":
+          "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+        "subscriptions_url":
+          "https://api.github.com/users/kennethormandy/subscriptions",
+        "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+        "repos_url": "https://api.github.com/users/kennethormandy/repos",
+        "events_url":
+          "https://api.github.com/users/kennethormandy/events{/privacy}",
+        "received_events_url":
+          "https://api.github.com/users/kennethormandy/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 5,
+    "created_at": "2015-12-18T17:31:47Z",
+    "updated_at": "2015-12-18T23:12:32Z",
+    "closed_at": "2015-12-18T23:12:32Z",
+    "author_association": "NONE",
+    "body":
+      "Hi, I'm trying to deploy a single page app built with Backbone.js. I'm using Backbone router with pushState for URL routing and renaming index.html to 200.html so it handles all request.\n\nHowever, I couldn't get the URL `example.surge.sh/myroute` to work as intended, it always return the 404 page. I hope that's enough details but feel free to ask me for more details.\n\nIs there something I'm doing wrong here?\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/172/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/169",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/169/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/169/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/169/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/169",
+    "id": 120281379,
+    "number": 169,
+    "title": "The route /list doesn’t work with a 200.html file",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125096,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/bug",
+        "name": "bug",
+        "color": "fc2929",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "sintaxi",
+      "id": 867,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/867?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sintaxi",
+      "html_url": "https://github.com/sintaxi",
+      "followers_url": "https://api.github.com/users/sintaxi/followers",
+      "following_url":
+        "https://api.github.com/users/sintaxi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sintaxi/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/sintaxi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sintaxi/subscriptions",
+      "organizations_url": "https://api.github.com/users/sintaxi/orgs",
+      "repos_url": "https://api.github.com/users/sintaxi/repos",
+      "events_url": "https://api.github.com/users/sintaxi/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/sintaxi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "sintaxi",
+        "id": 867,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/867?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sintaxi",
+        "html_url": "https://github.com/sintaxi",
+        "followers_url": "https://api.github.com/users/sintaxi/followers",
+        "following_url":
+          "https://api.github.com/users/sintaxi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sintaxi/gists{/gist_id}",
+        "starred_url":
+          "https://api.github.com/users/sintaxi/starred{/owner}{/repo}",
+        "subscriptions_url":
+          "https://api.github.com/users/sintaxi/subscriptions",
+        "organizations_url": "https://api.github.com/users/sintaxi/orgs",
+        "repos_url": "https://api.github.com/users/sintaxi/repos",
+        "events_url": "https://api.github.com/users/sintaxi/events{/privacy}",
+        "received_events_url":
+          "https://api.github.com/users/sintaxi/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2015-12-03T22:08:16Z",
+    "updated_at": "2016-04-11T10:17:59Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "body":
+      "**Expected**\n\nWith a `200.html` file in the root…\n- http://example-200.surge.sh/asdf/ → `200.html` should work\n- http://example-200.surge.sh/asdf → `200.html` should work\n- http://example-200.surge.sh/list/ → `200.html` should work\n- http://example-200.surge.sh/list → `200.html` should work\n\n**Actual**\n- http://example-200.surge.sh/asdf/ → `200.html` works\n- http://example-200.surge.sh/asdf → `200.html` works\n- http://example-200.surge.sh/list/ → `200.html` works\n- http://example-200.surge.sh/list → `200.html` shows the default 404 page\n\n`/list` is working as a reserved word. Reported by @rgdelato in Slack.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/169/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/165",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/165/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/165/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/165/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/165",
+    "id": 118719633,
+    "number": 165,
+    "title": "Could have an way to set custom headers, specifically HSTS",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125098,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      },
+      {
+        "id": 235808998,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/plus",
+        "name": "plus",
+        "color": "8261CB",
+        "default": false
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2015-11-24T22:43:16Z",
+    "updated_at": "2017-10-18T09:52:58Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "body":
+      "Documenting this to preserve some of my notes. We’ve had some feature requests for custom headers. While we do already set proper [caching headers, etc.](https://surge.sh/help/using-lucid-caching-automatically) and are very happy with our default caching stategy, there are cases where people do want to set very specific options beyond our base settings.\n\nAdditionally, this is one of the only a very small number of things not covered when [migrating from Divshot](https://surge.sh/help/migrating-from-divshot).\n- [Thread on Twitter about HSTS header](https://twitter.com/kennethormandy/status/659430049402085378)\n- Questions about caching headers are now usually resolved with [this article](https://surge.sh/help/using-lucid-caching-automatically), but there still have been requests for further options\n\nWe have talked about an `HSTS` file, but it might also be valuable to take care of this in a way that handles more than one header, so you don’t end up with _too_ many all-caps files in the root.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/165/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/161",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/161/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/161/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/161/events",
+    "html_url": "https://github.com/sintaxi/surge/pull/161",
+    "id": 117900732,
+    "number": 161,
+    "title": "Adds basic tests for actions with Minimist, Yargs, Commander",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125099,
+        "url":
+          "https://api.github.com/repos/sintaxi/surge/labels/help%20wanted",
+        "name": "help wanted",
+        "color": "159818",
+        "default": true
+      },
+      {
+        "id": 282401766,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/lib",
+        "name": "lib",
+        "color": "fad8c7",
+        "default": false
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      },
+      {
+        "id": 306877622,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/test",
+        "name": "test",
+        "color": "c29d7f",
+        "default": false
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2015-11-19T20:27:25Z",
+    "updated_at": "2016-01-04T21:32:53Z",
+    "closed_at": "2016-01-03T11:21:12Z",
+    "author_association": "COLLABORATOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/sintaxi/surge/pulls/161",
+      "html_url": "https://github.com/sintaxi/surge/pull/161",
+      "diff_url": "https://github.com/sintaxi/surge/pull/161.diff",
+      "patch_url": "https://github.com/sintaxi/surge/pull/161.patch"
+    },
+    "body":
+      "Looking for feedback on this, these are some basic tests to make sure the `surge.login()` action works with Minimist, Yargs, and Commander. Not sure whether it’s better to test all of those specifically, since we try to have them work well together, or if we should just be test the actions exist?\n\n![2](https://cloud.githubusercontent.com/assets/1581276/11283282/cc04a088-8eb8-11e5-9a60-31dee7e8d3cb.gif)\n\nTo try this out, run:\n\n``` sh\nnpm test -- test/actions.js\n```\n\nOnly done for login so far. The tests could be more or less involved depending on what you think.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/161/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/157",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/157/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/157/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/157/events",
+    "html_url": "https://github.com/sintaxi/surge/pull/157",
+    "id": 115397561,
+    "number": 157,
+    "title": "Fixes parser for Yargs",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125098,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      },
+      {
+        "id": 117125099,
+        "url":
+          "https://api.github.com/repos/sintaxi/surge/labels/help%20wanted",
+        "name": "help wanted",
+        "color": "159818",
+        "default": true
+      },
+      {
+        "id": 282401766,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/lib",
+        "name": "lib",
+        "color": "fad8c7",
+        "default": false
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2015-11-05T23:18:45Z",
+    "updated_at": "2015-11-16T20:24:27Z",
+    "closed_at": "2015-11-16T20:24:27Z",
+    "author_association": "COLLABORATOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/sintaxi/surge/pulls/157",
+      "html_url": "https://github.com/sintaxi/surge/pull/157",
+      "diff_url": "https://github.com/sintaxi/surge/pull/157.diff",
+      "patch_url": "https://github.com/sintaxi/surge/pull/157.patch"
+    },
+    "body":
+      "I needed to add this before I could use build Surge into a CLI using Yargs. I believe this is because you can require Yargs in one of two ways:\n\n``` js\nvar surge = require('surge')()\nvar argv = require('yargs').argv\nvar hooks = {}\n\nif (argv._[0] === 'login') {\n  console.log('Ran the `login` command')\n}\n```\n\nOr the way I think you’d want to do things with Surge:\n\n``` js\nvar surge = require('surge')()\nvar yargs = require('yargs')\nvar hooks = {}\n\nyargs\n  .command('login', 'Login to your account.', surge.login(hooks))\n  .argv\n```\n\n…but without this change, in the second example, the entire `yargs` object is passed to Surge rather than just `yargs._.argv`, so this change in the parser fixes that.\n\n---\n\nThis is probably obvious, but I am kind of out of my depth here, so feel free to critique accordingly. I only have a loose grasp on why this works, but I needed to make this change to get Surge to work both with Commander and Yargs.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/157/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/156",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/156/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/156/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/156/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/156",
+    "id": 115185464,
+    "number": 156,
+    "title": "Should support Commander’s command + desc syntax?",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 282401766,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/lib",
+        "name": "lib",
+        "color": "fad8c7",
+        "default": false
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2015-11-05T00:57:46Z",
+    "updated_at": "2015-11-05T01:00:23Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "body":
+      "Right now, if you add a Commander command with a description included…\n\n``` js\nvar program = require('commander')\nvar surge = require('surge')()\nvar hooks = {}\n\nprogram\n  .command('teardown [domain]', 'Remove a live project.')\n  .action(surge.teardown(hooks))\n```\n\n…you get an error like this, repeated multiple times:\n\n``` sh\nsurge: `--commands` is not a surge command.\n```\n\nNot entirely sure if this is a problem with how we’re parsing things from Commander, or I could be misunderstanding how this is supposed to work with Commander, but I thought I would document it for now.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/156/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/145",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/145/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/145/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/145/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/145",
+    "id": 112840049,
+    "number": 145,
+    "title": "Shouldn’t generate in-use random domain name",
+    "user": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125096,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/bug",
+        "name": "bug",
+        "color": "fc2929",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2015-10-22T16:22:27Z",
+    "updated_at": "2015-10-22T16:32:13Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "body":
+      "https://twitter.com/sebduggan/status/657187849385693184\n\nI believe we relied on statistics for this one, to ensure domain duplication didn’t happen. This may be fairly unlikely to happen again, we may need to introduce another element (ex. `adjective-noun-##.surge.sh) or maybe we need to add another check into the random domain name generation.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/145/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/143",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/143/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/143/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/143/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/143",
+    "id": 109641170,
+    "number": 143,
+    "title": ".well-known/keybase.txt not deployed",
+    "user": {
+      "login": "orlin",
+      "id": 2434,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2434?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orlin",
+      "html_url": "https://github.com/orlin",
+      "followers_url": "https://api.github.com/users/orlin/followers",
+      "following_url":
+        "https://api.github.com/users/orlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orlin/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/orlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orlin/subscriptions",
+      "organizations_url": "https://api.github.com/users/orlin/orgs",
+      "repos_url": "https://api.github.com/users/orlin/repos",
+      "events_url": "https://api.github.com/users/orlin/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/orlin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "kennethormandy",
+        "id": 1581276,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kennethormandy",
+        "html_url": "https://github.com/kennethormandy",
+        "followers_url":
+          "https://api.github.com/users/kennethormandy/followers",
+        "following_url":
+          "https://api.github.com/users/kennethormandy/following{/other_user}",
+        "gists_url":
+          "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+        "starred_url":
+          "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+        "subscriptions_url":
+          "https://api.github.com/users/kennethormandy/subscriptions",
+        "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+        "repos_url": "https://api.github.com/users/kennethormandy/repos",
+        "events_url":
+          "https://api.github.com/users/kennethormandy/events{/privacy}",
+        "received_events_url":
+          "https://api.github.com/users/kennethormandy/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-10-03T19:36:57Z",
+    "updated_at": "2015-10-19T23:21:07Z",
+    "closed_at": "2015-10-19T23:21:07Z",
+    "author_association": "NONE",
+    "body":
+      "I'm deploying https://github.com/astrolet/astrolet.co with surge and the `www/.well-known/keybase.txt` is not being served.  Guessing that you filter .hidden directories?\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/143/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/132",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/132/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/132/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/132/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/132",
+    "id": 104507327,
+    "number": 132,
+    "title": "Minor correction in the documentation",
+    "user": {
+      "login": "rdebeasi",
+      "id": 1299370,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1299370?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rdebeasi",
+      "html_url": "https://github.com/rdebeasi",
+      "followers_url": "https://api.github.com/users/rdebeasi/followers",
+      "following_url":
+        "https://api.github.com/users/rdebeasi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rdebeasi/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/rdebeasi/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/rdebeasi/subscriptions",
+      "organizations_url": "https://api.github.com/users/rdebeasi/orgs",
+      "repos_url": "https://api.github.com/users/rdebeasi/repos",
+      "events_url": "https://api.github.com/users/rdebeasi/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/rdebeasi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "kennethormandy",
+        "id": 1581276,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kennethormandy",
+        "html_url": "https://github.com/kennethormandy",
+        "followers_url":
+          "https://api.github.com/users/kennethormandy/followers",
+        "following_url":
+          "https://api.github.com/users/kennethormandy/following{/other_user}",
+        "gists_url":
+          "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+        "starred_url":
+          "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+        "subscriptions_url":
+          "https://api.github.com/users/kennethormandy/subscriptions",
+        "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+        "repos_url": "https://api.github.com/users/kennethormandy/repos",
+        "events_url":
+          "https://api.github.com/users/kennethormandy/events{/privacy}",
+        "received_events_url":
+          "https://api.github.com/users/kennethormandy/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 12,
+    "created_at": "2015-09-02T15:25:08Z",
+    "updated_at": "2015-09-16T13:34:25Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "body":
+      "The [ignoring files and directories](https://surge.sh/help/ignoring-files-and-directories) page says that by default, `node_modules` is excluded, and that you can add `!node_modules/` to `.surgeignore` to override that exclusion.\n\nFor me, that override didn't work until I removed the trailing slash. Is that a mistake in the documentation, or a weird quirk of my surge site?\n\nThank you!\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/132/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/129",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/129/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/129/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/129/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/129",
+    "id": 101416921,
+    "number": 129,
+    "title": "Routing with Backbone on subdirectory",
+    "user": {
+      "login": "limzykenneth",
+      "id": 7543950,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7543950?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/limzykenneth",
+      "html_url": "https://github.com/limzykenneth",
+      "followers_url": "https://api.github.com/users/limzykenneth/followers",
+      "following_url":
+        "https://api.github.com/users/limzykenneth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/limzykenneth/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/limzykenneth/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/limzykenneth/subscriptions",
+      "organizations_url": "https://api.github.com/users/limzykenneth/orgs",
+      "repos_url": "https://api.github.com/users/limzykenneth/repos",
+      "events_url":
+        "https://api.github.com/users/limzykenneth/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/limzykenneth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125098,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-08-17T13:06:50Z",
+    "updated_at": "2015-12-13T14:00:59Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "body":
+      "Hi,\n\nI'm trying to set up push state routing with Backbone which means I want request to be handled by my front end logic. I saw that I need to setup a 200.html page and also saw that I can just rename index.html to 200.html.\n\nHowever that doesn't seem to work for me. It might be because of my directory structure. Currently it's like this:\n\n> index.html\n> subdir/index.html\n> subdir/app.js\n\nSo the link `something-interesting.surge.sh` will visit `index.html` which is a static page.\n\nThe link `something-interesting.surge.sh/subdir` will visit `subdir/index.html` which contains app.js with Backbone routing. The effect I'm looking for is visiting `something-interesting.surge.sh/subdir/action` will trigger routing with Backbone instead of a 404 page because it's looking for the subdirectory.\n\nsimply changing `subdir/index.html` to `subdir/200.html` does not work and just give a 404 even when visiting `something-interesting.surge.sh/subdir`. Can someone advise on what I should do?\n\nHope it's clear enough. Thanks in advance. : )\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/129/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/126",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/126/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/126/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/126/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/126",
+    "id": 96904125,
+    "number": 126,
+    "title": "Unable to login; continuous password reset",
+    "user": {
+      "login": "xopj",
+      "id": 918121,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/918121?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xopj",
+      "html_url": "https://github.com/xopj",
+      "followers_url": "https://api.github.com/users/xopj/followers",
+      "following_url":
+        "https://api.github.com/users/xopj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xopj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xopj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xopj/subscriptions",
+      "organizations_url": "https://api.github.com/users/xopj/orgs",
+      "repos_url": "https://api.github.com/users/xopj/repos",
+      "events_url": "https://api.github.com/users/xopj/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/xopj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125096,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/bug",
+        "name": "bug",
+        "color": "fc2929",
+        "default": true
+      },
+      {
+        "id": 117125099,
+        "url":
+          "https://api.github.com/repos/sintaxi/surge/labels/help%20wanted",
+        "name": "help wanted",
+        "color": "159818",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      },
+      {
+        "id": 187590146,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/windows",
+        "name": "windows",
+        "color": "c7def8",
+        "default": false
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 10,
+    "created_at": "2015-07-23T20:58:18Z",
+    "updated_at": "2017-04-04T01:43:33Z",
+    "closed_at": "2015-09-16T17:51:41Z",
+    "author_association": "NONE",
+    "body":
+      "Windows 7\nRunning from Node.js command prompt\n\nI'm able to get to the password question and go through 3 tries with a correct password then it resends the reset. Website accepts the password and the process repeats. \n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/126/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/107",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/107/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/107/comments",
+    "events_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/107/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/107",
+    "id": 83026177,
+    "number": 107,
+    "title":
+      "Should be clear the project is online when there’s no index.html file included",
+    "user": {
+      "login": "cogdog",
+      "id": 463038,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/463038?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cogdog",
+      "html_url": "https://github.com/cogdog",
+      "followers_url": "https://api.github.com/users/cogdog/followers",
+      "following_url":
+        "https://api.github.com/users/cogdog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cogdog/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/cogdog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cogdog/subscriptions",
+      "organizations_url": "https://api.github.com/users/cogdog/orgs",
+      "repos_url": "https://api.github.com/users/cogdog/repos",
+      "events_url": "https://api.github.com/users/cogdog/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/cogdog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "kennethormandy",
+      "id": 1581276,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennethormandy",
+      "html_url": "https://github.com/kennethormandy",
+      "followers_url": "https://api.github.com/users/kennethormandy/followers",
+      "following_url":
+        "https://api.github.com/users/kennethormandy/following{/other_user}",
+      "gists_url":
+        "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/kennethormandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+      "repos_url": "https://api.github.com/users/kennethormandy/repos",
+      "events_url":
+        "https://api.github.com/users/kennethormandy/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/kennethormandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "kennethormandy",
+        "id": 1581276,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1581276?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kennethormandy",
+        "html_url": "https://github.com/kennethormandy",
+        "followers_url":
+          "https://api.github.com/users/kennethormandy/followers",
+        "following_url":
+          "https://api.github.com/users/kennethormandy/following{/other_user}",
+        "gists_url":
+          "https://api.github.com/users/kennethormandy/gists{/gist_id}",
+        "starred_url":
+          "https://api.github.com/users/kennethormandy/starred{/owner}{/repo}",
+        "subscriptions_url":
+          "https://api.github.com/users/kennethormandy/subscriptions",
+        "organizations_url": "https://api.github.com/users/kennethormandy/orgs",
+        "repos_url": "https://api.github.com/users/kennethormandy/repos",
+        "events_url":
+          "https://api.github.com/users/kennethormandy/events{/privacy}",
+        "received_events_url":
+          "https://api.github.com/users/kennethormandy/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-05-31T07:24:40Z",
+    "updated_at": "2015-06-01T19:13:01Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "body":
+      "I've tried the suggestion of surging a directory of images (as well as another of gifs), but the generated site always results in not found, e.g. http://gifdog.surge.sh\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/107/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/96",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/96/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/96/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/96/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/96",
+    "id": 73406093,
+    "number": 96,
+    "title": "Adding groups of collaborators",
+    "user": {
+      "login": "alexlande",
+      "id": 808159,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/808159?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexlande",
+      "html_url": "https://github.com/alexlande",
+      "followers_url": "https://api.github.com/users/alexlande/followers",
+      "following_url":
+        "https://api.github.com/users/alexlande/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexlande/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/alexlande/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/alexlande/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexlande/orgs",
+      "repos_url": "https://api.github.com/users/alexlande/repos",
+      "events_url": "https://api.github.com/users/alexlande/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/alexlande/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125098,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2015-05-05T19:21:04Z",
+    "updated_at": "2015-05-27T21:08:33Z",
+    "closed_at": "2015-05-27T21:08:33Z",
+    "author_association": "NONE",
+    "body":
+      "Hey! Thanks for Surge, it's awesome.\n\nIt would be helpful if there was a way to add or remove groups of people as collaborators. Examples might be whitelisting everyone with a particular email domain, or everyone who's part of a certain GitHub org.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/96/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/95",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/95/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/95/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/95/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/95",
+    "id": 71615072,
+    "number": 95,
+    "title": "Certain images not deployed",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url":
+        "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-04-28T15:05:00Z",
+    "updated_at": "2015-05-27T21:14:10Z",
+    "closed_at": "2015-05-27T21:14:10Z",
+    "author_association": "NONE",
+    "body":
+      "Sorry I've got a strange issue\n\nIm running Surge v0.11.1 and Im getting a couple of '404 image not found' \n\nThe strange part is that images from exactly the same directory are being loaded but **some** of them are not. Is there a data limit on how many images I can load? Are the images corrupted (re-running surge and the same images are not found)?\n\nNote: The images are display correctly on my local machine. \nNote 2: I just noticed some image names get capitalised on deployment. \n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/95/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/93",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/93/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/93/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/93/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/93",
+    "id": 69665203,
+    "number": 93,
+    "title": "Registration not possible on Windows 8.1 x64",
+    "user": {
+      "login": "brakmic",
+      "id": 56779,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56779?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brakmic",
+      "html_url": "https://github.com/brakmic",
+      "followers_url": "https://api.github.com/users/brakmic/followers",
+      "following_url":
+        "https://api.github.com/users/brakmic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brakmic/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/brakmic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brakmic/subscriptions",
+      "organizations_url": "https://api.github.com/users/brakmic/orgs",
+      "repos_url": "https://api.github.com/users/brakmic/repos",
+      "events_url": "https://api.github.com/users/brakmic/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/brakmic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125099,
+        "url":
+          "https://api.github.com/repos/sintaxi/surge/labels/help%20wanted",
+        "name": "help wanted",
+        "color": "159818",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      },
+      {
+        "id": 187590146,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/windows",
+        "name": "windows",
+        "color": "c7def8",
+        "default": false
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 8,
+    "created_at": "2015-04-20T19:43:48Z",
+    "updated_at": "2015-09-16T08:54:00Z",
+    "closed_at": "2015-06-01T18:49:35Z",
+    "author_association": "NONE",
+    "body":
+      "I tried to deploy a simple project with just index.html in it but the registration procedure is not creating a proper logon for me. I entered my email and a password but surge keeps asking me to enter a password. I tried different combinations (with capital letters, special chars etc.). I also tried to use surge via Cygwin / Bash but still get the same \"error\". \n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/93/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/87",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/87/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/87/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/87/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/87",
+    "id": 68826913,
+    "number": 87,
+    "title": "Support for already gzip’d files?",
+    "user": {
+      "login": "monfresh",
+      "id": 811150,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/811150?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/monfresh",
+      "html_url": "https://github.com/monfresh",
+      "followers_url": "https://api.github.com/users/monfresh/followers",
+      "following_url":
+        "https://api.github.com/users/monfresh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/monfresh/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/monfresh/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/monfresh/subscriptions",
+      "organizations_url": "https://api.github.com/users/monfresh/orgs",
+      "repos_url": "https://api.github.com/users/monfresh/repos",
+      "events_url": "https://api.github.com/users/monfresh/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/monfresh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 16,
+    "created_at": "2015-04-16T02:04:51Z",
+    "updated_at": "2015-12-03T02:13:26Z",
+    "closed_at": "2015-10-22T22:53:15Z",
+    "author_association": "NONE",
+    "body":
+      "I just tried deploying my Octopress (based on Jekyll) static site, and it worked perfectly. This is a great product so far. One thing that would be great to add is support for compressed files. Currently, my site is hosted on S3, and I upload gzipped HTML and CSS, then set the `Content-Encoding` on S3 to `gzip`.\n\nDo you have any plans to support gzip content?\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/87/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/78",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/78/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/78/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/78/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/78",
+    "id": 63070909,
+    "number": 78,
+    "title": "How do you use the HTML5 mode 200.html pages feature?",
+    "user": {
+      "login": "oskarrough",
+      "id": 184567,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/184567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oskarrough",
+      "html_url": "https://github.com/oskarrough",
+      "followers_url": "https://api.github.com/users/oskarrough/followers",
+      "following_url":
+        "https://api.github.com/users/oskarrough/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oskarrough/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/oskarrough/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/oskarrough/subscriptions",
+      "organizations_url": "https://api.github.com/users/oskarrough/orgs",
+      "repos_url": "https://api.github.com/users/oskarrough/repos",
+      "events_url": "https://api.github.com/users/oskarrough/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/oskarrough/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-03-19T19:20:48Z",
+    "updated_at": "2015-03-20T10:49:47Z",
+    "closed_at": "2015-03-19T20:15:05Z",
+    "author_association": "NONE",
+    "body":
+      "Hi, I'd like to redirect all requests to my index.html - how do you do it?\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/78/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/77",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/77/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/77/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/77/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/77",
+    "id": 62818266,
+    "number": 77,
+    "title": "Trouble adding user",
+    "user": {
+      "login": "davidguttman",
+      "id": 431696,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/431696?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidguttman",
+      "html_url": "https://github.com/davidguttman",
+      "followers_url": "https://api.github.com/users/davidguttman/followers",
+      "following_url":
+        "https://api.github.com/users/davidguttman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidguttman/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/davidguttman/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/davidguttman/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidguttman/orgs",
+      "repos_url": "https://api.github.com/users/davidguttman/repos",
+      "events_url":
+        "https://api.github.com/users/davidguttman/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/davidguttman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2015-03-18T22:28:33Z",
+    "updated_at": "2015-03-18T22:35:07Z",
+    "closed_at": "2015-03-18T22:35:07Z",
+    "author_association": "NONE",
+    "body":
+      "Can't seem to add a third user:\n\n```\njs.la[master]% surge -a jacob@js.la\n\n              email: david@guttman.io\n       project path: (js.la) ./dist\n               size: 182 files, 11.5 MB\n             upload: [====================] 100%, eta: 0.0s\n   propagate on CDN: [====================] 100%\n              users: mike@js.la, david@guttman.io\n         IP address: 192.201.204.118\n\n    Success! Project is published and running at js.la\n```\n\nLooked inside and saw that the header \"add\" is there, but the final user payload comes back without the new user.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/77/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/61",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/61/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/61/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/61/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/61",
+    "id": 59853668,
+    "number": 61,
+    "title": "Ignoring files",
+    "user": {
+      "login": "onderweg",
+      "id": 588069,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/588069?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/onderweg",
+      "html_url": "https://github.com/onderweg",
+      "followers_url": "https://api.github.com/users/onderweg/followers",
+      "following_url":
+        "https://api.github.com/users/onderweg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/onderweg/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/onderweg/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/onderweg/subscriptions",
+      "organizations_url": "https://api.github.com/users/onderweg/orgs",
+      "repos_url": "https://api.github.com/users/onderweg/repos",
+      "events_url": "https://api.github.com/users/onderweg/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/onderweg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2015-03-04T20:06:15Z",
+    "updated_at": "2015-03-04T21:05:02Z",
+    "closed_at": "2015-03-04T20:12:42Z",
+    "author_association": "NONE",
+    "body":
+      "I would like to have a way to ignore certain files when uploading a directory. For example OS X `.DS_store` files or files generated by my IDE.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/61/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/sintaxi/surge/issues/55",
+    "repository_url": "https://api.github.com/repos/sintaxi/surge",
+    "labels_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/55/labels{/name}",
+    "comments_url":
+      "https://api.github.com/repos/sintaxi/surge/issues/55/comments",
+    "events_url": "https://api.github.com/repos/sintaxi/surge/issues/55/events",
+    "html_url": "https://github.com/sintaxi/surge/issues/55",
+    "id": 59747212,
+    "number": 55,
+    "title": "Can't surge at all - error with publishing",
+    "user": {
+      "login": "cfjedimaster",
+      "id": 393660,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/393660?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cfjedimaster",
+      "html_url": "https://github.com/cfjedimaster",
+      "followers_url": "https://api.github.com/users/cfjedimaster/followers",
+      "following_url":
+        "https://api.github.com/users/cfjedimaster/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cfjedimaster/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/cfjedimaster/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/cfjedimaster/subscriptions",
+      "organizations_url": "https://api.github.com/users/cfjedimaster/orgs",
+      "repos_url": "https://api.github.com/users/cfjedimaster/repos",
+      "events_url":
+        "https://api.github.com/users/cfjedimaster/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/cfjedimaster/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 117125096,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/bug",
+        "name": "bug",
+        "color": "fc2929",
+        "default": true
+      },
+      {
+        "id": 117125098,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      },
+      {
+        "id": 117125101,
+        "url": "https://api.github.com/repos/sintaxi/surge/labels/question",
+        "name": "question",
+        "color": "cc317c",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 18,
+    "created_at": "2015-03-04T03:58:23Z",
+    "updated_at": "2017-09-13T19:35:19Z",
+    "closed_at": "2015-03-04T17:13:24Z",
+    "author_association": "NONE",
+    "body":
+      "Whenever I do a surge test, I get: Aborted - you must be granted access to publish to quiet-creature.surge.sh\n\nI haven't tried to set the domain at all - I'm taking the defaults.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/sintaxi/surge/issues/55/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0
+    }
+  }
+]
