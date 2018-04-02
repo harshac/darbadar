@@ -1,26 +1,37 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import page from '../../content/issues.json'
+import { Link } from 'react-router-dom'
 
-const IndexPage = () => (
-  <div>
-    <div className="ma4">
-      {page.map((answer, i) => (
-        <article className="pa3 flex items-start justify-between" key={`answer-${i}`}>
-          <div className={`ba br1 tc ${(answer.state === 'open') ? 'b--light-gray' : 'b--light-green'}`}>
-            <p className="ma3 code w1 lh-solid">{answer.comments}</p>
-          </div>
-          <div className="flex-auto ml4 pb4">
-            <h4 className="f4 lh-title ma0"><a className="link dark-green" target="_blank" href={answer.html_url}>{answer.title}</a></h4>
-            <p className="f5 lh-copy measure-wide mb4">{answer.body.substring(0, 136)}&hellip;</p>
-            <div className="flex items-center h2">
-              <img className="db w2 h2 br2 mr2" src={answer.user.avatar_url} alt="" /><p className="ma0 f6 lh-solid gray">{answer.user.login}</p>
-            </div>
-          </div>
-        </article>
-      ))}
+export default function Home() {
+  return (
+    <div className="h-75">
+      <style>
+        {`
+          .feature {
+            float: left;
+            width: 60%;
+            box-shadow: inset 0 0 0 0.25rem #f5f5f5;
+            background: #e3e3e3 no-repeat center;
+            background-size: cover;
+          }
+          .feature:nth-child(1) {
+            width: 60%;
+            height: 75%;
+          }
+          .feature:nth-child(2),
+          .feature:nth-child(3) {
+            width: 40%;
+            height: 50%;
+            float: right;
+          }
+        `}
+      </style>
+      <div className="h-100">
+        <div className="bg-light-green feature" style={{backgroundImage: "url('https://c1.staticflickr.com/5/4423/37140555805_b774c3f2f7_b.jpg')"}}></div>
+        <div className="bg-light-red feature" style={{backgroundImage: "url('https://s3-us-west-2.amazonaws.com/darbadar-postcards/images/2_sao_joao.jpg')"}}></div>
+        <div className="bg-light-blue feature pa3">
+          <h2 className="f5 mv0 gray ttu tracked">Instagram <span className="fw1">Photoset</span></h2>
+        </div>
+      </div>
     </div>
-  </div>
-)
-
-export default IndexPage
+  )
+}
