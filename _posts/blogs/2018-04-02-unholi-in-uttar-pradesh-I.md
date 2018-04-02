@@ -10,6 +10,8 @@ genre: Culture
 tags: Travel India Holi Festival Culture 
 albumId: 40466689494
 published: true
+positionX: "30%"
+positionY: "80%"
 thumbnail-position-y: 90%
 galleryEnabled: false
 excerpt: It was 10:53 in the night. Footfall on Mathura Jn. railway station had reduced considerably in the last two hours. I walked across the length of the platform with a deliberate, confident stride, a 60-litre backpack on my back, a camera bag in front, left hand in pocket of my track pants, thumb on the nozzle of a pepper spray. I had stepped out twice, onto the dirt road outside the station absolved of all light, to smell liquor on the male-only crowd, and for them to smell fear on me, and come back. They were all too drunk to walk straight yet not drunk enough to miss the sight of a lone woman. Eve learnt fear before Adam...
