@@ -16,12 +16,12 @@ galleryEnabled: false
 excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust. So I walked down that dark, dirty road with seven strangers, six of them men, trusting whole-heartedly my gut.
 ---
 
-[Read part I here...]({% link _posts/blogs/2018-04-02-unholi-in-uttar-pradesh-I.md %})
+[Continued from part-I here.]({% link _posts/blogs/2018-04-02-unholi-in-uttar-pradesh-I.md %})
 {:class="previous-post-link"}
 
 It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust. So I walked down that dark, dirty road with seven strangers, six of them men, trusting whole-heartedly my gut.
 
-“We were in Barsana for _lathmar holi_{:title="a form of holi in which woman beat up men"},” she said taking off her bandana and dusting colours off her short bob, “it was horrible…had it not been for these guys, it would have been a lot worse.”
+“We were in Barsana for _lathmar holi_{:title="A form of holi celebration, typical to Nandgaon and Barsana in Uttar Pradesh, in which women beat up men with sticks."},” she said taking off her bandana and dusting colours off her short bob, “it was horrible…had it not been for these guys, it would have been a lot worse.”
 
 Together we walked through forlorn streets, the others and I, shops with closed shutters on both sides, the road now lit up by the occasional street-light, bestrewn with litter. The city lay limp and colourless like a dead body, drained of all blood. 
 
