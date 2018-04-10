@@ -53,3 +53,5 @@ Someone called me, a face as unrecognizable as all others, skin a violent orgy o
 One obvious choice remained – spend the night at the station and go back to New Delhi the next morning. 
 
 Instead, I said, “Let’s go.”
+
+[Continue reading]({% link _posts/blogs/2018-04-10-unholi-in-uttar-pradesh-II.md %})
