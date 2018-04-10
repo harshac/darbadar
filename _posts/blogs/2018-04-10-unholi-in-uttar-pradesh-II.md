@@ -11,7 +11,7 @@ tags: Travel India Holi Festival Culture
 albumId: 40466689494
 published: true
 positionX: "30%"
-positionY: "88%"
+positionY: "45%"
 galleryEnabled: false
 excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust. So I walked down that dark, dirty road with seven strangers, six of them men, trusting whole-heartedly my gut.
 ---
