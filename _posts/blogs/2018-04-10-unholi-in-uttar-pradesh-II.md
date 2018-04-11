@@ -53,7 +53,7 @@ _“लो, और तीन आ गये फोटो खींचने व�
 
 _“खींचने वाली तो इंकी है!”_{:title="They are screwed!"}
 
-Their laughter behind us, we walked down the road until the barren land on both sides started making way for houses. Little boys, with पिचकारी(water gun) in their hands, came running towards us. While they sprayed both men haphazardly, they only sprayed my butt. I shrugged off the first thought that came to my mind; depravity does not afflict the young, certainly not six-year-olds. 
+Their laughter behind us, we walked down the road until the barren land on both sides started making way for houses. Little boys, with _पिचकारी_{:title="Water gun."} in their hands, came running towards us. While they sprayed both men haphazardly, they only sprayed my butt. I shrugged off the first thought that came to my mind; depravity does not afflict the young, certainly not six-year-olds. 
 
 The road soon turned into a serpent slithering uphill. On both sides of it houses painted in neon colours stood right next to each other, arms touching, in absolute solidarity. On the roofs stood teenage boys and young men, drenching every woman in a specific order – first the breasts, then the butt. In a t-shirt four times my size that reached the knees and an equally oversized pair of trousers, carrying camera bag in front, I am sure I brought them grief. Nevertheless, they persevered. Some of them, stationed on the ground, would come forward and chant _“राधे! राधे!”_{:title="A holy chant."} before smearing my face with colours, hands tracing my face in a slow crawl, mouth curled in a lecherous grin. 
 
