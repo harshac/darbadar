@@ -284,7 +284,7 @@
         margin-bottom: 2em;
     }
 
-    p:not(.previous-post-link) {
+    p:not(.previous-post-link), p:not(&:li){
         &:first-child:first-letter {
             font-size: 3.4em;
             padding: 0 0.1em 0 0;
