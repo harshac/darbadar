@@ -207,6 +207,7 @@
     &.has-bg {
         background-size: cover;
         background-color: $grey-color-dark;
+        .post-sup-title,
         .post-title,
         .post-meta,
         .post-location {
@@ -246,6 +247,28 @@
 
     @include media-query($on-palm) {
         font-size: 24px;
+    }
+
+    &.has-suptitle{
+        line-height: 56px;
+    }
+}
+
+.post-sup-title {
+    font-family: fantasy;
+    font-size: 24px;
+    font-weight: 400;
+    .has-bg & {
+        color: #fff;
+        text-shadow: 1px 1px 6px #000;
+    }
+
+    @include media-query($on-laptop) {
+        font-size: 24px;
+    }
+
+    @include media-query($on-palm) {
+        font-size: 16px;
     }
 }
 

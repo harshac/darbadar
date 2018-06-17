@@ -5,13 +5,19 @@ layout: default
 
 	{% if page.featureImage %}
 		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
-				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+				{% if page.suptitle %}
+					<h4 class="post-sup-title" itemprop="headline">{{ page.suptitle }}</h4>
+					<h1 class="post-title has-suptitle" itemprop="headline">{{ page.title }}</h1>
+				{% else %}
+					<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+				{% endif %}	
 				<div class="post-read-time">
 					<i class="fa fa-clock-o post-read-time-icon"></i>
 				</div>
 		</header>
 	{% else %}
 		<header class="post-header">
+				<h4 class="post-sup-title" itemprop="headline">{{ page.suptitle }}</h4>
 				<h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
 				<div class="post-read-time">
 					<i class="fa fa-clock-o post-read-time-icon"></i>
