@@ -40,11 +40,11 @@ In this tutorial, we will touch upon three different techniques of composition.T
  
 	So does that mean the rule of thirds only applies to landscapes? No. Like I mentioned above, the rule states that the subject should either be placed along or at the intersection of the grid lines. The size of your subject is what decides which one of the two approaches you choose. If it is a person, a parrot or a monument, you should try and place him/her/it at one of the four intersection points like so:
  
-	![Image with horizon subject at intersection](){:name="intersection-good"} 
+	![Image with horizon subject at intersection](){:name="intersection-good-grid"} 
  
 	And NOT like this:
  
-	![Image with horizon subject not at intersection](){:name="intersection-bad"} 
+	![Image with horizon subject not at intersection](){:name="intersection-bad-grid"} 
  
 2. Leading lines
  
