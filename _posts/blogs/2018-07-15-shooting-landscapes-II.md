@@ -31,7 +31,7 @@ In this tutorial, we will touch upon three different techniques of composition.T
  
 	![Landscape with horizon at 1/3rd](){:name="horizon-good"}
  
-	Notice the difference? Your frenemy has put the rule of thirds to use in his image. If you were to imagine a 3*3 grid on top of your image (strictly speaking, you don’t have to imagine it as every modern camera and most smart phones will let you see a grid on top of your image before you shoot), your subject should either be aligned with a grid line or placed at the intersection of the grid lines but never at the centre. Blah, blah, what? Observe carefully these next two images. (They are the same ones as before but now overlain with a 3*3 grid.)
+	Notice the difference? Your frenemy has put the rule of thirds to use in his image. If you were to imagine a 3x3 grid on top of your image (strictly speaking, you don’t have to imagine it as every modern camera and most smart phones will let you see a grid on top of your image before you shoot), your subject should either be aligned with a grid line or placed at the intersection of the grid lines but never at the centre. Blah, blah, what? Observe carefully these next two images. (They are the same ones as before but now overlain with a 3x3 grid.)
  
 	![Landscape with horizon not at 1/3rd with grid](){:name="horizon-bad-grid"} 
  
