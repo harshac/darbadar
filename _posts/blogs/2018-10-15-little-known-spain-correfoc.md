@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Little-known Spain: Tradition of Correfoc"
+title: "Little-known Spain: Correfoc"
 location: "Barcelona, Spain"
 latitude: 41.3948976
 longitude: 2.0787278
