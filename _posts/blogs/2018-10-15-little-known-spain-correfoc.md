@@ -34,7 +34,7 @@ In Catalan folklore, devils, dragons and fire had always played a prominent role
 
 ![Correfoc devil called Diables, Barcelona, Spain](){:name="correfoc-devil"} 
 
-![Correfoc devils group lighting up their pitchforks, Barcelona, Spain](){:name="correfoc-devils-lighten-up-pitchforks"} 
+![Correfoc devils pitchforks, Barcelona, Spain](){:name="correfoc-devils-pitchforks"} 
 
 In 1979, the Barcelona City Council organized the first _Correfoc_ (although it was not named so at the time). Over the years, _Correfoc_ gained widespread popularity and eventually became an inevitable part of public celebrations.
 
@@ -50,9 +50,10 @@ It has become so ingrained in the identity of Catalonia that every time there is
 
 Deeming it a safety hazard, when the administration once attempted to step in and ban _Correfoc_, locals gathered to do a nude version of the procession as a means of protest. (There is a video online if you are curious enough to look for it.)
 
-![Correfoc devils pitchforks, Barcelona, Spain](){:name="correfoc-devils-pitchforks"} 
+![Correfoc devils group lighting up their pitchforks, Barcelona, Spain](){:name="correfoc-devils-lighten-up-pitchforks"} 
 
 
+_Photographs by Harsha Chaudhary._
 
 
 
