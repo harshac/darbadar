@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The man from Hornbill festival"
+title: "Nagaland: The man from Hornbill festival"
 location: "Nagaland, India"
 latitude: 26.1127585
 longitude: 93.1648303
@@ -18,7 +18,7 @@ positionY: 30%
 
 My gaze ping-ponged between his earnest face and the table in front of me weighed down by half a dozen certificates laminated in wooden frames, a pale-yellow cashmere shawl and a gold medal the size of a thumb-nail in a little glass case. Guru Sangyusang Pongen clearly had had an illustrious career. 
 
-A week before, I had met him in Kisama during The Hornbill Festival in Nagaland. He sat outside the Ao morung (a type of bachelor’s dormitory integral to Naga culture across all tribes, now rendered obsolete) in their traditional finery, patiently posing and smiling for zealot photographers, ever so often adjusting the khaup (gauntlet worn on the wrist glove) or tugging at the merangkhambang (spiked metal armlet). 
+A week before, I had met him in Kisama during The Hornbill Festival in Nagaland. He sat outside the Ao _morung_ (a type of bachelor’s dormitory integral to Naga culture across all tribes, now rendered obsolete) in their traditional finery, patiently posing and smiling for zealot photographers, ever so often adjusting the _khaup_ (gauntlet worn on the wrist glove) or tugging at the _merangkhambang_ (spiked metal armlet). 
 
 ![Morung in Ungma village, Nagaland, India](){:name="Morung in Ungma village"}  
 
@@ -32,7 +32,7 @@ Mustering my brightest smile, I walked up to him.
 
 Something about him struck in me instantly an acute nostalgia. It was his voice, I realized, he sounded just like my late grandfather I last heard when I was twelve. My reasons now entirely personal, I sat down for a chat.  
 
-Wisecracking one moment and saint-like the next, he walked me through every element of his elaborate attire, spoke about the "many, many prizes" he had won and made at least three jokes about his age. His childlike joie de vivre was as charming as it was in the man I knew once, my jeje apa. 
+Wisecracking one moment and saint-like the next, he walked me through every element of his elaborate attire, spoke about the "many, many prizes" he had won and made at least three jokes about his age. His childlike joie de vivre was as charming as it was in the man I knew once, my _jeje apa_. 
 
 Twenty minutes into our conversation, I grew aware of the queue of people forming behind me, eager to take a picture with him. I got up in haste. He wrote down his name and number on a piece of paper and gave it to me, then repeated for the third time - "If you come to Mokokchung, you must come to Ungma and stay in my house." 
 
@@ -56,7 +56,7 @@ After spending that night in the town in a seedy hotel, I set forth towards Long
 
 Three hours of failed hitchhiking attempts and a cab ride later, I sat in the living room of Sangeet Natak Akademi awardee Guru Sanyusang Pongen in Ungma village.
 
-Bespectacled, bald patch on the back of his head no longer hidden by headgear made of wozume (hornbill feather) and wrinkles on face made deeper by his drab sartorial choice of formal khaki trousers and white shirt, Sangyu now appeared a lot older, a lot more like the seventy-five-year-old that he was. 
+Bespectacled, bald patch on the back of his head no longer hidden by headgear made of _wozume_ (hornbill feather) and wrinkles on face made deeper by his drab sartorial choice of formal khaki trousers and white shirt, Sangyu now appeared a lot older, a lot more like the seventy-five-year-old that he was. 
 
 "She was also there with me…when president give me award," he gestured at his wife standing beside him. 
 
@@ -108,7 +108,7 @@ She got up, rushed to the kitchen and came back with a huge pan full of water th
 
 "Wa-AH-AH!" She burst out all of a sudden in ecstasy. I almost dropped the half-chopped onion, startled, making her laugh. It was in that moment of shared silliness that we no longer remained strangers.
 
-That evening, she and I cooked dinner together to the tune of the radio – fried beef, potatoes sautéed with loads of onions and tomatoes, dal and rice straight from the local farms. While we chopped and peeled and stirred and sweat, Sangyu sat in front of the television set in the living room in a t-shirt and track pants, watching a football match. It was in this everyday humdrum, when they felt no obligation to entertain me as a guest, that I truly realized a sense of oneness with them. 
+That evening, she and I cooked dinner together to the tune of the radio – fried beef, potatoes sautéed with loads of onions and tomatoes, _dal_ and rice straight from the local farms. While we chopped and peeled and stirred and sweat, Sangyu sat in front of the television set in the living room in a t-shirt and track pants, watching a football match. It was in this everyday humdrum, when they felt no obligation to entertain me as a guest, that I truly realized a sense of oneness with them. 
 
 Over the next two days, I would observe as they navigated though their everyday lives. While Sangyu attended meetings during the day, aunty cleaned and cooked and did all that one needs to do to run a house, all the while with a song on her lips. Their quite contentment halted only after the chores ended and they were spared a moment to look around their empty nest.
 
@@ -135,7 +135,7 @@ As I lay down in bed that night in my hosts’ oldest daughter’s room, one las
 
 ![Psangyu and aunty pose for me in their terrace, Nagaland, India](){:name="Psangyu and aunty pose for me in their terrace"} 
 
-A version of this story first appeared in the May issue of Discover India’s North East Magazine earlier this year.
+_A version of this story first appeared in the May issue of [Discover India’s North East](https://www.facebook.com/discoverindiasnortheast/) Magazine earlier this year._
 
 _Photographs by Trishna Mohanty._
 
