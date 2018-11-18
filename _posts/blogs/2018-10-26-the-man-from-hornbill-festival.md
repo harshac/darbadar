@@ -137,7 +137,7 @@ As I lay down in bed that night in my hosts’ oldest daughter’s room, one las
 
 _A version of this story first appeared in the May issue of [Discover India’s North East](https://www.facebook.com/discoverindiasnortheast/) Magazine earlier this year._
 
-_Photographs by Trishna Mohanty._
+_By Trishna Mohanty._
 
 
 
