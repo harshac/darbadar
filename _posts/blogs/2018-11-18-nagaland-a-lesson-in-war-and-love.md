@@ -52,7 +52,7 @@ The Japanese army numbered close to 15,000.
 
 A bloody battle ensued, possibly one of the worst during the Second World War. Although the battle ended in victory for the British, the empire was never the same again; the end of British Raj in India was near. For Japan, the loss ended its imperialist ambitions.
 
-“The stench of corpses lingered for many, many weeks…sometimes at night, till this day, I wake up to that smell…” The granddaughter translated her otzy’s (grandmother’s) words.
+“The stench of corpses lingered for many, many weeks…sometimes at night, till this day, I wake up to that smell…” The granddaughter translated her _otzy’s_ (grandmother’s) words.
 
 I remembered then walking around the war cemetery in Kohima, reading carefully every single gravestone. There was one that has stayed with me since - “You will be missed by the son who has never seen you.” 
 
