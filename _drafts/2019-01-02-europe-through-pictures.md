@@ -28,7 +28,7 @@ I eventually made peace with the inevitable uncertainty that plagued me often du
 
 https://www.instagram.com/p/BkIe-_YhoCf/ - View of Barcelona from the Montjuic Castle. 
 
-https://www.instagram.com/p/Bo_9BnWhJLc/ - A pyrotechnic performance during the Correfoc run in Barcelona. Read our blog about Correfoc here: http://darbadar.com/stories/2018/10/little-known-spain-correfoc/
+https://www.instagram.com/p/Bo_9BnWhJLc/ - A pyrotechnic performance during the Correfoc run in Barcelona. Read our blog about Correfoc here: https://darbadar.com/stories/2018/10/little-known-spain-correfoc/
 
 https://www.instagram.com/p/BgTwaB-hJ7p/ - In La Rambla, the most popular pedestrian street in Barcelona.
 
