@@ -1,0 +1,33 @@
+.post-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 42px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.post-tile {
+  .post-img {
+    width: 100%;
+    background-color: $grey-color-light;
+    background-size: cover;
+    height: $box-width;
+    border-radius: 3px 3px 0 0;
+  }
+}
+
+//Common
+
+.post-meta {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.5em
+}
+
+.post-data {
+  margin: auto;
+  color: black;
+  padding: 20px;
+}
