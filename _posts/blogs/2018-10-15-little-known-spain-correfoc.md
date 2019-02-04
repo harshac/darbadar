@@ -11,6 +11,7 @@ tags: Travel Spain Culture Tradition Catalonia
 albumId: 72157672372596647
 published: true
 galleryEnabled: false
+thumbnail-position-x: 35%
 thumbnail-position-y: 80%
 positionY: 40%
 ---

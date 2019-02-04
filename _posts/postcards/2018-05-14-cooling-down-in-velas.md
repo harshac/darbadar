@@ -10,6 +10,7 @@ tags: Travel Adventure India Maharashtra Velas
 socialMedia: 
 published: true
 galleryEnabled: false
+thumbnail-position-x: 85%
 ---
 
 Khushal and I stood at the edge of the bridge, looking down at the river some 30 feet below, contemplating.

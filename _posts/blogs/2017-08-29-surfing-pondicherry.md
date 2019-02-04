@@ -11,7 +11,7 @@ tags: Travel India Pondicherry Surfing Beaches Sports
 albumId: 72157686367876213
 published: true
 galleryEnabled: false
-thumbnail-position-x: 94
+thumbnail-position-x: 55%
 excerpt: For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut through lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal.
 ---
 _ARGH!_

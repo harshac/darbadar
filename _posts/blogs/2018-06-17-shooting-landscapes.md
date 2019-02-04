@@ -9,6 +9,7 @@ tags: Travel Photography Tutorial AmateurPhotographer
 socialMedia: 
 albumId: 72157697552969464
 galleryEnabled: false
+thumbnail-position-x: 35%
 ---
 
 Well, hello! We are taking a break from narrating travel stories today and instead scratching the musty, wart-ridden armpit of travel photography. (We will be continuing this series in the months to come, do drop by every now and then if it floats your boat. Additionally, you can find bite-sized travel photography tutorials that we share under [#shootwithdarbadar](https://www.instagram.com/explore/tags/shootwithdarbadar/){:target="_blank"} on our Instagram account [@darbadartrails](https://www.instagram.com/darbadartrails/){:target="_blank"}.) Be warned though, this guide/series is NOT meant for people who already know their way about handling all those crazy dials and buttons on cameras. This is a completely non-technical photography guide meant for those who want to learn just enough to shoot decent photographs while travelling without wanting to read a thesis on the subject. 

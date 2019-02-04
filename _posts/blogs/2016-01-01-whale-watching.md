@@ -14,7 +14,7 @@ socialMedia: null
 albumId: 72157660710608723
 published: true
 galleryEnabled: false
-thumbnail-position-x: 40%
+thumbnail-position-x: 80%
 ---
 
 
