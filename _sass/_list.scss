@@ -1,9 +1,3 @@
-.home {
-    width: 32em;
-    max-width: 100%;
-    margin: auto;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -11,7 +5,8 @@
     > li {
         margin-bottom: $spacing-unit;
         float: left;
-        width: 100%;
+        width: $box-width;
+        height: $box-height;
         margin-right: $spacing-unit;
         box-shadow: 0 4px 10px $grey-color-light;
         box-sizing: border-box;
@@ -78,9 +73,8 @@
 .post-img{
     width:100%;
     background-color: $grey-color-light;
-    background-size: 100% auto;
+    background-size: cover;
     height: $box-image-height;
-    background-repeat: no-repeat;
     border-radius: 3px 3px 0 0;
 }
 
@@ -119,13 +113,13 @@
 }
 
 .videos:before {
-    content: "\f03d";
+    content: "\f03d"; 
 }
 .stories:before{
-    content: "\f0f6";
+    content: "\f0f6"; 
 }
 .postcards:before{
-    content: "\f03e";
+    content: "\f03e"; 
 }
 
 .video-list {
