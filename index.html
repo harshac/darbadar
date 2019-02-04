@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="home">
+  {% include featured.html %}
 
-  <!--{% include list.html %}-->
-  {% include homepage.html %}
-
+  {% assign otherPosts = site.posts | offset: 1 %}
+  {% include list.html posts=otherPosts%}
 </div>

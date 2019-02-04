@@ -34,29 +34,3 @@
         </div>
     </div>
 </div>
-
-<div class="post-grid-wrapper">
-    {% for post in site.posts %}
-    {% if post.categories contains "guides" %}
-    {% else %}
-    <div class="post-tile">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="post-img"
-                 style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}}; background-position-y: {{post.thumbnail-position-y}}">
-            </div>
-            <div class="post-data">
-                <div class="post-meta">
-                    {{ post.genre }}
-
-                    {% if post.location %}
-                    | {{post.location}}
-                    {% endif %}
-
-                </div>
-                <h2 class="post-title">{{ post.title }}</h2>
-            </div>
-        </a>
-    </div>
-    {% endif %}
-    {% endfor %}
-</div>

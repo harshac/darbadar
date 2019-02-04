@@ -1,25 +1,25 @@
-<ul class="post-list cf">
-  {% for post in site.posts %}
+<div class="post-grid-wrapper">
+  {% for post in include.posts %}
   {% if post.categories contains "guides" %}
   {% else %}
-  <li>
+  <div class="post-tile">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      <div class="post-img" style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}};
-background-position-y: {{post.thumbnail-position-y}}">
+      <div class="post-img"
+           style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}}; background-position-y: {{post.thumbnail-position-y}}">
       </div>
-      <div class="post-link-inner {{ post.genre | downcase }}">
+      <div class="post-data">
         <div class="post-meta">
-        <span class="post-genre">{{ post.genre }}</span>
-        <span class="right">
+          {{ post.genre }}
+
           {% if post.location %}
-            <i class="fa fa-map-marker post-location-icon"></i>{{post.location}}
+          | {{post.location}}
           {% endif %}
-          </span>
+
         </div>
-          <h2 class="post-title">{{ post.title }}</h2>
-        </div>
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+        <h2 class="post-title">{{ post.title }}</h2>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
