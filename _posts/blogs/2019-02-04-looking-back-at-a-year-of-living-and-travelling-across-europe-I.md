@@ -48,9 +48,9 @@ That night, seven more guests arrived in the hellhole. Although still fairly ale
 
 ![Kids at Las fallas](){:name="kids-at-las-fallas"}
 
-Next morning, I woke up to find two of my roommates engaging their private parts in an elaborate party of their own. Ducking my head under covers, I waited for festivities to end, but this party went on for over an hour. Fireworks, deafening music and a general absence of clothes, it almost had it all.
-
 ![Parade at Las fallas](){:name="parade-at-las-fallas"}
+
+Next morning, I woke up to find two of my roommates engaging their private parts in an elaborate party of their own. Ducking my head under covers, I waited for festivities to end, but this party went on for over an hour. Fireworks, deafening music and a general absence of clothes, it almost had it all.
 
 My being polluted with memories of strangers rubbing gonads, I travelled to Tromsö, Norway with a friend to see the Northern Lights.  
 
