@@ -7,8 +7,8 @@ longitude: 74.1688274
 albumId: 72157667037211373
 featureImage: https://c2.staticflickr.com/8/7448/27636373675_8bfe558599_c.jpg
 categories: stories
-positionX: "30%"
-positionY: "20%"
+positionX: 30%
+positionY: 20%
 genre: Culture
 tags: Travel Culture India Maharashtra History MartialArt 
 thumbnail-position-x: 65%

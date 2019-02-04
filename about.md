@@ -1,8 +1,6 @@
 ---
 layout: page
-title: About us
 permalink: /about-us/
-order: 5
 ---
 
 Darbadar, a word of Farsi-Urdu origin, means door-to-door, a word we think best describes the essence of a traveler, an identity we take on sporadically.

@@ -1,0 +1,9 @@
+---
+layout: default
+permalink: /free-stuff/
+---
+
+<div class="home">
+    {% assign freePosts = site.posts | where: "categories", "free" %}
+    {% include list.html posts=freePosts%}
+</div>
