@@ -27,15 +27,9 @@ $content-width:    1280px;
 $on-phone:		   360px;
 $on-palm:          600px;
 $on-laptop:        1280px;
-<<<<<<< HEAD
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
-$box-image-height: $box-width / 1.6 + 30;
-=======
-$box-width:        672px;
-$box-image-height: $box-width / 1.6;
->>>>>>> Changes home to single page layout
+$box-image-height: $box-width / 1.6 + 30;  ;
 $box-height:       $box-width - 55;
-
 $video-box-height: $box-image-height + 50;
 
 
