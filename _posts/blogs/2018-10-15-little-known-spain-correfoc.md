@@ -4,13 +4,11 @@ title: "Little-known Spain: Correfoc"
 location: "Barcelona, Spain"
 latitude: 41.3948976
 longitude: 2.0787278
+albumId: 72157672372596647
 featureImage: "https://c2.staticflickr.com/2/1934/44623623734_6bb82e93a4_c.jpg"
 categories: stories
 genre: Culture
 tags: Travel Spain Culture Tradition Catalonia
-albumId: 72157672372596647
-published: true
-galleryEnabled: false
 thumbnail-position-x: 35%
 thumbnail-position-y: 80%
 positionY: 40%

@@ -39,7 +39,7 @@
     {% for post in site.posts %}
     {% if post.categories contains "guides" %}
     {% else %}
-    <div class="post-tile col-{{ forloop.index % 3}} row-1x3">
+    <div class="post-tile">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-img"
                  style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}}; background-position-y: {{post.thumbnail-position-y}}">

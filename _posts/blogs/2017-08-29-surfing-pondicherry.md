@@ -4,13 +4,11 @@ title: Catching the surf in Pondicherry
 location: "Pondicherry, India"
 latitude: 11.9362931
 longitude: 79.7785083
-featureImage: "https://c1.staticflickr.com/5/4423/37140555805_b774c3f2f7_c.jpg"
+albumId: 72157686367876213
+featureImage: https://c1.staticflickr.com/5/4423/37140555805_b774c3f2f7_c.jpg
 categories: stories
 genre: Adventure
 tags: Travel India Pondicherry Surfing Beaches Sports
-albumId: 72157686367876213
-published: true
-galleryEnabled: false
 thumbnail-position-x: 55%
 excerpt: For a brief moment, the fisherman’s village stood erect in my view, then started tilting to my right as I fell, cut through lukewarm waters, gulp, gulp, gulp and rammed face-first onto the sandy bed of the Bay of Bengal.
 ---

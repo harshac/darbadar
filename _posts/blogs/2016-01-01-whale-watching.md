@@ -4,16 +4,13 @@ title: A whale of a time
 location: "Monteray Bay, California, USA"
 latitude: 36.604715
 longitude: -121.8935654
-featureImage: "https://c2.staticflickr.com/6/5739/24021465761_26faf22a57_z.jpg"
+albumId: 72157660710608723
+featureImage: https://c2.staticflickr.com/6/5739/24021465761_26faf22a57_z.jpg
 positionX: "40%"
 positionY: "40%"
 categories: stories
 genre: Wildlife
-tags: Travel
-socialMedia: null
-albumId: 72157660710608723
-published: true
-galleryEnabled: false
+tags: Travel Wildlife USA "Whale Watching"
 thumbnail-position-x: 80%
 ---
 

@@ -4,13 +4,11 @@ title: "Nagaland: The man from Hornbill festival"
 location: "Nagaland, India"
 latitude: 26.1127585
 longitude: 93.1648303
+albumId: 72157672751876977
 featureImage: "https://c2.staticflickr.com/2/1950/44844389794_cc63fffa8f_c.jpg"
 categories: stories
 genre: Culture
 tags: Travel India Culture Tradition Ao
-albumId: 72157672751876977
-published: true
-galleryEnabled: false
 positionY: 30%
 ---
 

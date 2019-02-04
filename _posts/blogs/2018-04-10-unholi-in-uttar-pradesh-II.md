@@ -4,15 +4,13 @@ title: Un-holi in Uttar Pradesh - II
 location: "Mathura, India"
 latitude: 27.4743568
 longitude: 77.6141143
-featureImage: "https://c1.staticflickr.com/1/874/27502270428_0c02b1f061_c.jpg"
+albumId: 40466689494
+featureImage: https://c1.staticflickr.com/1/874/27502270428_0c02b1f061_c.jpg
 categories: stories
 genre: Culture
 tags: Travel India Holi Festival Culture 
-albumId: 40466689494
-published: true
-positionX: "30%"
-positionY: "45%"
-galleryEnabled: false
+positionX: 30%
+positionY: 45%
 thumbnail-position-x: 5%
 excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust. So I walked down that dark, dirty road with seven strangers, six of them men, trusting whole-heartedly my gut.
 ---

@@ -2,13 +2,12 @@
 layout: post
 suptitle: The non-technical travel photography tutorial series for the lazy amateur.
 title: "Shooting landscapes - I"
+albumId: 72157697552969464
 featureImage: https://c2.staticflickr.com/2/1747/42808498722_728efb75d3_c.jpg
 categories: stories photography
 genre: tutorial
 tags: Travel Photography Tutorial AmateurPhotographer
 socialMedia: 
-albumId: 72157697552969464
-galleryEnabled: false
 thumbnail-position-x: 35%
 ---
 

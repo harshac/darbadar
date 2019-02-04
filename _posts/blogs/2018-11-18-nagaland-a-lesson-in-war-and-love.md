@@ -4,13 +4,11 @@ title: "Nagaland: A lesson in war and love"
 location: "Nagaland, India"
 latitude: 26.1127585
 longitude: 93.1648303
-featureImage: "https://c1.staticflickr.com/5/4845/45884194452_c28c22c55d_c.jpg"
+albumId: 72157672751876977
+featureImage: https://c1.staticflickr.com/5/4845/45884194452_c28c22c55d_c.jpg
 categories: stories
 genre: Culture
 tags: Travel India Culture Tradition Ao
-albumId: 72157672751876977
-published: true
-galleryEnabled: false
 positionY: 30%
 thumbnail-position-x: 35%
 ---
