@@ -1,0 +1,40 @@
+<div class="post-grid-wrapper">
+    <div class="featured-post col-1x2 row-1x5">
+        {% for post in site.posts offset:2 limit:1 %}
+
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="post-img" style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}};
+      background-position-y: {{post.thumbnail-position-y}}">
+            </div>
+            <div class="post-data">
+                <div class="post-meta">{{ post.genre }} |
+                    {% if post.location %}
+                    {{post.location}}
+                    {% endif %}
+                </div>
+                <h2 class="post-title">{{ post.title }}</h2>
+                <div class="post-excerpt">{{ post.excerpt }}</div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="right-col col-3 row-1x5">
+        <h2 class="section-title">Published with</h2>
+        <a target="_blank" href="https://www.cntraveller.in/story/how-high-are-you-bhutan/">
+            <img class="publication-logo" src="/assets/CNT.svg" alt="Featured in Conde Nast Traveller"/>
+        </a>
+
+        <a target="_blank" href="https://www.magzter.com/IN/OUTDOORPEOPLE-TOURISM-PROMOTION-PVT-LTD-(OPC)/Discover-India's-Northeast/Travel/296126">
+            <img class="publication-logo discover-northeast" src="/assets/discover-indias-northeast.jpg" alt="Featured in Discover India's Northeast"/>
+        </a>
+    </div>
+
+    {% for post in site.posts %}
+    {% if post.categories contains "guides" %}
+    {% else %}
+    <div class="col-{{ forloop.index % 3}} row-1x3">
+        Post
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
