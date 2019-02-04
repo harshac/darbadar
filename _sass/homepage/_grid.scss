@@ -30,10 +30,15 @@
   }
 }
 
+.home {
+  .post-meta {
+    text-align: center;
+  }
+}
+
 //Common
 
 .post-meta {
-  text-align: center;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
