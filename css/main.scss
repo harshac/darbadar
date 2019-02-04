@@ -58,19 +58,19 @@ $video-box-height: $box-image-height + 50;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
         "syntax-highlighting",
         "formatting",
-        "header",
-        "social-media",
-        "subscription",
-        "follow",
-        "postcards",
-        "video-post",
-        "guide",
-        "notification",
         "btw",
-        "footer",
+        "post/layout",
+        "post/social-media",
+        "post/postcards",
+        "post/video-post",
+        "post/guide",
+        "header/header",
+        "header/notification",
+        "header/subscription",
         "homepage/grid",
-        "homepage/featured-section"
+        "homepage/featured-section",
+        "footer/follow",
+        "footer/footer"
 ;
