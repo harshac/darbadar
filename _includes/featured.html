@@ -1,6 +1,6 @@
 <div class="featured-section">
     <div class="left-col featured-post col-1x2 row-1x6">
-        {% for post in site.posts limit:1 %}
+        {% assign post=site.posts|first%}
 
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-img" style="background-image:url({{post.featureImage}}); background-position-x: {{post.thumbnail-position-x}};
@@ -16,7 +16,6 @@
                 <div class="post-excerpt">{{ post.excerpt }}</div>
             </div>
         </a>
-        {% endfor %}
     </div>
 
     <div class="right-col col-3 row-1x6">

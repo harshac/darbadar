@@ -5,6 +5,6 @@ layout: default
 <div class="home">
   {% include featured.html %}
 
-  {% assign otherPosts = site.posts | offset: 1 %}
+  {% assign otherPosts = site.posts | shift %}
   {% include list.html posts=otherPosts%}
 </div>
