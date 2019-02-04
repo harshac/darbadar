@@ -13,12 +13,9 @@ published: true
 galleryEnabled: false
 positionY: 30%
 ---
-
-Looking back at a year of living and travelling across Europe
-
 Three days had passed since my arrival in Barcelona and I was still barely clawing at my new life. In spite of having ransacked the market nearly half a dozen times, I was running short of everyday supplies. That evening, cursing my dreadful memory, I headed out yet again to buy some more. 
 
-It was 9:30 in the night when I started making my way back, shopping bags in both hands, feet a little jittery as I navigated through widowed streets. Suddenly, a strange noise like a million church bells ringing started reverberating through the city. Clang-clang-clang! This would die soon, I thought, whatever it was.
+It was 10 in the night when I started making my way back, shopping bags in both hands, feet a little jittery as I navigated through widowed streets. Suddenly, a strange noise like a million church bells ringing started reverberating through the city. _Clang-clang-clang!_ This would die soon, I thought, whatever it was.
 
 Two minutes. Five minutes. Nine, then ten. It continued to rush out relentlessly from every nook and corner like a manic mob. Louder and louder it grew until silence of the night lay completely undone. Heart thumping in dread, I listened attentively to identify the source of that ominous sound. It was the cry of a hundred, thousand utensils banging in sync. Perhaps the locals were protesting against tourists, I thought, as I remembered from day before posters I had spotted in a neighbourhood that told tourists to “GO BACK!” I did not have a local SIM at the time, and thus, no means to communicate with the handful of contacts I had in the city. Gut crumbling in anxiety, I pulled the hood of my sweatshirt over my head to cover my face and hurried back home as fast as my shaky feet would take me. Later that night, I uncovered the truth behind the commotion.
 
@@ -26,7 +23,7 @@ Catalonia, a region in northeastern Spain (and home to Barcelona) has a cultural
 
 When I reached Barcelona in November 2017, the situation had snowballed into a political juggernaut as the Spanish government declared the voting unconstitutional. Images of baton-wielding policemen at polling stations made international headlines. Locals would bang utensils in their homes every night at ten as a way of protest.
 
-A few more days into my stay, Catalonia agitations grew worse. Thousands of people would gather on the streets to protest almost every other day, putting me in situations most interesting. For one, buses would change routes or halt abruptly mid-way every time massive protests broke out. The announcements would of course be in Spanish and I would alight at unknown places with no knowledge whatsoever of what was going on. (I had started learning Spanish only a couple of weeks before in India.) ⠀⠀
+A few more days into my stay, Catalonia agitations grew worse. Thousands of people would gather on the streets to protest almost every other day, putting me in situations most interesting. For one, buses would change routes or halt abruptly mid-way every time massive protests broke out. The announcements would of course be in Spanish and I would alight at unknown places with no knowledge whatsoever of what was going on. (I had started learning Spanish only a couple of weeks before in India.)
 
 ![Barcelona from Montjüic castle](){:name="barcelona-from-montjuic-castle"} 
 
@@ -43,7 +40,7 @@ My decision as sudden as rains in November, three days before departure, I merci
 
 After enduring a painful 5 hours journey, when I reached Valencia, I found it lying as dead as my dreams. Half the roads had been shut down because of the festival. The remaining were sporadically stomped by city buses, their frequency and routes entirely changed. By sheer luck, I managed to find one and alighted at my destination some 40 minutes later. 
 
-The campsite was a barren wasteland, the sort of place that in India would be a hotspot for open defecation. Currently, I could spot no traces of life in any direction, intelligent or defecating. Heaving my thrifty bosom, I looked around, clueless. Just then, a man appeared on a bicycle, the person in charge. He led me into a gated area beyond the wasteland. On both sides were parked caravans of all sizes. Outside lay tents, chairs and many other signs of flourishing life and bad taste. It was no wonderland but compared to the wasteland I had just seen, it was comforting.
+The campsite was a barren wasteland, the sort of place that in India would be a hotspot for open defecation. Currently, I could spot no trace of life in any direction, intelligent or defecating. Heaving my thrifty bosom, I looked around, clueless. Just then, a man appeared on a bicycle, the person in charge. He led me into a gated area beyond the wasteland. On both sides were parked caravans of all sizes. Outside lay tents, chairs and many other signs of flourishing life and bad taste. It was no wonderland but compared to the wasteland I had just seen, it was comforting.
 
 We kept walking however, further and further until we reached a part of the campsite that was very likely frequented by cult worshippers on full moon nights. All I am trying to say is that it was a dump. In the middle of nowhere, he led me inside a shipping container with a tin door three gusts of wind away from oblivion. Inside were 8 beds. I chose the one farthest away from the door. 
 
@@ -65,7 +62,7 @@ Over the next three hours, as temperature dipped rapidly, we continued our chase
 
 !["A picture of northern lights / Aurora Borealis at Tromso](){:name="Aurora-Borealis"}
 
-I returned to Barcelona two days later, magic still swirling in my eyes, and spent the next few weeks cooling my heels. Every night at ten, utensils still voiced the anger of locals clang-clang-clang! Barring a quick getaway to Portugal with a couple of friends over a weekend, I spent most of my time working and wondering where to head next.
+I returned to Barcelona two days later, magic still swirling in my eyes, and spent the next few weeks cooling my heels. Every night at ten, utensils still voiced the anger of locals _clang-clang-clang_! Barring a quick getaway to Portugal with a couple of friends over a weekend, I spent most of my time working and wondering where to head next.
 
 ![Sunset from the end of the world](){:name="Sunset-from-cape-st-vincent-portugal"}
 
