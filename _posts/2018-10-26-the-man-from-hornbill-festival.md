@@ -10,6 +10,7 @@ categories: stories
 genre: Culture
 tags: Travel India Culture Tradition Ao
 positionY: 30%
+excerpt: As I lay down in bed that night in my hosts’ oldest daughter’s room, one last time, cozy under a blanket, I looked back at my life on that one summer day in my father’s village of Lenkudipada in Odisha when I had lunch with my grandparents. They expired soon after, long before I could make acquaintance with the people that they were. I had always since wondered what life would be like if they were around and I had the chance to live with and know them. I guess I knew now, life would be exactly as it had been the last two days.
 ---
 
 "The President give me, with his own hands, Dr. A.P.J. Ab-dool Kal-aam...and this, Governor of Nagaland, P.B. Aa-charyaa…" 

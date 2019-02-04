@@ -68,20 +68,3 @@
   text-align: center;
   padding: 20px;
 }
-
-//Pull out to common post tile style
-
-.post-excerpt {
-  font-size: 18px;
-
-  p {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-height: 1.8em;
-    max-height: 3.6em;
-  }
-}
