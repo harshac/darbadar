@@ -11,7 +11,6 @@ positionX: "30%"
 positionY: "20%"
 genre: Culture
 tags: Travel Culture India Maharashtra History MartialArt 
-feature-image-tone: dark
 thumbnail-position-x: 65%
 excerpt: Fifty odd men, all hiding their masculinity in itsy-bitsy pockets—langots—swarmed our view. That, I’ve been told, isn’t something that happens to two women every day. But it would be criminal to call it so – an every day.
 ---
