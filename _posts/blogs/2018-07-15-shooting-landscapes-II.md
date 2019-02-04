@@ -6,8 +6,7 @@ albumId: 72157669161991587
 featureImage: https://c1.staticflickr.com/1/840/42709114874_6991d6e8ae_c.jpg
 categories: stories photography
 genre: tutorial
-tags: Travel Photography Tutorial AmateurPhotographer
-socialMedia: 
+tags: Travel Photography Tutorial AmateurPhotographer 
 positionX: 30%
 positionY: 65%
 thumbnail-position-x: 55%

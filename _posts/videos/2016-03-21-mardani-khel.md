@@ -5,8 +5,7 @@ location: "Kolhapur, Maharashtra, India"
 latitude: 16.7084568
 longitude: 74.1688274
 categories: videos
-tags: Travel Culture India Maharashtra History MartialArt 
-socialMedia: 
+tags: Travel Culture India Maharashtra History MartialArt  
 genre: History
 published: true
 galleryEnabled: false

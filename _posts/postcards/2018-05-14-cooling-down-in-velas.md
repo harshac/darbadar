@@ -6,8 +6,7 @@ longitude: 73.0276894
 featureImage: https://c1.staticflickr.com/1/982/28240042828_40e6cf6bbe_c.jpg
 categories: postcards
 genre: Adventure
-tags: Travel Adventure India Maharashtra Velas
-socialMedia: 
+tags: Travel Adventure India Maharashtra Velas 
 published: true
 galleryEnabled: false
 thumbnail-position-x: 85%
