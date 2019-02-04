@@ -10,8 +10,23 @@
     width: 100%;
     background-color: $grey-color-light;
     background-size: cover;
-    height: $box-width;
+    height: $box-image-height;
     border-radius: 3px 3px 0 0;
+  }
+
+  .post-title {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+
+    @include media-query($on-palm) {
+      font-size:22px !important;
+    }
+
+    @include media-query($on-phone) {
+      font-size:20px !important;
+    }
   }
 }
 
