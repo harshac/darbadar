@@ -53,4 +53,4 @@ One obvious choice remained – spend the night at the station and go back to Ne
 
 Instead, I said, “Let’s go.”
 
-[Continue reading Part-II here.]({% link _posts/blogs/2018-04-10-unholi-in-uttar-pradesh-II.md %})
+[Continue reading Part-II here.]({% link _posts/2018-04-10-unholi-in-uttar-pradesh-II.md %})
