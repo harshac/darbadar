@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Looking back at a year of living and travelling across Europe"
+title: "Looking back at a year of living and travelling across Europe - I"
 location: "Europe"
 latitude: 44.3069967
 longitude: -12.62951
