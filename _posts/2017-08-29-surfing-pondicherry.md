@@ -10,7 +10,7 @@ categories: stories
 genre: Adventure
 tags: Travel India Pondicherry Surfing Beaches Sports
 thumbnail-position-x: 55%
-excerpt: Was I drinking the water, or was it drinking me? I continued to sink, the orb that was the sun growing paler, the water calmer. Then at one point, in one brilliant speck of a second, we froze – the water and I.
+excerpt: I continued to sink, the orb that was the sun growing paler, the water calmer. Then at one point, in one brilliant speck of a second, we froze – the water and I.
 ---
 _ARGH!_
 

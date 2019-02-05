@@ -10,7 +10,8 @@ categories: stories
 genre: Culture
 tags: Travel Europe Culture Festival experience
 positionY: 30%
-excerpt: We kept walking however, further and further until we reached a part of the campsite that was very likely frequented by cult worshippers on full moon nights. All I am trying to say is that it was a dump. In the middle of nowhere, he led me inside a shipping container with a tin door three gusts of wind away from oblivion. Inside were 8 beds. I chose the one farthest away from the door. 
+excerpt: We kept walking however, further and further until we reached a part of the campsite that was very likely frequented by cult worshippers on full moon nights.
+
 ---
 Three days had passed since my arrival in Barcelona and I was still barely clawing at my new life. In spite of having ransacked the market nearly half a dozen times, I was running short of everyday supplies. That evening, cursing my dreadful memory, I headed out yet again to buy some more. 
 

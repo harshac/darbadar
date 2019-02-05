@@ -10,7 +10,7 @@ categories: stories
 genre: Culture
 tags: Travel India Culture Tradition Ao
 positionY: 30%
-excerpt: Something about him struck in me instantly an acute nostalgia. It was his voice, I realized, he sounded just like my late grandfather I last heard when I was twelve.
+excerpt: Something about him struck in me instantly an acute nostalgia. It was his voice, I realized, he sounded just like my late grandfather I last heard when I was twelve. 
 ---
 
 "The President give me, with his own hands, Dr. A.P.J. Ab-dool Kal-aam...and this, Governor of Nagaland, P.B. Aa-charyaa…" 

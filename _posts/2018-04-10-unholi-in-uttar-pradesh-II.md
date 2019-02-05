@@ -12,7 +12,7 @@ tags: Travel India Holi Festival Culture
 positionX: 30%
 positionY: 45%
 thumbnail-position-x: 5%
-excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust.
+excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust."
 ---
 
 [Continued from part-I here.]({% link _posts/2018-04-02-unholi-in-uttar-pradesh-I.md %})
