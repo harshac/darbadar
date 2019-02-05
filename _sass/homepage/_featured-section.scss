@@ -50,18 +50,19 @@
     position: absolute;
     border-bottom: 1px solid $grey-color-dark;
     top: 48px;
-    width: 80%;
-    left: 10%;
+    width: 25%;
+    left: 38%;
   }
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;
   font-weight: 800;
   text-align: center;
   padding: 20px;
   color: $grey-color-dark;
+  text-transform: uppercase;
 }
 
 .featured-post {
