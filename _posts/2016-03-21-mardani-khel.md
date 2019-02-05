@@ -11,6 +11,7 @@ published: true
 galleryEnabled: false
 videoUrl: https://www.youtube.com/embed/K1hiWyhFUKU
 featureImage: https://c2.staticflickr.com/8/7829/46991027441_4b90261235_c.jpg
+excerpt: Uncovering the history of an Indian martial art form called mardani khel...
 ---
 
 
