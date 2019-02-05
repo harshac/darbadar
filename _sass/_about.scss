@@ -35,14 +35,13 @@
   background-size: contain;
   background-repeat: repeat-x;
   animation: slide 180s linear infinite;
-  width: 36000px;
 }
 
 @keyframes slide {
-  0%{
-    transform: translate3d(0, 0, 0);
+  from {
+    -webkit-transform: translateX(0);
   }
-  100%{
-    transform: translate3d(-1692px, 0, 0);
+  to {
+    -webkit-transform: translateX(-5%);
   }
 }
