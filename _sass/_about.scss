@@ -25,12 +25,16 @@
   }
 }
 
+.film-roll-wrapper{
+  overflow: hidden;
+}
+
 .film-roll {
   height: 100px;
   background-image: url("/assets/images/film-roll.jpg");
   background-size: contain;
   background-repeat: repeat-x;
-  animation: slide 60s linear infinite;
+  animation: slide 180s linear infinite;
   width: 36000px;
 }
 

@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+{% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+<div class="page-content">
+    <div class="wrapper">
         {{ content }}
-      </div>
-
-      {% if page.title == "About us" %}
-        <div class="film-roll"></div>
-      {% endif %}
     </div>
 
-    <div class="site-footer">
-      <div class="wrapper">
+    {% if page.title == "About us" %}
+    <div class="film-roll-wrapper">
+        <div class="film-roll"></div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="site-footer">
+    <div class="wrapper">
         <div class="follow">
-          <p>Connect with us</p>
+            <p>Connect with us</p>
             {% include follow-us.html %}
         </div>
-        <p class="copyright"><small>&copy; Copyright {{ site.time | date: '%Y' }}. darbadar.com</small></p>
-      </div>
+        <p class="copyright">
+            <small>&copy; Copyright {{ site.time | date: '%Y' }}. darbadar.com</small>
+        </p>
     </div>
-    
-    <script type="text/javascript" src="/libs/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="/libs/jquery.unveil.js"></script>
-    <script type="text/javascript" src="/assets/js/tooltip.js"></script>
-    <script type="text/javascript" src="/assets/js/images.js"></script>
-    <script type="text/javascript" src="/assets/js/read-time.js"></script>
-    <script type="text/javascript" src="/assets/js/notification.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+</div>
+
+<script type="text/javascript" src="/libs/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/libs/jquery.unveil.js"></script>
+<script type="text/javascript" src="/assets/js/tooltip.js"></script>
+<script type="text/javascript" src="/assets/js/images.js"></script>
+<script type="text/javascript" src="/assets/js/read-time.js"></script>
+<script type="text/javascript" src="/assets/js/notification.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</body>
 </html>
