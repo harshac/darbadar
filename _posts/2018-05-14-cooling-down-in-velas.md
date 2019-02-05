@@ -10,6 +10,7 @@ tags: Travel Adventure India Maharashtra Velas
 published: true
 galleryEnabled: false
 thumbnail-position-x: 85%
+excerpt: What does it feel to be reckless and stupid? There was only one way to find out, it headed straight down the river. So I did what the reckless and stupid would do. I jumped.
 ---
 
 Khushal and I stood at the edge of the bridge, looking down at the river some 30 feet below, contemplating.

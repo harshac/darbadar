@@ -11,7 +11,7 @@ positionX: 30%
 positionY: 65%
 thumbnail-position-x: 55%
 socialMedia: A fun and easy tutorial to landscape photography for amateurs
-excerpt: In this tutorial, we will touch upon three different techniques of composition.These techniques exploit the fundamental working of the human eye and brain. Sounds ridiculous? Not quite. Our brains are wired to like certain patterns and themes more than others. And thus, when these patterns and themes are applied to photographs, we are drawn to them like Kim Jong-un to missiles.
+excerpt: Our brains are wired to like certain patterns and themes more than others. And thus, when these patterns and themes are applied to photographs, we are drawn to them like Kim Jong-un to missiles.
 ---
 
 Well, hello! We are yet again taking a break from narrating travel stories today and instead scratching the gross, putrid armpit of travel photography. (You can read our previous tutorial [here](https://darbadar.com/stories/photography/2018/06/shooting-landscapes/). Additionally, you can find bite-sized travel photography tutorials that we do under [#shootwithdarbadar](https://www.instagram.com/explore/tags/shootwithdarbadar/){:target="_blank"} on our Instagram account [@darbadartrails](https://www.instagram.com/darbadartrails/){:target="_blank"}.) Be warned though, this guide/series is a non-technical photography guide meant for those who want to learn just enough to shoot decent photographs while travelling without wanting to read a thesis on the subject.

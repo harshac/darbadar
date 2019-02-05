@@ -33,9 +33,9 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-height: 1.8em;
-    max-height: 3.6em;
+    -webkit-line-clamp: 3;
+    line-height: 1.6em;
+    max-height: 4.8em;
   }
 }
 
@@ -64,9 +64,9 @@
   }
 
   .post-excerpt > p {
-    -webkit-line-clamp: 4;
-    line-height: 1.8em;
-    max-height: 7.2em;
+    -webkit-line-clamp: 6;
+    line-height: 1.6em;
+    max-height: 9.6em;
   }
 }
 

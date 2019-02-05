@@ -12,6 +12,7 @@ tags: Travel Spain Culture Tradition Catalonia
 thumbnail-position-x: 35%
 thumbnail-position-y: 80%
 positionY: 40%
+excerpt: Every town imposes upon the Correfoc its own customs and traditions, thus lending the performance a unique flavour. The monstrous creatures that appear in a Correfoc are also peculiar to the town where it is held, a fail-proof strategy to localize children’s nightmares.
 ---
 We Indians love our festivals fiery and hazardous; old gals Diwali and Dussehra would vouch for this. However, we are not the only ones. Spaniards, it turns out, are pyromaniacs too. 
 
