@@ -36,40 +36,9 @@
   width: 25%;
   height: 660px;
   margin-left: 42px;
-}
 
-.featured-post {
-  .post-img {
-    height: 70%;
-  }
-
-  .post-title {
-    color: #000;
-    font-size: 21px;
-    text-align: center;
-    margin-top: 10px;
-  }
-}
-
-.published {
-  margin-bottom: 40px;
-
-  .publication-logo {
-    display: inline-block;
-    margin: auto;
-    width: 150px;
-  }
-
-  .discover-northeast {
-    width: 100px;
-  }
-}
-
-.wallpaper {
-  text-align: center;
-
-  .wallpaper-img {
-    width: 252px;
+  .upper {
+    margin-bottom: 40px;
   }
 }
 
@@ -93,4 +62,37 @@
   text-align: center;
   padding: 20px;
   color: $grey-color-dark;
+}
+
+.featured-post {
+  .post-img {
+    height: 70%;
+  }
+
+  .post-title {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.published {
+  .publication-logo {
+    display: inline-block;
+    margin: auto;
+    width: 150px;
+  }
+
+  .discover-northeast {
+    width: 100px;
+  }
+}
+
+.wallpaper {
+  text-align: center;
+
+  .wallpaper-img {
+    width: 252px;
+  }
 }
