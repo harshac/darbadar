@@ -5,7 +5,7 @@ location: "Europe"
 latitude: 44.3069967
 longitude: -12.62951
 albumId: 72157703054737852
-featureImage: https://c1.staticflickr.com/5/4810/40013680183_4a92a43a60_c.jpg
+featureImage: https://c2.staticflickr.com/8/7913/40026378623_6c060fb466_c.jpg
 categories: stories
 genre: Culture
 tags: Travel Europe Culture Festival experience
@@ -54,7 +54,7 @@ Next morning, I woke up to find two of my roommates engaging their private parts
 
 My being polluted with memories of strangers rubbing gonads, I travelled to Tromsö, Norway with a friend to see the Northern Lights.  
 
-![Kaldfjord](){:name="Kaldfjord"}
+![Picture of Kaldfjord shot in the morning](){:name="Kaldfjord-tromso"}
 
 At seven in the evening, with temperatures outside hovering around -8 degree Celsius, we started along with our tour guide in search for the ultimate prize. I remember distinctly the first spot where we stopped – mountains all around us covered with snow, the slight flicker of a green ghost from Nordic mythology haunting the skies. Little did I know, the skies were only just warming up. 
 
