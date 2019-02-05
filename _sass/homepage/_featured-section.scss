@@ -14,7 +14,20 @@
   }
 
   width: 65%;
-  height: 660px;
+}
+
+.featured-post {
+  .post-img {
+    padding-top: 62.5%;
+    background-size: cover;
+  }
+
+  .post-title {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 
 .right-col {
@@ -34,7 +47,7 @@
   }
 
   width: 25%;
-  height: 660px;
+  max-height: 660px;
   margin-left: 42px;
 
   .upper {
@@ -73,19 +86,6 @@
   padding: 20px;
   color: $grey-color-dark;
   text-transform: uppercase;
-}
-
-.featured-post {
-  .post-img {
-    height: 70%;
-  }
-
-  .post-title {
-    color: #000;
-    font-size: 21px;
-    text-align: center;
-    margin-top: 10px;
-  }
 }
 
 .published {
