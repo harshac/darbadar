@@ -28,18 +28,9 @@ $on-phone:		   360px;
 $on-palm:          600px;
 $on-laptop:        1280px;
 $box-width:        ($content-width - (4 * $spacing-unit)) / 3;
-$box-image-height: $box-width / 1.6 + 30;  ;
 $box-height:       $box-width - 55;
-$video-box-height: $box-image-height + 50;
+$video-box-height: $box-width / 1.6 + 80;
 
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {   
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
