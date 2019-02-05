@@ -44,7 +44,8 @@
     width: 100%;
     background-color: $grey-color-light;
     background-size: cover;
-    height: $box-image-height;
+    height: 0;
+    padding-top: 62.5%;
     border-radius: 3px 3px 0 0;
   }
 
