@@ -45,7 +45,8 @@
       width: 100%;
       position: absolute;
       bottom: -15%;
-      left: 0;
+      display: block;
+      margin: auto;
       border-bottom: 1px solid $grey-color-light;
     }
   }
