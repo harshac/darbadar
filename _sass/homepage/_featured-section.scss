@@ -51,20 +51,46 @@
   }
 }
 
-.publication-logo {
-  display: inline-block;
-  margin: auto;
-  width: 150px;
+.published {
+  margin-bottom: 40px;
+
+  .publication-logo {
+    display: inline-block;
+    margin: auto;
+    width: 150px;
+  }
+
+  .discover-northeast {
+    width: 100px;
+  }
 }
 
-.discover-northeast {
-  width: 100px;
+.wallpaper {
+  text-align: center;
+
+  .wallpaper-img {
+    width: 252px;
+  }
+}
+
+.right-col > section {
+  position: relative;
+
+  h2:after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid $grey-color-dark;
+    top: 48px;
+    width: 80%;
+    left: 10%;
+  }
 }
 
 .section-title {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 800;
   text-align: center;
   padding: 20px;
+  color: $grey-color-dark;
 }
