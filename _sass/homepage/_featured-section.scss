@@ -39,6 +39,15 @@
 
   .upper {
     margin-bottom: 40px;
+
+    &:after {
+      content: '';
+      width: 100%;
+      position: absolute;
+      bottom: -15%;
+      left: 0;
+      border-bottom: 1px solid $grey-color-light;
+    }
   }
 }
 
