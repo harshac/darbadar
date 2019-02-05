@@ -22,17 +22,6 @@
 
 .post-excerpt {
   font-size: 18px;
-
-  p {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-height: 1.8em;
-    max-height: 3.6em;
-  }
 }
 
 .post-tile {
@@ -59,10 +48,8 @@
     }
   }
 
-  .post-excerpt > p {
-    -webkit-line-clamp: 3;
-    line-height: 1.8em;
-    max-height: 5.4em;
+  .post-excerpt {
+    font-size: 16px;
   }
 }
 
