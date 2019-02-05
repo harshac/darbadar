@@ -11,7 +11,7 @@ genre: Culture
 tags: Travel India Culture Tradition Ao
 positionY: 30%
 thumbnail-position-x: 35%
-excerpt: I have never been a mountain person. I have never been a beach person either. Eventually, one beautiful sight makes way for another. I am however a people person. In them I find my most honest intent to see this world. In them I uncover and discover the places that I visit. In their kitchens I find the scent of generations already spent. In their pain, I understand humanity. And in their warmth, I discover mine.
+excerpt: I have never been a mountain person. I have never been a beach person either. Eventually, one beautiful sight makes way for another. I am however a people person.
 ---
 
 Layers after layers of hill ranges surrounded the village, their blue hues fading gradually into the sky with such artistry that the latter reduced to the lesser end of an ombré. Made of bamboo, every house bore on it telltale signs of makeshift repairs done over the years. Outside every house stood a rack made of wood; on it, rows and rows of potted plants. Some had fences threaded with vines birthing melons. Roses and marigolds and bougainvillea blessed the soil everywhere in abundance. The entire village was an artist’s palette platter in waiting.

@@ -11,7 +11,7 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  line-height: 1.5em
+  line-height: 1.5em;
 }
 
 .post-data {
@@ -21,7 +21,10 @@
 }
 
 .post-excerpt {
-  font-size: 18px;
+  font-family: "Source Serif Pro";
+  line-height: 1.6;
+  font-size: 16px;
+  color: $text-color;
 
   p {
     display: block;
@@ -60,9 +63,9 @@
   }
 
   .post-excerpt > p {
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     line-height: 1.8em;
-    max-height: 5.4em;
+    max-height: 7.2em;
   }
 }
 
