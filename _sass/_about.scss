@@ -30,4 +30,15 @@
   background-image: url("/assets/images/film-roll.jpg");
   background-size: contain;
   background-repeat: repeat-x;
+  animation: slide 60s linear infinite;
+  width: 36000px;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
 }
