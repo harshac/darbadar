@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}" data-gallery-enabled="{{page.galleryEnabled}}">
+<div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
 
 	{% if page.featureImage %}
 		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
@@ -67,14 +67,7 @@ layout: default
 						{% endif %}
 					{% endfor %}	
 				{% endif %}
-
-				{% if page.galleryEnabled %}
-					<div class="carousel"></div>
-				{% endif %}
 			</div>
-			{% if page.galleryEnabled %}
-				{% include gallery.html %}	
-			{% endif %}
 		</article>
 	{% include post-footer.html %}
 

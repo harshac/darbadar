@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="home">
+  {% include featured.html %}
 
-  {% include list.html %}
-
+  {% assign otherPosts = site.posts | shift %}
+  {% include list.html posts=otherPosts%}
 </div>

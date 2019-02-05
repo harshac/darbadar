@@ -1,0 +1,109 @@
+.featured-section {
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.left-col {
+  display: inline-block;
+  @include media-query($on-phone) {
+    width: 100%;
+  }
+
+  @include media-query($on-palm) {
+    width: 100%;
+  }
+
+  width: 65%;
+  height: 660px;
+}
+
+.right-col {
+  display: inline-block;
+  vertical-align: top;
+
+  @include media-query($on-phone) {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  @include media-query($on-palm) {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  width: 25%;
+  height: 660px;
+  margin-left: 42px;
+
+  .upper {
+    margin-bottom: 40px;
+
+    &:after {
+      content: '';
+      width: 100%;
+      position: absolute;
+      bottom: -15%;
+      display: block;
+      margin: auto;
+      border-bottom: 1px solid $grey-color-light;
+    }
+  }
+}
+
+.right-col > section {
+  position: relative;
+
+  h2:after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid $grey-color-dark;
+    top: 48px;
+    width: 25%;
+    left: 38%;
+  }
+}
+
+.section-title {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px;
+  color: $grey-color-dark;
+  text-transform: uppercase;
+}
+
+.featured-post {
+  .post-img {
+    height: 70%;
+  }
+
+  .post-title {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.published {
+  .publication-logo {
+    display: inline-block;
+    margin: auto;
+    width: 150px;
+  }
+
+  .discover-northeast {
+    width: 100px;
+  }
+}
+
+.wallpaper {
+  text-align: center;
+
+  .wallpaper-img {
+    width: 252px;
+  }
+}
