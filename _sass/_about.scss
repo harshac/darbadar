@@ -24,3 +24,10 @@
     padding-top: 20px;
   }
 }
+
+.film-roll {
+  height: 100px;
+  background-image: url("/assets/images/film-roll.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
