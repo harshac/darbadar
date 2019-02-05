@@ -56,8 +56,6 @@
     &:after {
       content: '';
       width: 100%;
-      position: absolute;
-      bottom: -15%;
       display: block;
       margin: auto;
       border-bottom: 1px solid $grey-color-light;
@@ -67,6 +65,7 @@
 
 .right-col > section {
   position: relative;
+  text-align: center;
 
   h2:after {
     content: '';
