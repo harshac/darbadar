@@ -1,0 +1,21 @@
+.film-roll-wrapper{
+  overflow: hidden;
+}
+
+.film-roll {
+  height: 120px;
+  background-image: url("/assets/images/film-roll.jpg");
+  background-size: 1213px;
+  background-repeat: repeat-x;
+  animation: slide 180s linear infinite;
+  width: 36000px;
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-5%);
+  }
+}
