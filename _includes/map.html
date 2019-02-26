@@ -1,0 +1,64 @@
+<div id="worldmap"></div>
+
+<iframe width="100%" height="576" src="https://maphub.net/embed/47718?panel=1" frameborder="0"></iframe>
+
+<script type="text/javascript" src="/libs/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/libs/twism/jquery.twism.min.js"></script>
+<script>
+    var onClick = function (country) {
+        if(country === "in" || country === "us" || country ==="bt") {
+            alert(country);
+        }
+    }
+
+    $('#worldmap').twism("create", {
+        customMap: "/libs/twism/maps/world-map-with-antarctica.svg",
+        border: "white",
+        labels: true,
+        color: "#828282",
+        backgroundColor: "white",
+        hoverColor: "white",
+        hoverBorder: "#820222",
+        individualCountrySettings: [
+            {
+                name: "us",
+                color: "#820222"
+            },
+            {
+                name: "in",
+                color: "#820222"
+            },
+            {
+                name: "es",
+                color: "#820222"
+            },
+            {
+                name: "bt",
+                color: "#820222"
+            },
+            {
+                name: "pt",
+                color: "#820222"
+            },
+            {
+                name: "it",
+                color: "#820222"
+            },
+            {
+                name: "no",
+                color: "#820222"
+            },
+            {
+                name: "is",
+                color: "#820222"
+            },
+        ],
+        click: function (country) {
+            onClick(country)
+        }
+    }, function () {
+        // alert("Callback!");
+    });
+
+
+</script>
