@@ -70,6 +70,6 @@ A fortnight before Christmas, a friend from office asked me – “Why don’t y
 
 Generous invitations such as these are awkward for someone like me. I am not exactly what you would call an ‘outgoing person’. But I remembered then that freezing night in Tromsö, that moment I had arrived at with no burden of expectation and no gravity of the magnitude of surprises travel often has in store. I realized that sometimes to find magic, in life and in travel, one must chase it. So I replied – “Sure!”
 
-(To be continued…)
+[Continue reading Part-II here.]({% link _posts/2019-03-12-looking-back-at-a-year-of-living-and-travelling-across-europe-II.md %})
 
-_As told by Harsha._
+_As told by Harsha. All photographs shot be her._
