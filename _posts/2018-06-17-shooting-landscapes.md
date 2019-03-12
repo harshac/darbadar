@@ -61,4 +61,5 @@ Should you arrive at someplace at any time other than at sunrise or sunset, you 
 
 And that’s it for today. That was not too bad, was it? Let us know in the comments below if you found this useful, or if you have any questions. Feel free to share this post and sing our praises because that is all we care about. 
 
+[Continue reading Part-II here.]({% link _posts/2018-07-15-shooting-landscapes-II.md %})
 

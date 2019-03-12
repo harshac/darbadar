@@ -13,13 +13,15 @@ excerpt: To travel to a place is to simply see the rabbit being pulled out of th
 
 
 ---
+[Continued from part-I here.]({% link _posts/2019-02-04-looking-back-at-a-year-of-living-and-travelling-across-europe-I.md %}){:class="previous-post-link"}
+
 A day before Christmas, my friend Giulia and I reached her maternal grandfather’s apartment in Milan. It was a humble home, scattered in great abundance with signs of its owner’s eccentricities and whims. 
 
 The antique rocking chair, handcrafted in walnut, drew from him often bouts of careful inspection. He would kneel down beside and run his hands over it lovingly, studying the new scratches it had endured since his last assessment and shaking his head lament the loss of his beloved’s youth.
 
 The spoon collection, put together with hundreds of specimens from all over the world, was the pièce de résistance of the living-room. Like contestants in a beauty pageant, they were placed equidistant from each other at an angle most flattering. Next to the collection, on either side of the display, were old photographs and books. A brief history of time, its torn cover mended with transparent tape. A dashing young man on a beach in Sicily. Cosi fan tutti, its pages the colour of amber. 
 
-Below the cabinet, on the floor, was the presepe—a Nativity scene—built with meticulous care. The manger had its usual cast of Baby Jesus, Mary, Joseph and the Three Wise Men kneeling on a burlap floor. They were surrounded by a village populated with tens of little ceramic men, women, children and animals handcrafted in painstaking detail in Naples. 
+Below the cabinet, on the floor, was the _presepe_—a Nativity scene—built with meticulous care. The manger had its usual cast of Baby Jesus, Mary, Joseph and the Three Wise Men kneeling on a burlap floor. They were surrounded by a village populated with tens of little ceramic men, women, children and animals handcrafted in painstaking detail in Naples. 
 
 Like them, I had found myself a rather warm nest. 
 
@@ -64,4 +66,4 @@ I have had some fantastic experiences too. I celebrated Christmas with locals, s
 
 All of this together taught me one simple thing - Europe is like any other place in the world; it certainly is no utopia. I learnt too that to travel somewhere and to live in that place are two completely different experiences. To travel to a place is to simply see the rabbit being pulled out of the magician’s hat and applaud. To live in a place is to lift the magician’s hat and find the hole that runs through the table under it. There lies the allure of travel, in its inability to offer more than one-half of the truth. And there lies the tragedy of this world – in it being perfect only in halves.
 
-_As told by Harsha._
+_As told by Harsha. (All photographs shot be her.)_
