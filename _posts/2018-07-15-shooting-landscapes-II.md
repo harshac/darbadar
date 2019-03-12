@@ -13,7 +13,7 @@ thumbnail-position-x: 55%
 socialMedia: A fun and easy tutorial to landscape photography for amateurs
 excerpt: Our brains are wired to like certain patterns and themes more than others. And thus, when these patterns and themes are applied to photographs, we are drawn to them like Kim Jong-un to missiles.
 ---
-[Continued from part-I here.]({% link _posts/2018-06-17-shooting-landscapes.md %}){:class="previous-post-link"}
+{[Continued from part-I here.]({% link _posts/2018-06-17-shooting-landscapes.md %}){:class="previous-post-link"}}
 
 Well, hello! We are yet again taking a break from narrating travel stories today and instead scratching the gross, putrid armpit of travel photography. (You can read our previous tutorial [here]({% link _posts/2018-06-17-shooting-landscapes.md %}). Additionally, you can find bite-sized travel photography tutorials that we do under [#shootwithdarbadar](https://www.instagram.com/explore/tags/shootwithdarbadar/){:target="_blank"} on our Instagram account [@darbadartrails](https://www.instagram.com/darbadartrails/){:target="_blank"}.) Be warned though, this guide/series is a non-technical photography guide meant for those who want to learn just enough to shoot decent photographs while travelling without wanting to read a thesis on the subject.
 

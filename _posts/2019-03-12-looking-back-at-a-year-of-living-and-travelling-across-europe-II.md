@@ -13,7 +13,7 @@ excerpt: To travel to a place is to simply see the rabbit being pulled out of th
 
 
 ---
-[Continued from part-I here.]({% link _posts/2019-02-04-looking-back-at-a-year-of-living-and-travelling-across-europe-I.md %}){:class="previous-post-link"}
+{[Continued from part-I here.]({% link _posts/2019-02-04-looking-back-at-a-year-of-living-and-travelling-across-europe-I.md %}){:class="previous-post-link"}}
 
 A day before Christmas, my friend Giulia and I reached her maternal grandfather’s apartment in Milan. It was a humble home, scattered in great abundance with signs of its owner’s eccentricities and whims. 
 
@@ -66,4 +66,4 @@ I have had some fantastic experiences too. I celebrated Christmas with locals, s
 
 All of this together taught me one simple thing - Europe is like any other place in the world; it certainly is no utopia. I learnt too that to travel somewhere and to live in that place are two completely different experiences. To travel to a place is to simply see the rabbit being pulled out of the magician’s hat and applaud. To live in a place is to lift the magician’s hat and find the hole that runs through the table under it. There lies the allure of travel, in its inability to offer more than one-half of the truth. And there lies the tragedy of this world – in it being perfect only in halves.
 
-_As told by Harsha. (All photographs shot be her.)_
+_As told by Harsha. All photographs shot be her._
