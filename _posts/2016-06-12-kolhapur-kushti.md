@@ -12,6 +12,9 @@ positionY: 20%
 genre: Culture
 tags: Travel Culture India Maharashtra History MartialArt 
 thumbnail-position-x: 65%
+contributors:
+    writer: { name: Trishna Mohanty, image: trishna.jpg }
+    photographer: { name: Harsha Chaudhary, image: harsha.jpg }
 excerpt: It was a terrible piece of advice, I must say, for away offered no different a sight. Fifty odd men, all hiding their masculinity in itsy-bitsy pockets—langots—swarmed our view.
 ---
 

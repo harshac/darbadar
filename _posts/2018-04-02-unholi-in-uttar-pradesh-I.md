@@ -13,6 +13,9 @@ positionX: 30%
 positionY: 80%
 thumbnail-position-y: 90%
 thumbnail-position-x: 75%
+contributors:
+    writer: { name: Trishna Mohanty, image: trishna.jpg }
+    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: I had stepped out twice, onto the dirt road outside the station absolved of all light, to smell liquor on the male-only crowd, and for them to smell fear on me, and come back.
 ---
 

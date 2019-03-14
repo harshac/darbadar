@@ -10,6 +10,9 @@ categories: stories
 genre: Culture
 tags: Travel Europe Culture Festival experience
 positionY: 30%
+contributors:
+    writer: { name: Trishna Mohanty, image: trishna.jpg }
+    photographer: { name: Harsha Chaudhary, image: harsha.jpg }
 excerpt: We kept walking however, further and further until we reached a part of the campsite that was very likely frequented by cult worshippers on full moon nights.
 
 ---

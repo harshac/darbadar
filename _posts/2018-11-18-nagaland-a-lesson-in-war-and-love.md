@@ -11,6 +11,9 @@ genre: Culture
 tags: Travel India Culture Tradition Ao
 positionY: 30%
 thumbnail-position-x: 35%
+contributors:
+    writer: { name: Trishna Mohanty, image: trishna.jpg }
+    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: I have never been a mountain person. I have never been a beach person either. Eventually, one beautiful sight makes way for another. I am however a people person.
 ---
 

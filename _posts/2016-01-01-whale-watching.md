@@ -12,6 +12,9 @@ categories: stories
 genre: Wildlife
 tags: Travel Wildlife USA "Whale Watching"
 thumbnail-position-x: 80%
+contributors:
+    writer: { name: Trishna Mohanty, image: trishna.jpg }
+    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: In a strange way, it was both humbling and inspiring to watch that stunning orgy of flesh, fat and force hurl itself into the air from the mouth of the ocean with unbelievable grace.
 ---
 
