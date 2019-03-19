@@ -72,4 +72,4 @@ Generous invitations such as these are awkward for someone like me. I am not exa
 
 [Continue reading Part-II here.]({% link _posts/2019-03-12-looking-back-at-a-year-of-living-and-travelling-across-europe-II.md %})
 
-_As told by Harsha. All photographs shot be her._
+_As told by Harsha. All photographs shot by her._
