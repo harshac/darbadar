@@ -9,10 +9,9 @@ featureImage: https://farm8.staticflickr.com/7863/47355482251_09c9fe4fe8_c.jpg
 categories: stories
 genre: Culture
 tags: Travel Europe Culture Festival experience
-contributors:
-    writer: { name: Trishna Mohanty, image: trishna.jpg }
-    photographer: { name: Harsha Chaudhary, image: harsha.jpg }
 excerpt: To travel to a place is to simply see the rabbit being pulled out of the magician’s hat and applaud. To live in a place is to lift the magician’s hat and find the hole that runs through the table under it.
+
+
 ---
 {[Continued from part-I here.]({% link _posts/2019-02-04-looking-back-at-a-year-of-living-and-travelling-across-europe-I.md %}){:class="previous-post-link"}}
 

@@ -2,6 +2,7 @@
 layout: default
 ---
 <div class="post" itemscope itemtype="https://schema.org/BlogPosting" data-album-id="{{page.albumId}}">
+
 	{% if page.featureImage %}
 		<header class="post-header has-bg" style="background-image:url('{{page.featureImage}}');background-position: {{page.positionX}} {{page.positionY}}">
 				{% if page.suptitle %}
@@ -68,7 +69,7 @@ layout: default
 				{% endif %}
 			</div>
 		</article>
-	{% include post-footer.html contributors=page.contributors %}
+	{% include post-footer.html %}
 
 	
 </div>

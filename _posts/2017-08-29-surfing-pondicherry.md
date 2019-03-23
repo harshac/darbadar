@@ -10,9 +10,6 @@ categories: stories
 genre: Adventure
 tags: Travel India Pondicherry Surfing Beaches Sports
 thumbnail-position-x: 55%
-contributors:
-    writer: { name: Trishna Mohanty, image: trishna.jpg }
-    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: I continued to sink, the orb that was the sun growing paler, the water calmer. Then at one point, in one brilliant speck of a second, we froze – the water and I.
 ---
 _ARGH!_

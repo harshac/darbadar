@@ -14,13 +14,13 @@
   display: inline-block;
   text-align: center;
 
+  img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
   div {
     display: inline-block;
     padding-top: 20px;
   }
-}
-
-.avataar {
-    width: 100px;
-    border-radius: 50%;
 }

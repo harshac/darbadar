@@ -12,9 +12,6 @@ tags: Travel India Holi Festival Culture
 positionX: 30%
 positionY: 45%
 thumbnail-position-x: 5%
-contributors:
-    writer: { name: Trishna Mohanty, image: trishna.jpg }
-    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: It was not the first time I let instinct override logic, certainly not the last. I knew I could trust, that was my absolute truth in that moment, not that I could be wrong, but that I could trust.
 ---
 

@@ -10,9 +10,6 @@ categories: stories
 genre: Culture
 tags: Travel India Culture Tradition Ao
 positionY: 30%
-contributors:
-    writer: { name: Trishna Mohanty, image: trishna.jpg }
-    photographer: { name: Trishna Mohanty, image: trishna.jpg }
 excerpt: Something about him struck in me instantly an acute nostalgia. It was his voice, I realized, he sounded just like my late grandfather I last heard when I was twelve. 
 ---
 
