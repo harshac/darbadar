@@ -2,7 +2,7 @@
 title: Darbadar
 email: harsha.chaudhary@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Travel trails of two friends
+  Writer | Travel Photographer | Storyteller 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://darbadar.com" # the base hostname & protocol for your site
 permalink: /:categories/:year/:month/:title/
