@@ -15,8 +15,6 @@ excerpt:
 
 ---
 
-![Farmer](){:name="farmer"} 
-
 ![Woman in the fields of Bajarwadi](){:name="woman-in-the-fields"} 
 
 ![Fields of Bajarwadi](){:name="fields"} 
@@ -30,3 +28,5 @@ excerpt:
 ![An old village woman](){:name="aaji"}
 
 ![An old village woman walking on dirt road](){:name="aaji-walking"}
+
+![Farmer](){:name="farmer"} 
