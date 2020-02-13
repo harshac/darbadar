@@ -15,7 +15,9 @@ excerpt:
 
 ---
 Situated at the base of Rohida Fort is the village of Bajarwadi (in Bhor district, Maharashtra) where lives a community of less than a couple of thousand farmers. Jowar (Indian millet), best suited for Deccan Plateau, and rice are grown in great abundance by farmers of the village. 
+
 In winters, day begins at six for the women. After spending the entire morning doing household chores, just before noon, they head to their farms with these essentials – a shirt, often borrowed from the husband, to use as a jacket to shield themselves from the blazing sun as they work in their fields, lunch packed in a small tiffin box and a bottle of water. 
+
 The farms are located far from the village, some more than 3 kms away, and most use dirt paths to get there.   
 
 ![An old village woman walking on dirt road](){:name="aaji-walking"}
