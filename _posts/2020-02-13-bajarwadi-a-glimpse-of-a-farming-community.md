@@ -23,21 +23,27 @@ The farms are located far from the village, some more than 3 kms away, and most 
 ![An old village woman walking on dirt road](){:name="aaji-walking"}
 
 Since jowar requires little to no upkeep, the bulk of work in the Rabi cropping season arises from cultivating land to grow wheat, chickpea and groundnuts.
+
 ![Farmer](){:name="farmer"} 
 
 It isn’t unusual to see homemade contraptions being used to make back-breaking work such as pulling weed out easier. 
+
 ![Fields of Bajarwadi](){:name="fields"} 
 
 For everyone in the village, what they grow is what they eat. Vegetables straight from farms often exchange hands between neighbours.  
+
 ![Woman in the fields of Bajarwadi](){:name="woman-in-the-fields"} 
 
 Besides farming, people prepare for monsoons during these months by collecting and storing fodder for cattle. 
+
 ![Woman farmer](){:name="woman-farmer"}
 
 Farming is a way of life rather than just an occupation, one that generations have shown their allegiance to through changing times in Bajarwadi. 
+
 ![Women in the farm](){:name="women-in-the-farm"}
 
 Whether or not the tradition continues, only time will tell.
+
 ![An old village woman](){:name="aaji"}
 
 I was hosted in Bajarwadi by Grassroutes Journeys. This post was made in collaboration with them.
