@@ -5,6 +5,7 @@ location: "Bajarwadi"
 latitude: 18.0938293 
 longitude: 73.8300961
 albumId: 72157713086036387
+positionY: 40%
 featureImage: https://live.staticflickr.com/65535/49527138543_9673f0be2c_c.jpg
 categories: stories
 genre: Culture
