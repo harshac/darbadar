@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bajarwadi: A glimpse of a farming community
+title: "Bajarwadi: A glimpse of a farming community"
 location: "Bajarwadi"
 latitude: 18.0938293 
 longitude: 73.8300961
