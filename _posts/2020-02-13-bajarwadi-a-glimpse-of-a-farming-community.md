@@ -45,4 +45,11 @@ Whether or not the tradition continues, only time will tell.
 
 ![An old village woman](){:name="aaji"}
 
-_I was hosted in Bajarwadi by Grassroutes Journeys. This post was made in collaboration with them._
+_I was hosted in Bajarwadi by Grassroutes Journeys and this post was made in collaboration with them._
+
+_Grassroutes, a national award winning community based rural tourism enterprise,
+is working with the residents of Bajarwadi to set it up as a destination for
+sustainable rural tourism. Since most residents of the village are farmers and
+their income from farming is seasonal, the objective is to generate alternative
+livelihood for them through tourism. If you wish to know more about Bajarwadi
+and Grassroutes' work there, write to info@grassroutes.co.in._
